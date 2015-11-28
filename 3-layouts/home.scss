@@ -1,0 +1,64 @@
+body {	
+	@include clearfix;
+	background: url(../img/tulip-bg-1-1000x600.jpg) no-repeat center center fixed;
+	background-size: cover;
+	padding: 0px 0px;
+	margin: 0px 0px;
+	font-family: 'Exo 2', sans-serif;
+}
+
+h1 {
+	font-family: 'Neuton';
+}
+h2, h4, h6, p {
+	font-family: 'Exo 2';
+}
+h3, h5 {
+	font-family: 'Neuton';
+}
+
+section {
+  @include outer-container;
+  aside { @include span-columns(3); }
+  article { @include span-columns(9); }
+}
+
+.center {
+	margin: 0;
+	border: 0px solid #77cf22;
+	display: block;
+}
+
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+
+.tulip-table {
+	@include tablesaw-stack( 30em );
+	@include outer-container;
+}
+.table-title {
+	background: #0B2C36;
+	height: auto;
+	width: 100%;
+	margin: 0;
+	h3 {
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: 400;
+	padding-top: .5em;
+	padding-bottom: 0.6em;
+	border-top: 1px solid #ffcf22;
+	border-bottom: 1px solid #ffcf22;
+	}
+
+	@media (min-width: 30em) {
+	h3 {
+	font-size: 2.5em;
+	}
+}
+}

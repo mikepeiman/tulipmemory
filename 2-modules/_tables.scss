@@ -1,0 +1,66 @@
+.table-minimal {
+  $base-border-color: #ffcf22;
+  $base-border-radius: 3px !default;
+  $base-background-color: white !default;
+  $base-line-height: 1.5em !default;
+  $base-spacing: 1.5em !default;
+  $action-color: #477DCA !default;
+  $dark-gray: #333 !default;
+  $light-gray: #DDD !default;
+  $medium-screen: em(640) !default;
+  $large-screen: em(860) !default;
+  $base-font-color: $dark-gray !default;
+  $table-border-color: $base-border-color;
+  $table-border: 2px solid $table-border-color;
+  $table-header-background: #77cf22;
+  $table-background: darken($table-header-background, 20);
+  $table-hover-background: darken($table-background, 10);
+  $table-stripe-background: darken($table-background, 40);
+  $table-stripe-background-hover: none; // darken($table-stripe-background, 5);
+  $table-padding: .75em 1em;
+
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+
+
+  thead {
+    th {
+      background-color: $table-header-background;
+      border-bottom: 0px;
+      padding: $table-padding;
+      text-align: left;
+    }
+  }
+
+
+  tbody {
+    background-color: $table-background;
+    th {
+      background-color: $table-header-background;
+      // border-top: 2px solid $table-border-color;
+    }
+
+    td {
+      line-height: $base-line-height;
+      padding: $table-padding;
+      border-bottom: 0px;
+
+      button {
+        display: inline-block;
+        font-size: .7em;
+        line-height: $base-line-height;
+        margin-bottom: .3em;
+        margin-right: 0.5em;
+        outline: none;
+        padding: .3em 1em;
+        width: 100%;
+
+      /*  @include media($medium-screen) {
+          margin-bottom: 0;
+          width: auto;
+        } */
+      }
+    }
+  }
+}

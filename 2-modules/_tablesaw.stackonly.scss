@@ -1,0 +1,274 @@
+/*! Tablesaw - v2.0.2 - 2015-10-28
+* https://github.com/filamentgroup/tablesaw
+* Copyright (c) 2015 Filament Group; Licensed  */
+/*! Tablesaw - v2.0.2 - 2015-10-28
+* https://github.com/filamentgroup/tablesaw
+* Copyright (c) 2015 Filament Group; Licensed  */
+
+$breakpoint: 30em;
+$table-background: darken(#77cf22, 20);
+$border-color: #ffcf22;
+$nav-color: #276D80;
+table.tablesaw { 
+  empty-cells: show;
+  max-width: 100%;
+  width: 100%;
+}
+
+.tablesaw {
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+}
+
+/* Structure */
+
+.tablesaw {
+  border: 0;
+  padding: 0;
+}
+
+.tablesaw th,
+.tablesaw td {
+  box-sizing: border-box;
+  border: none; 
+  padding: .5em .7em;
+}
+
+.tablesaw thead tr th {
+  padding-top: 0;
+  padding-bottom: 0;
+  @media (min-width: $breakpoint) {
+      padding-top: 1.2em;
+      padding-bottom: 1.2em;
+    }
+}
+
+/* Table rows have a gray bottom stroke by default */
+
+.tablesaw-stack tbody tr {
+  border-bottom: none; // 5px solid black;
+}
+
+.tablesaw-stack td .tablesaw-cell-label,
+.tablesaw-stack th .tablesaw-cell-label {
+  display: none;
+}
+
+/* Mobile first styles: Begin with the stacked presentation at narrow widths */
+
+@media only all {
+  /* Show the table cells as a block level element */
+
+  .tablesaw-stack td,
+  .tablesaw-stack th {
+    text-align: left;
+    display: block;
+  }
+
+  .tablesaw-stack tr {
+    clear: both;
+    display: table-row;
+  }
+
+  /* Make the label elements a percentage width */
+
+  /* .tablesaw-stack td .tablesaw-cell-label, removing td from this declaration gives me the th-only styling I want for mobile */
+  .tablesaw-stack th .tablesaw-cell-label {
+    display: inline-block;
+    padding: 0 .6em 0 0;
+    margin: 0;
+    width: 30%;
+  }
+
+  /* For grouped headers, have a different style to visually separate the levels by classing the first label in each col group */
+
+  .tablesaw-stack th .tablesaw-cell-label-top,
+  .tablesaw-stack td .tablesaw-cell-label-top {
+    display: block;
+    padding: .4em 0;
+    margin: .4em 0;
+  }
+
+  .tablesaw-cell-label {
+    display: block;
+  }
+
+  /* Avoid double strokes when stacked */
+
+  .tablesaw-stack tbody th.group {
+    margin-top: -1px;
+  }
+
+  /* Avoid double strokes when stacked */
+
+  .tablesaw-stack th.group b.tablesaw-cell-label {
+    display: none !important;
+  }
+}
+@mixin tablesaw-stack-max {
+   table {
+      border-top: 5px solid $border-color;
+      border-bottom: 5px solid $border-color;
+  }
+    tr:nth-of-type(1):before { content: "FANUC 6-ALL"; }
+    tr:nth-of-type(2):before { content: "FANUC 9-ALL"; }
+    tr:nth-of-type(3):before { content: "FANUC 11-ALL"; }
+    tr:nth-of-type(4):before { content: "FANUC 12-ALL"; }
+    tr:nth-of-type(5):before { content: "FANUC 15A"; }
+    tr:nth-of-type(6):before { content: "FANUC 15B"; }
+    tr:nth-of-type(7):before { content: "FANUC 15iB"; }
+    tr:nth-of-type(8):before { content: "FANUC 16iA"; }
+    tr:nth-of-type(9):before { content: "FANUC 16A"; }
+    tr:nth-of-type(10):before { content: "FANUC 16B"; }
+    tr:nth-of-type(11):before { content: "FANUC 16C"; }
+    tr:nth-of-type(12):before { content: "FANUC 18iA"; }
+    tr:nth-of-type(13):before { content: "FANUC 18A"; }
+    tr:nth-of-type(14):before { content: "FANUC 18B"; }
+    tr:nth-of-type(15):before { content: "FANUC 18C"; }
+    tr:nth-of-type(16):before { content: "FANUC 0-ANALOG"; }
+    tr:nth-of-type(17):before { content: "FANUC 0-DIGITAL"; }
+    tr:nth-of-type(18):before { content: "FANUC 10-ANALOG"; }
+    tr:nth-of-type(19):before { content: "FANUC 10-DIGITAL"; }
+    tr:nth-of-type(20):before { content: "YASNAC LX1"; }
+    tr:nth-of-type(21):before { content: "YASNAC LX2"; }
+    tr:nth-of-type(22):before { content: "YASNAC LX3"; }
+    tr:nth-of-type(23):before { content: "YASNAC MX1"; }
+    tr:nth-of-type(24):before { content: "YASNAC MX2"; }
+    tr:nth-of-type(25):before { content: "YASNAC MX3"; }
+    tr:nth-of-type(26):before { content: "YASNAC I-80"; }
+    tr:nth-of-type(27):before { content: "MISTUBISHI MITS 500 / MAZAK PLUS"; }
+   tbody {  
+    tr:hover {
+      background-color:  none;
+      border: 1px solid $border-color;
+    }
+    tr > td:hover {
+      background-color:  none;
+    }
+    tr:hover > th {
+      background-color:  none;
+    }
+   
+  }
+  .tablesaw-stack thead tr,
+  .tablesaw-stack thead th {
+    display: none;
+  }
+    .tablesaw-stack tbody tr {
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    border-style: collapse;
+    border-left: 5px solid #ffcf22;
+    padding: 0.5em;
+
+  }
+  .tablesaw-stack tbody th {
+    display: none; /*
+    clear: left;
+    float: left; */
+  }
+  .tablesaw-stack tbody tr  {
+    height: 4em;
+
+  }
+  .tablesaw-stack tbody td  {
+      display: table-cell;
+      color: #77cf22;
+      text-align: left; 
+      padding: .25em;
+      margin: .25em;
+  }
+  /*
+  .tablesaw-stack tbody td.model {
+      display: inline-block;
+      position: absolute;
+      color: white;
+  } 
+  .tablesaw-stack td,
+  .tablesaw-stack th {
+    text-align: center;
+    display: block;
+  } 
+  
+  */
+
+  .tablesaw-cell-label {
+    vertical-align: top;
+  }
+
+  .tablesaw-stack td:empty,
+  .tablesaw-stack th:empty {
+    display: none;
+  }
+  .tablesaw-cell-content {
+ //   max-width: 1em;
+    display: inline-block;
+  }
+
+}
+
+@mixin tablesaw-stack-min {
+  .tablesaw-stack tr {
+    display: table-row;
+  }
+  /* Show the table header rows */
+  .tablesaw-stack td,
+  .tablesaw-stack th,
+  .tablesaw-stack thead td,
+  .tablesaw-stack thead th {
+    display: table-cell;
+    border-top: 1px solid #ffcf22;
+  }
+  th:first-of-type { width: 16%; }
+
+  tbody {  
+    tr:hover {
+      border: 1px solid $border-color; /*
+      border-top: 2px solid $border-color-color;
+      border-right: 5px solid $border-color-color;
+      border-bottom: 2px solid $border-color-color;
+      border-left: 5px solid $border-color-color; */
+    }
+    tr > td:hover {
+      background-color:  #0B2C36; // adjust-color($table-background, $hue: 60deg, $lightness: 15%);
+      border:  1px solid $border-color;
+    }
+    tr:hover > th {
+      background-color: #0B2C36; // adjust-color($table-background, $hue: 60deg, $lightness: 15%);
+    }
+    td {
+      border-top: 1px solid $border-color;
+    }
+  }
+  /*
+   tr:first-child td {
+      border-top: 2px solid $border-color-color;
+    } */
+  /* Hide the labels in each cell */
+  .tablesaw-stack td .tablesaw-cell-label,
+  .tablesaw-stack th .tablesaw-cell-label {
+    display: none !important;
+  }
+}
+
+$use-respond-mixins: false !default;
+@mixin tablesaw-stack( $breakpoint ) {
+  @if $use-respond-mixins {
+    @include respond-max($breakpoint - .0625) {
+      @include tablesaw-stack-max;
+    }
+    @include respond-min($breakpoint) {
+      @include tablesaw-stack-min;
+    }
+  }
+  @else {
+    @media (max-width: ($breakpoint - .0625)) {
+      @include tablesaw-stack-max;
+    }
+    @media (min-width: $breakpoint) {
+      @include tablesaw-stack-min;
+    }
+  }
+}

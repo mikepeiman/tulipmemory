@@ -1,0 +1,32 @@
+.table-minimal {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%; }
+  .table-minimal thead th {
+    background-color: #77cf22;
+    border-bottom: 0px;
+    padding: 0.75em 1em;
+    text-align: left; }
+  .table-minimal tbody {
+    background-color: #457714; }
+    .table-minimal tbody th {
+      background-color: #77cf22; }
+    .table-minimal tbody td {
+      line-height: 1.5em;
+      padding: 0.75em 1em;
+      border-bottom: 0px; }
+      .table-minimal tbody td button {
+        display: inline-block;
+        font-size: .7em;
+        line-height: 1.5em;
+        margin-bottom: .3em;
+        margin-right: 0.5em;
+        outline: none;
+        padding: .3em 1em;
+        width: 100%;
+        /*  @include media($medium-screen) {
+            margin-bottom: 0;
+            width: auto;
+          } */ }
+
+/*# sourceMappingURL=_tables.css.map */

@@ -1,0 +1,76 @@
+.accordion-tabs-minimal {
+    @include span-columns(8);
+    @include shift(2);
+    text-align: center;
+  $base-border-color: scale-color(#477DCA, $lightness: 15%);
+  $base-background-color: #77cf22;
+  $base-spacing: 1.5em !default;
+  $action-color: #477DCA !default;
+  $dark-gray: #333 !default;
+  $medium-screen: em(640) !default;
+  $tab-link-color: scale-color($base-background-color, $lightness: -100%);
+  $tab-border: 0px solid $base-border-color;
+  $tab-active-background: scale-color($base-background-color, $lightness: 50%);
+  $tab-inactive-color: adjust-color($base-background-color, $hue: 120deg, $saturation: 0%);
+  $tab-inactive-hover-color: #ffcf22;
+  $tab-mode: $medium-screen;
+
+  @include clearfix;
+  line-height: 1.5;
+  padding: 0;
+
+  li.tab-header-and-content {
+    list-style: none;
+ 
+
+    @include media($tab-mode) {
+      display: inline;
+    }
+  }
+
+  a.tab-link {
+    background-color: $tab-inactive-color;
+    border-top: $tab-border;
+    color: $tab-link-color;
+    display: block;
+    padding: ($base-spacing / 2) $gutter;
+    text-decoration: none;
+
+    @include media($tab-mode) {
+      display: inline-block;
+      text-align: center;
+      border-top: 0;
+    }
+  
+    &:hover {
+      color: white;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.is-active {
+      border-bottom: 0;
+      background-color: $base-background-color;
+
+      @include media($tab-mode) {
+        border: $tab-border;
+        border-bottom-color: $tab-active-background;
+        margin-bottom: -1px;
+      }
+    }
+  }
+
+  .tab-content {
+    display: none;
+    padding: $base-spacing $gutter;
+    width: 100%;
+
+
+    @include media($tab-mode) {
+      border-top: $tab-border;
+      float: left;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+
+.hero-2 {  
+  $base-border-radius: 3px !default;
+  $action-color: #477DCA !default;
+  $large-screen: em(860) !default;
+  $hero-background-top: #7F99BE; 
+  $hero-background-bottom: #20392B;
+  $hero-color: #ffCF22;
+  $gradient-angle: 10deg;
+  background-color: #324766;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1em;
+
+  .hero-logo img {
+    height: 10em;
+    margin-bottom: 1em;
+     @include media($large-screen) {
+          font-size: 1.5em;
+        }
+  }
+
+  .hero-inner {
+    @include outer-container;
+    @include clearfix;
+    margin: auto;
+    padding: 1.5em;
+    text-align: center;
+
+    .hero-copy {
+      text-align: center;
+      
+      h1 {
+        color: $hero-color;
+        font-size: 3em;
+        margin-bottom: 0.5em;
+        font-weight: 400;
+
+        @include media($large-screen) {
+          font-size: 5em;
+        }
+      }
+
+      h2 {
+        color: scale-color($hero-color, $red: 40%, $green: 100%, $blue: 100%);
+        line-height: 1.4em;
+        margin: 0 auto 3em auto; 
+        font-weight: 400;
+
+        @include media($large-screen) {
+          font-size: 2em;
+          max-width: 60%;
+        }
+      }
+    }
+  }
+}
