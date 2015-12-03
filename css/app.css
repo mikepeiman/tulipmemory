@@ -296,11 +296,13 @@ background-size: cover; */
         float: left; } }
 
 .footer-2 {
-  background: #276D80;
+  border-top: 5px solid #77c2ff;
+  background: rgba(0, 70, 128, 0.5);
   padding: 1.5em;
   width: 100%;
   display: inline-block;
-  margin-bottom: -20px; }
+  margin-bottom: -20px;
+  margin-top: 5em; }
   .footer-2 .footer-logo {
     margin-right: 1em;
     margin-bottom: 1em;
@@ -359,7 +361,7 @@ background-size: cover; */
         opacity: 1; }
 
 .centered-navigation {
-  background-color: #2249CF;
+  background-color: rgba(0, 70, 128, 0.5);
   border-bottom: 5px solid #77c2ff;
   min-height: 60px;
   width: 100%;
@@ -423,7 +425,7 @@ background-size: cover; */
     .centered-navigation .nav-link:first-child {
       margin-left: 2.2em; } }
   .centered-navigation ul li.nav-link {
-    background: #2249CF;
+    background: rgba(0, 70, 128, 0.5);
     display: block;
     line-height: 60px;
     overflow: hidden;
@@ -522,14 +524,14 @@ background-size: cover; */
             border-bottom-right-radius: 3px;
             padding-bottom: .7em; } }
       .centered-navigation ul.submenu li a {
-        background-color: #2044c2;
+        background-color: rgba(0, 62, 112, 0.5);
         display: inline-block;
         text-align: right;
         text-decoration: none;
         width: 100%; }
         @media screen and (min-width: 900px) {
           .centered-navigation ul.submenu li a {
-            background-color: #2249CF;
+            background-color: rgba(0, 70, 128, 0.5);
             padding-left: 1em;
             text-align: left;
             width: 12em; } }
@@ -855,13 +857,15 @@ float: left; */ }
 
 .table-title {
   background: rgba(0, 70, 128, 0.5);
+  border-top: 5px solid #77c2ff;
+  border-bottom: 5px solid #77c2ff;
   height: auto;
   width: 100%;
   margin-bottom: 1.25em;
   color: white;
   text-align: center;
-  border-top: 5px solid #77c2ff;
-  border-bottom: 5px solid #77c2ff; }
+  padding-left: 1.5em;
+  padding-right: 1.5em; }
   .table-title h2, .table-title h3 {
     font-size: 1.5em;
     font-weight: 400;

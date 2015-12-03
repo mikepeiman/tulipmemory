@@ -46,13 +46,16 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 }
 .table-title {
 	background: change-color(#77c2ff, $lightness: 25%, $alpha: .5); // #123126; // #152025; // #252015; // #0B2C36;
+	border-top: 5px solid #77c2ff;
+	border-bottom: 5px solid #77c2ff;
 	height: auto;
 	width: 100%;
 	margin-bottom: 1.25em;
 	color: white;
 	text-align: center;
-	border-top: 5px solid #77c2ff;
-	border-bottom: 5px solid #77c2ff;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+
 	h2, h3 {
 		font-size: 1.5em;
 		font-weight: 400;
