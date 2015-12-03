@@ -6,7 +6,7 @@
 }
 
 .card {
-  $base-border-color: #477DCA !default;
+  $base-border-color: change-color(#77c2ff, $lightness: 25%, $alpha: .5); // #477DCA !default;
   $base-border-radius: 3px !default;
   $base-background-color: white !default;
   $base-spacing: 1.5em !default;
@@ -17,7 +17,7 @@
   $card-border: 3px solid $card-border-color;
   $card-background: lighten($card-border-color, 10%);
   $card-header-background: $card-background;
-  $card-margin: 1em;
+  $card-margin: 2em;
   $card-image-hover-opacity: 0.7;
   $card-image-hover-color: #F8F2B4;
 
@@ -29,7 +29,7 @@
   border: $card-border;
   box-shadow: 0 2px 4px darken($base-background-color, 10%);
   cursor: pointer;
-  margin: 0 $card-margin $base-spacing $card-margin;
+  margin: $card-margin $card-margin $base-spacing $card-margin;
   position: relative;
 
 
@@ -56,6 +56,7 @@
     font-weight: bold;
     line-height: 1.5em;
     padding: ($base-spacing / 3) ($base-spacing / 2);
+    color: #ffcf22;
   }
 
   .card-copy {

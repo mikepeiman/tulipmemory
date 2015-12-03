@@ -580,12 +580,12 @@ background-size: cover; */
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background-color: #f7f7f7;
+  background-color: rgba(0, 98, 179, 0.5);
   border-radius: 3px;
-  border: 3px solid #ddd;
+  border: 3px solid rgba(0, 70, 128, 0.5);
   box-shadow: 0 2px 4px #44bdff;
   cursor: pointer;
-  margin: 0 1em 1.5em 1em;
+  margin: 2em 2em 1.5em 2em;
   position: relative; }
   .card .card-image {
     overflow: hidden;
@@ -604,12 +604,13 @@ background-size: cover; */
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    background-color: #f7f7f7;
-    border-bottom: 3px solid #ddd;
+    background-color: rgba(0, 98, 179, 0.5);
+    border-bottom: 3px solid rgba(0, 70, 128, 0.5);
     border-radius: 3px 3px 0 0;
     font-weight: bold;
     line-height: 1.5em;
-    padding: 0.5em 0.75em; }
+    padding: 0.5em 0.75em;
+    color: #ffcf22; }
   .card .card-copy {
     font-size: 0.9em;
     line-height: 1.5em;
@@ -621,9 +622,9 @@ background-size: cover; */
     .card:focus img, .card:hover img {
       opacity: 0.7; }
   .card:active {
-    background-color: #f7f7f7; }
+    background-color: rgba(0, 98, 179, 0.5); }
     .card:active .card-header {
-      background-color: #f7f7f7; }
+      background-color: rgba(0, 98, 179, 0.5); }
 
 .table-minimal {
   border-collapse: separate;
