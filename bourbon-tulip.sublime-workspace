@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"first",
+				"first-of-type"
+			],
+			[
+				"table-",
+				"table-background"
+			],
+			[
+				"char",
+				"charCounter"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"table-border",
+				"table-border-color"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
 				"border",
 				"border-radius"
 			],
@@ -32,52 +80,18 @@
 	"buffers":
 	[
 		{
-			"file": "0-plugins/bitters/_variables.scss",
+			"file": "/C/Users/Mike/Downloads/jquery-2.1.4.js",
 			"settings":
 			{
-				"buffer_size": 907,
+				"buffer_size": 247597,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "js/jquery-1.11.3.js",
 			"settings":
 			{
-				"buffer_size": 600,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "3-layouts/home.scss",
-			"settings":
-			{
-				"buffer_size": 114,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2-modules/_hero.scss",
-			"settings":
-			{
-				"buffer_size": 1240,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 355 files for \"background\"\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\315b41a42e25173d5cfa30a92cb19ec1e7ee47f8\\_render-gradients.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\3e47d9339fcbbfd4cb03d3d05306985c05871096\\_shade.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\3e47d9339fcbbfd4cb03d3d05306985c05871096\\_tint.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\3e47d9339fcbbfd4cb03d3d05306985c05871096\\_transition-property-name.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\3f5957ab342bcdc870dd9d5916deec91537add44\\_buttons.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\3f5957ab342bcdc870dd9d5916deec91537add44\\_forms.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\3f5957ab342bcdc870dd9d5916deec91537add44\\_variables.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\4b6511cf3293a9d37a8313207b0811523942e3ac\\_visual-grid.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\654d191d64d7ecb810e1ee9a9539ecdd5aeb51c8\\_hero.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_background-image.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_background.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_linear-gradient.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_radial-gradient.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_selection.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\95c3d8254dec6506b6e10580eb4d592cedb5b417\\_bourbon-deprecated-upcoming.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\95c3d8254dec6506b6e10580eb4d592cedb5b417\\_bourbon.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\add5ec846207aa36027c160e92a46047f2513627\\_buttons.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\add5ec846207aa36027c160e92a46047f2513627\\_retina-image.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\add5ec846207aa36027c160e92a46047f2513627\\_triangle.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\dcd08c950838e3a23215253d34c43e68dc32c5d7\\home.sassc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\dcd08c950838e3a23215253d34c43e68dc32c5d7\\home.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\e4575eb67a15ac7c276ee3a4126e20f29e20bfd8\\_private.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bitters\\_buttons.scss:\n    1  #{$all-buttons} {\n    2    appearance: none;\n    3:   background-color: $action-color;\n    4    border: 0;\n    5    border-radius: $base-border-radius;\n    .\n   14    padding: $small-spacing $base-spacing;\n   15    text-decoration: none;\n   16:   transition: background-color $base-duration $base-timing;\n   17    user-select: none;\n   18    vertical-align: middle;\n   ..\n   21    &:hover,\n   22    &:focus {\n   23:     background-color: shade($action-color, 20%);\n   24      color: #fff;\n   25    }\n   ..\n   30  \n   31      &:hover {\n   32:       background-color: $action-color;\n   33      }\n   34    }\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bitters\\_forms.scss:\n    1  fieldset {\n    2:   background-color: $secondary-background-color;\n    3    border: $base-border;\n    4    margin: 0 0 $small-spacing;\n    .\n   29  #{$all-text-inputs},\n   30  select[multiple=multiple] {\n   31:   background-color: $base-background-color;\n   32    border: $base-border;\n   33    border-radius: $base-border-radius;\n   ..\n   52  \n   53    &:disabled {\n   54:     background-color: shade($base-background-color, 5%);\n   55      cursor: not-allowed;\n   56  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bitters\\_variables.scss:\n   30  $base-border: 1px solid $base-border-color;\n   31  \n   32: // Background Colors\n   33: $base-background-color: #fff;\n   34: $secondary-background-color: tint($base-border-color, 75%);\n   35  \n   36  // Forms\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\_bourbon-deprecated-upcoming.scss:\n  133    text-decoration: none;\n  134    text-shadow: 0 1px 0 $text-shadow;\n  135:   background-clip: padding-box;\n  136  \n  137    &:hover:not(:disabled) {\n  ...\n  278    text-decoration: none;\n  279    text-shadow: 0 -1px 1px $text-shadow;\n  280:   background-clip: padding-box;\n  281  \n  282    &:hover:not(:disabled) {\n  ...\n  301      @include linear-gradient ($base-color-hover, $stop-gradient-hover);\n  302  \n  303:     background-clip: padding-box;\n  304      border: 1px solid $border-top;\n  305      border-color: $border-top $border-sides $border-bottom;\n  ...\n  325      }\n  326  \n  327:     background: $active-color;\n  328      border: 1px solid $border-active;\n  329      border-bottom: 1px solid $border-bottom-active;\n  ...\n  341    }\n  342  \n  343:   background-color: $base-color;\n  344    border-radius: 3px;\n  345    border: 0;\n  ...\n  350    padding: $padding;\n  351    text-decoration: none;\n  352:   background-clip: padding-box;\n  353  \n  354    &:hover:not(:disabled){\n  ...\n  359      }\n  360  \n  361:     background-color: $base-color-hover;\n  362      cursor: pointer;\n  363    }\n  ...\n  371      }\n  372  \n  373:     background-color: $base-color-active;\n  374      cursor: pointer;\n  375    }\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\_bourbon.scss:\n   42  @import \"css3/appearance\";\n   43  @import \"css3/backface-visibility\";\n   44: @import \"css3/background\";\n   45: @import \"css3/background-image\";\n   46  @import \"css3/border-image\";\n   47  @import \"css3/calc\";\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\addons\\_buttons.scss:\n    5  /// @example scss - Usage\n    6  ///   #{$all-buttons} {\n    7: ///     background-color: #f00;\n    8  ///   }\n    9  ///\n   10  ///   #{$all-buttons-focus},\n   11  ///   #{$all-buttons-hover} {\n   12: ///     background-color: #0f0;\n   13  ///   }\n   14  ///\n   15  ///   #{$all-buttons-active} {\n   16: ///     background-color: #00f;\n   17  ///   }\n   18  ///\n   ..\n   22  ///   input[type=\"reset\"],\n   23  ///   input[type=\"submit\"] {\n   24: ///     background-color: #f00;\n   25  ///   }\n   26  ///\n   ..\n   33  ///   input[type=\"reset\"]:hover,\n   34  ///   input[type=\"submit\"]:hover {\n   35: ///     background-color: #0f0;\n   36  ///   }\n   37  ///\n   ..\n   40  ///   input[type=\"reset\"]:active,\n   41  ///   input[type=\"submit\"]:active {\n   42: ///     background-color: #00f;\n   43  ///   }\n   44  ///\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\addons\\_retina-image.scss:\n    1: @mixin retina-image($filename, $background-size, $extension: png, $retina-filename: null, $retina-suffix: _2x, $asset-pipeline: $asset-pipeline) {\n    2    @if $asset-pipeline {\n    3:     background-image: image-url(\"#{$filename}.#{$extension}\");\n    4    } @else {\n    5:     background-image:       url(\"#{$filename}.#{$extension}\");\n    6    }\n    7  \n    .\n    9      @if $asset-pipeline {\n   10        @if $retina-filename {\n   11:         background-image: image-url(\"#{$retina-filename}.#{$extension}\");\n   12        } @else {\n   13:         background-image: image-url(\"#{$filename}#{$retina-suffix}.#{$extension}\");\n   14        }\n   15      } @else {\n   16        @if $retina-filename {\n   17:         background-image: url(\"#{$retina-filename}.#{$extension}\");\n   18        } @else {\n   19:         background-image: url(\"#{$filename}#{$retina-suffix}.#{$extension}\");\n   20        }\n   21      }\n   22  \n   23:     background-size: $background-size;\n   24    }\n   25  }\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\addons\\_triangle.scss:\n    3    $height: nth($size, length($size));\n    4    $foreground-color: nth($color, 1);\n    5:   $background-color: if(length($color) == 2, nth($color, 2), transparent);\n    6    height: 0;\n    7    width: 0;\n    .\n   13      @if $direction == up {\n   14        border-bottom: $height solid $foreground-color;\n   15:       border-left: $width solid $background-color;\n   16:       border-right: $width solid $background-color;\n   17      } @else if $direction == right {\n   18:       border-bottom: $width solid $background-color;\n   19        border-left: $height solid $foreground-color;\n   20:       border-top: $width solid $background-color;\n   21      } @else if $direction == down {\n   22:       border-left: $width solid $background-color;\n   23:       border-right: $width solid $background-color;\n   24        border-top: $height solid $foreground-color;\n   25      } @else if $direction == left {\n   26:       border-bottom: $width solid $background-color;\n   27        border-right: $height solid $foreground-color;\n   28:       border-top: $width solid $background-color;\n   29      }\n   30    } @else if ($direction == up-right) or ($direction == up-left) {\n   ..\n   32  \n   33      @if $direction == up-right {\n   34:       border-left:  $width solid $background-color;\n   35      } @else if $direction == up-left {\n   36:       border-right: $width solid $background-color;\n   37      }\n   38    } @else if ($direction == down-right) or ($direction == down-left) {\n   ..\n   40  \n   41      @if $direction == down-right {\n   42:       border-left:  $width solid $background-color;\n   43      } @else if $direction == down-left {\n   44:       border-right: $width solid $background-color;\n   45      }\n   46    } @else if ($direction == inset-up) {\n   47:     border-color: $background-color $background-color $foreground-color;\n   48      border-style: solid;\n   49      border-width: $height $width;\n   50    } @else if ($direction == inset-down) {\n   51:     border-color: $foreground-color $background-color $background-color;\n   52      border-style: solid;\n   53      border-width: $height $width;\n   54    } @else if ($direction == inset-right) {\n   55:     border-color: $background-color $background-color $background-color $foreground-color;\n   56      border-style: solid;\n   57      border-width: $width $height;\n   58    } @else if ($direction == inset-left) {\n   59:     border-color: $background-color $foreground-color $background-color $background-color;\n   60      border-style: solid;\n   61      border-width: $width $height;\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\css3\\_background-image.scss:\n    1  //************************************************************************//\n    2: // Background-image property for adding multiple background images with\n    3  // gradients, or for stringing multiple gradients together.\n    4  //************************************************************************//\n    5  \n    6: @mixin background-image($images...) {\n    7    $webkit-images: ();\n    8    $spec-images: ();\n    .\n   38    }\n   39  \n   40:   background-image: $webkit-images;\n   41:   background-image: $spec-images;\n   42  }\n   43  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\css3\\_background.scss:\n    1  //************************************************************************//\n    2: // Background property for adding multiple backgrounds using shorthand\n    3  // notation.\n    4  //************************************************************************//\n    5  \n    6: @mixin background($backgrounds...) {\n    7:   $webkit-backgrounds: ();\n    8:   $spec-backgrounds: ();\n    9  \n   10:   @each $background in $backgrounds {\n   11:     $webkit-background: ();\n   12:     $spec-background: ();\n   13:     $background-type: type-of($background);\n   14  \n   15:     @if $background-type == string or $background-type == list {\n   16:       $background-str: if($background-type == list, nth($background, 1), $background);\n   17  \n   18:       $url-str:       str-slice($background-str, 1, 3);\n   19:       $gradient-type: str-slice($background-str, 1, 6);\n   20  \n   21        @if $url-str == \"url\" {\n   22:         $webkit-background: $background;\n   23:         $spec-background:   $background;\n   24        }\n   25  \n   26        @else if $gradient-type == \"linear\" {\n   27:         $gradients: _linear-gradient-parser(\"#{$background}\");\n   28:         $webkit-background: map-get($gradients, webkit-image);\n   29:         $spec-background:   map-get($gradients, spec-image);\n   30        }\n   31  \n   32        @else if $gradient-type == \"radial\" {\n   33:         $gradients: _radial-gradient-parser(\"#{$background}\");\n   34:         $webkit-background: map-get($gradients, webkit-image);\n   35:         $spec-background:   map-get($gradients, spec-image);\n   36        }\n   37  \n   38        @else {\n   39:         $webkit-background: $background;\n   40:         $spec-background:   $background;\n   41        }\n   42      }\n   43  \n   44      @else {\n   45:       $webkit-background: $background;\n   46:       $spec-background:   $background;\n   47      }\n   48  \n   49:     $webkit-backgrounds: append($webkit-backgrounds, $webkit-background, comma);\n   50:     $spec-backgrounds:   append($spec-backgrounds,   $spec-background,   comma);\n   51    }\n   52  \n   53:   background: $webkit-backgrounds;\n   54:   background: $spec-backgrounds;\n   55  }\n   56  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\css3\\_linear-gradient.scss:\n   33    }\n   34  \n   35:   background-color: $fallback-color;\n   36:   background-image: -webkit-linear-gradient($pos-degree $full); // Safari 5.1+, Chrome\n   37:   background-image: unquote(\"linear-gradient(#{$pos-spec}#{$full})\");\n   38  }\n   39  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\css3\\_radial-gradient.scss:\n   34    $shape-size-spec: if(($shape-size-spec != \" \") and ($pos == null), \"#{$shape-size-spec}, \", \"#{$shape-size-spec} \");\n   35  \n   36:   background-color:  $fallback-color;\n   37:   background-image: -webkit-radial-gradient(unquote(#{$pos}#{$shape-size}#{$full}));\n   38:   background-image: unquote(\"radial-gradient(#{$shape-size-spec}#{$pos-spec}#{$full})\");\n   39  }\n   40  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\css3\\_selection.scss:\n    9  ///   .element {\n   10  ///     @include selection(true) {\n   11: ///       background-color: #ffbb52;\n   12  ///     }\n   13  ///   }\n   ..\n   15  /// @example css - CSS Output\n   16  ///   .element::-moz-selection {\n   17: ///     background-color: #ffbb52;\n   18  ///   }\n   19  ///\n   20  ///   .element::selection {\n   21: ///     background-color: #ffbb52;\n   22  ///   }\n   23  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\functions\\_shade.scss:\n   10  /// @example scss - Usage\n   11  ///   .element {\n   12: ///     background-color: shade(#ffbb52, 60%);\n   13  ///   }\n   14  ///\n   15  /// @example css - CSS Output\n   16  ///   .element {\n   17: ///     background-color: #664a20;\n   18  ///   }\n   19  ///\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\functions\\_tint.scss:\n   10  /// @example scss - Usage\n   11  ///   .element {\n   12: ///     background-color: tint(#6ecaa6, 40%);\n   13  ///   }\n   14  ///\n   15  /// @example css - CSS Output\n   16  ///   .element {\n   17: ///     background-color: #a8dfc9;\n   18  ///   }\n   19  ///\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\functions\\_transition-property-name.scss:\n    1  // Return vendor-prefixed property names if appropriate\n    2: // Example: transition-property-names((transform, color, background), moz) -> -moz-transform, color, background\n    3  //************************************************************************//\n    4  @function transition-property-names($props, $vendor: false) {\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\helpers\\_render-gradients.scss:\n    1: // User for linear and radial gradients within background-image or border-image properties\n    2  \n    3  @function _render-gradients($gradient-positions, $gradients, $gradient-type, $vendor: false) {\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\neat\\functions\\_private.scss:\n   54  }\n   55  \n   56: // Generates a striped background\n   57  @function gradient-stops($grid-columns, $color: $visual-grid-color) {\n   58    $transparent: transparent;\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\neat\\grid\\_visual-grid.scss:\n    2  \n    3  @mixin grid-column-gradient($values...) {\n    4:   background-image: -webkit-linear-gradient(left, $values);\n    5:   background-image: -moz-linear-gradient(left, $values);\n    6:   background-image: -ms-linear-gradient(left, $values);\n    7:   background-image: -o-linear-gradient(left, $values);\n    8:   background-image: unquote(\"linear-gradient(to left, #{$values})\");\n    9  }\n   10  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\2-modules\\_hero.scss:\n    4    $action-color: #477DCA !default;\n    5    $large-screen: em(860) !default;\n    6:   $hero-background-top: #7F99BE; \n    7:   $hero-background-bottom: #20392B;\n    8    $hero-color: #ffCF22;\n    9    $gradient-angle: 10deg;\n   10    $hero-image: '../img/tulip-bg-1-1000x600.jpg';\n   11  \n   12:   @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);\n   13:   background-color: #324766;\n   14:   background-position: top;\n   15:   background-repeat: no-repeat;\n   16:   background-size: cover;\n   17    padding-bottom: 1em;\n   18  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\3-layouts\\home.scss:\n    1  body {\n    2: 	background: url(../img/tulip-bg-1-1000x600.jpg) no-repeat center center fixed;\n    3: 	background-size: cover;\n    4  }\n    5  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\app.css:\n    1  button, input[type=\"button\"], input[type=\"reset\"], input[type=\"submit\"] {\n    2    appearance: none;\n    3:   background-color: #477dca;\n    4    border: 0;\n    5    border-radius: 3px;\n    .\n   14    padding: 0.75em 1.5em;\n   15    text-decoration: none;\n   16:   transition: background-color 150ms ease;\n   17    user-select: none;\n   18    vertical-align: middle;\n   ..\n   20  }\n   21  button:hover, button:focus, input[type=\"button\"]:hover, input[type=\"button\"]:focus, input[type=\"reset\"]:hover, input[type=\"reset\"]:focus, input[type=\"submit\"]:hover, input[type=\"submit\"]:focus {\n   22:   background-color: #3864a1;\n   23    color: #fff;\n   24  }\n   ..\n   28  }\n   29  button:disabled:hover, input[type=\"button\"]:disabled:hover, input[type=\"reset\"]:disabled:hover, input[type=\"submit\"]:disabled:hover {\n   30:   background-color: #477dca;\n   31  }\n   32  \n   33  fieldset {\n   34:   background-color: #f6f6f6;\n   35    border: 1px solid #ddd;\n   36    margin: 0 0 0.75em;\n   ..\n   59  input[type=\"color\"], input[type=\"date\"], input[type=\"datetime\"], input[type=\"datetime-local\"], input[type=\"email\"], input[type=\"month\"], input[type=\"number\"], input[type=\"password\"], input[type=\"search\"], input[type=\"tel\"], input[type=\"text\"], input[type=\"time\"], input[type=\"url\"], input[type=\"week\"], input:not([type]), textarea,\n   60  select[multiple=multiple] {\n   61:   background-color: #fff;\n   62    border: 1px solid #ddd;\n   63    border-radius: 3px;\n   ..\n   83  input[type=\"color\"]:disabled, input[type=\"date\"]:disabled, input[type=\"datetime\"]:disabled, input[type=\"datetime-local\"]:disabled, input[type=\"email\"]:disabled, input[type=\"month\"]:disabled, input[type=\"number\"]:disabled, input[type=\"password\"]:disabled, input[type=\"search\"]:disabled, input[type=\"tel\"]:disabled, input[type=\"text\"]:disabled, input[type=\"time\"]:disabled, input[type=\"url\"]:disabled, input[type=\"week\"]:disabled, input:not([type]):disabled, textarea:disabled,\n   84  select[multiple=multiple]:disabled {\n   85:   background-color: #f2f2f2;\n   86    cursor: not-allowed;\n   87  }\n   ..\n  219  \n  220  .hero {\n  221:   background: url(\"../img/tulip-bg-1-1000x600.jpg\"), -webkit-linear-gradient(-280deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;\n  222:   background: url(\"../img/tulip-bg-1-1000x600.jpg\"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;\n  223:   background-color: #324766;\n  224:   background-position: top;\n  225:   background-repeat: no-repeat;\n  226:   background-size: cover;\n  227    padding-bottom: 1em;\n  228  }\n  ...\n  275  \n  276  body {\n  277:   background: url(../img/tulip-bg-1-1000x600.jpg) no-repeat center center fixed;\n  278:   background-size: cover;\n  279  }\n  280  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\app.css.map:\n    2  \"version\": 3,\n    3  \"mappings\": \"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\",\n    4: \"sources\": [\"../0-plugins/bitters/_buttons.scss\",\"../0-plugins/bitters/_variables.scss\",\"../0-plugins/bitters/_forms.scss\",\"../0-plugins/bitters/_lists.scss\",\"../0-plugins/bitters/_tables.scss\",\"../0-plugins/bitters/_typography.scss\",\"../0-plugins/neat/grid/_box-sizing.scss\",\"../2-modules/_hero.scss\",\"../0-plugins/bourbon/css3/_background.scss\",\"../0-plugins/neat/grid/_outer-container.scss\",\"../0-plugins/neat/settings/_grid.scss\",\"../0-plugins/bourbon/addons/_clearfix.scss\",\"../0-plugins/neat/grid/_media.scss\",\"../3-layouts/home.scss\"],\n    5  \"names\": [],\n    6  \"file\": \"app.css\"\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\315b41a42e25173d5cfa30a92cb19ec1e7ee47f8\\_render-gradients.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\3e47d9339fcbbfd4cb03d3d05306985c05871096\\_shade.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\3e47d9339fcbbfd4cb03d3d05306985c05871096\\_tint.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\3e47d9339fcbbfd4cb03d3d05306985c05871096\\_transition-property-name.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\3f5957ab342bcdc870dd9d5916deec91537add44\\_buttons.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\3f5957ab342bcdc870dd9d5916deec91537add44\\_forms.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\3f5957ab342bcdc870dd9d5916deec91537add44\\_variables.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\4b6511cf3293a9d37a8313207b0811523942e3ac\\_visual-grid.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_background-image.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_background.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_linear-gradient.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_radial-gradient.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_selection.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\95c3d8254dec6506b6e10580eb4d592cedb5b417\\_bourbon-deprecated-upcoming.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\95c3d8254dec6506b6e10580eb4d592cedb5b417\\_bourbon.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\add5ec846207aa36027c160e92a46047f2513627\\_buttons.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\add5ec846207aa36027c160e92a46047f2513627\\_retina-image.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\add5ec846207aa36027c160e92a46047f2513627\\_triangle.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\dcd08c950838e3a23215253d34c43e68dc32c5d7\\home.sassc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\dcd08c950838e3a23215253d34c43e68dc32c5d7\\home.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\e4575eb67a15ac7c276ee3a4126e20f29e20bfd8\\_private.scssc:\n    <binary>\n\n877 matches across 66 files\n\n\nSearching 355 files for \"@mixin background\"\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_background-image.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_background.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\css3\\_background-image.scss:\n    4  //************************************************************************//\n    5  \n    6: @mixin background-image($images...) {\n    7    $webkit-images: ();\n    8    $spec-images: ();\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\bourbon\\css3\\_background.scss:\n    4  //************************************************************************//\n    5  \n    6: @mixin background($backgrounds...) {\n    7    $webkit-backgrounds: ();\n    8    $spec-backgrounds: ();\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_background-image.scssc:\n    <binary>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\.sass-cache\\949b547121e2d2f178aaa6561267b1b4f57467b2\\_background.scssc:\n    <binary>\n\n6 matches across 6 files\n",
-			"settings":
-			{
-				"buffer_size": 29947,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "0-plugins/bourbon/css3/_background-image.scss",
-			"settings":
-			{
-				"buffer_size": 1332,
+				"buffer_size": 284394,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,18 +105,34 @@
 			}
 		},
 		{
-			"file": "css/app.css",
+			"file": "0-plugins/base/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 7806,
+				"buffer_size": 919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "2-modules/_hero-2.scss",
+			"settings":
+			{
+				"buffer_size": 1207,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/app.sass",
+			"file": "js/tabs.js",
 			"settings":
 			{
-				"buffer_size": 133,
+				"buffer_size": 704,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 1227,
 				"line_ending": "Windows"
 			}
 		},
@@ -110,24 +140,8 @@
 			"file": "0-plugins/plugins-dir.sass",
 			"settings":
 			{
-				"buffer_size": 70,
+				"buffer_size": 67,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "0-plugins/bitters/_grid-settings.scss",
-			"settings":
-			{
-				"buffer_size": 370,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "0-plugins/bitters/_base.scss",
-			"settings":
-			{
-				"buffer_size": 319,
-				"line_ending": "Unix"
 			}
 		},
 		{
@@ -151,7 +165,15 @@
 			"file": "2-modules/modules-dir.sass",
 			"settings":
 			{
-				"buffer_size": 14,
+				"buffer_size": 172,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2-modules/_simple-tables.scss",
+			"settings":
+			{
+				"buffer_size": 5898,
 				"line_ending": "Windows"
 			}
 		},
@@ -160,6 +182,156 @@
 			"settings":
 			{
 				"buffer_size": 14,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2-modules/_tabs.scss",
+			"settings":
+			{
+				"buffer_size": 1714,
+				"line_ending": "Windows",
+				"name": ".accordion-tabs-minimal {"
+			}
+		},
+		{
+			"file": "2-modules/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 2497,
+				"line_ending": "Windows",
+				"name": "// Uncomment this for a sticky footer."
+			}
+		},
+		{
+			"file": "2-modules/_cards.scss",
+			"settings":
+			{
+				"buffer_size": 2202,
+				"line_ending": "Windows",
+				"name": ".cards {"
+			}
+		},
+		{
+			"file": "2-modules/_topnav.scss",
+			"settings":
+			{
+				"buffer_size": 6070,
+				"line_ending": "Windows",
+				"name": ".centered-navigation {"
+			}
+		},
+		{
+			"file": "tulip-product-list-by-model-and-memory-3.html",
+			"settings":
+			{
+				"buffer_size": 2231,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Mike/Desktop/TULIP/tulip-product-list-by-model-and-memory-2.html",
+			"settings":
+			{
+				"buffer_size": 3643,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "3-layouts/home.scss",
+			"settings":
+			{
+				"buffer_size": 1422,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2-modules/_hero.scss",
+			"settings":
+			{
+				"buffer_size": 1518,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/chessboard.js",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Windows",
+				"name": "// Your code here."
+			}
+		},
+		{
+			"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/countChar.js",
+			"settings":
+			{
+				"buffer_size": 3278,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/recursion.js",
+			"settings":
+			{
+				"buffer_size": 1216,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/basics_arrays.js",
+			"settings":
+			{
+				"buffer_size": 744,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Mike/Desktop/webdev-projects/fizzbuzz.css",
+			"settings":
+			{
+				"buffer_size": 181,
+				"line_ending": "Windows",
+				"name": "body {"
+			}
+		},
+		{
+			"file": "/C/Users/Mike/Desktop/webdev-projects/fizzbuzz.html",
+			"settings":
+			{
+				"buffer_size": 370,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2-modules/_tables.scss",
+			"settings":
+			{
+				"buffer_size": 1695,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2-modules/_tablesaw.stackonly.scss",
+			"settings":
+			{
+				"buffer_size": 7660,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9689,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/app.sass",
+			"settings":
+			{
+				"buffer_size": 133,
 				"line_ending": "Windows"
 			}
 		}
@@ -207,18 +379,32 @@
 	[
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins",
-		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins/bitters",
-		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins/bourbon",
-		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins/bourbon/css3",
-		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins/neat",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins/base",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins/neat/grid",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/1-base",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/2-modules",
-		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/3-layouts",
-		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/css"
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/css",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/js"
 	],
 	"file_history":
 	[
+		"/C/Users/Mike/AppData/Roaming/Sublime Text 3/Packages/User/node.sublime-build",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/js/_topnav.js",
+		"/C/Users/Mike/Desktop/TULIP/tulip-product-list-by-model-and-memory.csv",
+		"/C/Users/Mike/Desktop/TULIP/tulip-product-list-by-model-and-memory-2.csv",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/2-modules/_simple-tables.scss",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/css/app.css",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/js/tablesaw.stackonly.js",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/css/tablesaw.stackonly.css",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/index-backup-cards-11-25-2015.html",
+		"/C/Users/Mike/Desktop/tulip-product-list.csv",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins/bitters/_base.scss",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins/bitters/_grid-settings.scss",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins/bitters/_variables.scss",
+		"/C/Users/Mike/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/bourbon-tulip.sublime-project",
+		"/C/Users/Mike/Desktop/tulip product list.csv",
+		"/C/Users/Mike/Desktop/tulip-product-list.txt",
 		"/C/Users/Mike/Desktop/webdev-projects/f5-tulip/css/custom.css",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/css/app.sass",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/css/.sassbuilder-config.json",
@@ -329,20 +515,11 @@
 		"/C/Users/Mike/Desktop/Websites/Tulip 5-10-2015 sassparilla/assets/demo/demo.min.css",
 		"/C/Users/Mike/Desktop/Websites/Tulip 5-10-2015 sassparilla/templates/includes/demo/header.liquid",
 		"/C/Users/Mike/Desktop/Web dev projects/templates/index.liquid",
-		"/C/Users/Mike/Desktop/Web dev projects/templates/layouts/layout.liquid",
-		"/C/Users/Mike/Documents/CODING/EXCEL/TRAINING PROGRAM FORMULAS LOAD",
-		"/C/Users/Mike/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/Mike/Documents/SourceTree repos/tutorial/sample.html",
-		"/C/Users/Mike/Documents/CODING/EXCEL/TRAINING PROGRAM FORMULAS WORKOUT 1",
-		"/C/Users/Mike/Documents/CODING/EXCEL/TRAINING PROGRAM FORMULAS WORKOUT 2",
-		"/C/Users/Mike/Documents/CODING/EXCEL/TRAINING PROGRAM FORMULAS WORKOUT 3",
-		"/C/Users/Mike/Desktop/Web dev projects/bower_components/foundation/css/foundation.css",
-		"/C/Users/Mike/Desktop/Web dev projects/assets/css/foundation.min.css",
-		"/C/Users/Mike/AppData/Local/Google/Chrome/User Data/Local State"
+		"/C/Users/Mike/Desktop/Web dev projects/templates/layouts/layout.liquid"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -367,6 +544,86 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"color",
+			" color:",
+			"333",
+			"2A7359",
+			"123126",
+			"table-layout",
+			"layout",
+			"width",
+			"font",
+			"weight",
+			"white",
+			"background",
+			"$table-background",
+			"table-background",
+			"$table-background",
+			"'",
+			"MB",
+			"KB",
+			"kb",
+			"mb",
+			"hover",
+			"breakpoint",
+			"40em",
+			"<tr><th>",
+			"table-border",
+			"4",
+			"\n\";",
+			"width",
+			"table-background",
+			"width",
+			"column",
+			"</td>",
+			"td",
+			"<td class=\"model\">",
+			"colspan",
+			"table-minimal",
+			"border",
+			"tablesaw-cell-content",
+			"table-background",
+			"td class=\"model\"",
+			"td",
+			",",
+			" none; //",
+			"</th>",
+			"\"model\"",
+			"model",
+			"/th",
+			"<th>",
+			"model",
+			"<td>\n",
+			",",
+			"td",
+			"th",
+			"push",
+			"breakpoint",
+			"td",
+			",",
+			"td",
+			"</td>",
+			"<td>",
+			"</tr>",
+			"<tr>",
+			"</td>",
+			"<td>",
+			"table",
+			"324766",
+			",",
+			"YASNAC",
+			"</td>",
+			",",
+			"FANUC",
+			"$*",
+			"\"",
+			"	",
+			"base-background-color",
+			".center",
+			"outer-container",
+			"$outer-container",
+			".outer-container",
+			"$base-background-color",
 			"@mixin background",
 			"background",
 			"hero-logo",
@@ -414,87 +671,7 @@
 			"logo",
 			"mc-embedded",
 			"submitForm",
-			"text-center",
-			"button",
-			"footer",
-			"float-right",
-			"float right",
-			"webicon",
-			"label",
-			"pad-20",
-			"margin-40",
-			"margin-20",
-			".png",
-			".jpg",
-			"offcanvas",
-			"input",
-			"placeholder",
-			"lifeward",
-			"label",
-			"panel",
-			"h1-font-size",
-			"super",
-			"super-font",
-			"font-family-sans-serif",
-			"body-font-family",
-			".center",
-			"background:",
-			"body-bg",
-			"background",
-			"font-color",
-			"// ",
-			"body-bg",
-			"background",
-			"h4",
-			"h5",
-			"h4",
-			"hue",
-			"colorhue",
-			"color",
-			"<p>",
-			"<h6>",
-			"<h5>",
-			"<h4>",
-			"<h3>",
-			"<h2>",
-			"<h1>",
-			"h5",
-			"h4",
-			"</h2>",
-			"h3",
-			"<h3>",
-			"header",
-			"<div class=\"slide\">",
-			"</h2>",
-			"<h2>",
-			"h7",
-			"h6",
-			"h5",
-			"h4",
-			"h3",
-			"h2",
-			".arrow-up",
-			"<p><strong>1</strong></p>",
-			"<strong>This",
-			"alert-color",
-			"anchor-font",
-			"$lightness: ",
-			"@mixin $lightness",
-			"@mixin lightness",
-			"$lightness",
-			"lightness",
-			"primary",
-			"jet",
-			"silver",
-			"color",
-			"<p class=",
-			"color",
-			"color1",
-			"btn1",
-			"30%",
-			"+ ($color_increment * 3));",
-			"$primary",
-			"adjust-hue"
+			"text-center"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -502,6 +679,63 @@
 		"regex": false,
 		"replace_history":
 		[
+			"#77cf22",
+			" MB",
+			" KB",
+			"KB",
+			"MB",
+			"<tr><th>MITSUBISHI  ",
+			"<tr><th>YASNAC ",
+			"<tr><th>FANUC ",
+			"<tr><th>FANUC",
+			"border-color",
+			"27",
+			"26",
+			"25",
+			"24",
+			"23",
+			"22",
+			"21",
+			"20",
+			"19",
+			"18",
+			"17",
+			"16",
+			"15",
+			"14",
+			"13",
+			"12",
+			"\";",
+			"</th>",
+			"<th>",
+			"td class=\"model\" colspan=\"3\"",
+			"th",
+			"</td><td>",
+			"",
+			"</td>",
+			"</td></tr>\n<tr>",
+			"/td",
+			"<td class=\"model\">",
+			"<td class=\"model\">\n",
+			"\n",
+			"",
+			"</td><td>",
+			"th",
+			"td",
+			"th",
+			"\n",
+			"th",
+			",",
+			"",
+			",",
+			"</td><td>",
+			"<td>YASNAC",
+			"</td><td>",
+			"</td>",
+			"</td><td>",
+			"</td>",
+			"<td>FANUC",
+			"",
 			"2MB",
 			"1MB",
 			"FANUC,",
@@ -572,64 +806,7 @@
 			"color32",
 			"color31",
 			"color30",
-			"color29",
-			"color28",
-			"color27",
-			"color26",
-			"color25",
-			"color24",
-			"color23",
-			"color22",
-			"color21",
-			"color20",
-			"color19",
-			"color18",
-			"color17",
-			"color16",
-			"color15",
-			"color14",
-			"color13",
-			"color12",
-			"color11",
-			"color10",
-			"color9",
-			"color8",
-			"color7",
-			"color6",
-			"color5",
-			"color4",
-			"color3",
-			"color2",
-			"btn36",
-			"btn35",
-			"btn34",
-			"btn33",
-			"btn32",
-			"btn31",
-			"btn30",
-			"btn29",
-			"btn28",
-			"btn27",
-			"btn26",
-			"btn25",
-			"btn24",
-			"btn23",
-			"btn22",
-			"btn21",
-			"btn20",
-			"btn19",
-			"btn18",
-			"btn17",
-			"btn16",
-			"btn15",
-			"btn14",
-			"btn13",
-			"btn16",
-			"btn12",
-			"btn11",
-			"btn10",
-			"btn9",
-			"btn8"
+			"color29"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -640,16 +817,16 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 29,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "0-plugins/bitters/_variables.scss",
+					"file": "/C/Users/Mike/Downloads/jquery-2.1.4.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 907,
+						"buffer_size": 247597,
 						"regions":
 						{
 						},
@@ -662,840 +839,49 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 66.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "index.html",
+					"file": "js/jquery-1.11.3.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 600,
+						"buffer_size": 284394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								243,
-								243
+								111,
+								111
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "3-layouts/home.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								114,
-								114
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "2-modules/_hero.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1240,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1178,
-								1178
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 528.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29947,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										3316,
-										3326
-									],
-									[
-										3521,
-										3531
-									],
-									[
-										3682,
-										3692
-									],
-									[
-										3810,
-										3820
-									],
-									[
-										3982,
-										3992
-									],
-									[
-										4011,
-										4021
-									],
-									[
-										4175,
-										4185
-									],
-									[
-										4199,
-										4209
-									],
-									[
-										4340,
-										4350
-									],
-									[
-										4370,
-										4380
-									],
-									[
-										4594,
-										4604
-									],
-									[
-										4625,
-										4635
-									],
-									[
-										4667,
-										4677
-									],
-									[
-										4935,
-										4945
-									],
-									[
-										5101,
-										5111
-									],
-									[
-										5277,
-										5287
-									],
-									[
-										5454,
-										5464
-									],
-									[
-										5619,
-										5629
-									],
-									[
-										5774,
-										5784
-									],
-									[
-										5883,
-										5893
-									],
-									[
-										5997,
-										6007
-									],
-									[
-										6262,
-										6272
-									],
-									[
-										6296,
-										6306
-									],
-									[
-										6555,
-										6565
-									],
-									[
-										6693,
-										6703
-									],
-									[
-										6796,
-										6806
-									],
-									[
-										6937,
-										6947
-									],
-									[
-										7090,
-										7100
-									],
-									[
-										7245,
-										7255
-									],
-									[
-										7436,
-										7446
-									],
-									[
-										7593,
-										7603
-									],
-									[
-										7682,
-										7692
-									],
-									[
-										7850,
-										7860
-									],
-									[
-										7954,
-										7964
-									],
-									[
-										8117,
-										8127
-									],
-									[
-										8215,
-										8225
-									],
-									[
-										8332,
-										8342
-									],
-									[
-										8350,
-										8360
-									],
-									[
-										8584,
-										8594
-									],
-									[
-										8836,
-										8846
-									],
-									[
-										8895,
-										8905
-									],
-									[
-										8999,
-										9009
-									],
-									[
-										9115,
-										9125
-									],
-									[
-										9216,
-										9226
-									],
-									[
-										9275,
-										9285
-									],
-									[
-										9436,
-										9446
-									],
-									[
-										9553,
-										9563
-									],
-									[
-										9753,
-										9763
-									],
-									[
-										9858,
-										9868
-									],
-									[
-										10064,
-										10074
-									],
-									[
-										10171,
-										10181
-									],
-									[
-										10275,
-										10285
-									],
-									[
-										10293,
-										10303
-									],
-									[
-										10495,
-										10505
-									],
-									[
-										10513,
-										10523
-									],
-									[
-										10680,
-										10690
-									],
-									[
-										10698,
-										10708
-									],
-									[
-										10716,
-										10726
-									],
-									[
-										10900,
-										10910
-									],
-									[
-										10936,
-										10946
-									],
-									[
-										10954,
-										10964
-									],
-									[
-										11243,
-										11253
-									],
-									[
-										11289,
-										11299
-									],
-									[
-										11485,
-										11495
-									],
-									[
-										11606,
-										11616
-									],
-									[
-										11649,
-										11659
-									],
-									[
-										11890,
-										11900
-									],
-									[
-										11930,
-										11940
-									],
-									[
-										12084,
-										12094
-									],
-									[
-										12096,
-										12106
-									],
-									[
-										12131,
-										12141
-									],
-									[
-										12163,
-										12173
-									],
-									[
-										12204,
-										12214
-									],
-									[
-										12219,
-										12229
-									],
-									[
-										12252,
-										12262
-									],
-									[
-										12285,
-										12295
-									],
-									[
-										12313,
-										12323
-									],
-									[
-										12339,
-										12349
-									],
-									[
-										12376,
-										12386
-									],
-									[
-										12406,
-										12416
-									],
-									[
-										12446,
-										12456
-									],
-									[
-										12466,
-										12476
-									],
-									[
-										12496,
-										12506
-									],
-									[
-										12513,
-										12523
-									],
-									[
-										12574,
-										12584
-									],
-									[
-										12637,
-										12647
-									],
-									[
-										12728,
-										12738
-									],
-									[
-										12741,
-										12751
-									],
-									[
-										12774,
-										12784
-									],
-									[
-										12789,
-										12799
-									],
-									[
-										12930,
-										12940
-									],
-									[
-										12968,
-										12978
-									],
-									[
-										13036,
-										13046
-									],
-									[
-										13212,
-										13222
-									],
-									[
-										13250,
-										13260
-									],
-									[
-										13318,
-										13328
-									],
-									[
-										13432,
-										13442
-									],
-									[
-										13445,
-										13455
-									],
-									[
-										13478,
-										13488
-									],
-									[
-										13493,
-										13503
-									],
-									[
-										13581,
-										13591
-									],
-									[
-										13594,
-										13604
-									],
-									[
-										13625,
-										13635
-									],
-									[
-										13640,
-										13650
-									],
-									[
-										13692,
-										13702
-									],
-									[
-										13720,
-										13730
-									],
-									[
-										13741,
-										13751
-									],
-									[
-										13778,
-										13788
-									],
-									[
-										13806,
-										13816
-									],
-									[
-										13827,
-										13837
-									],
-									[
-										13877,
-										13887
-									],
-									[
-										13897,
-										13907
-									],
-									[
-										13919,
-										13929
-									],
-									[
-										13937,
-										13947
-									],
-									[
-										14098,
-										14108
-									],
-									[
-										14142,
-										14152
-									],
-									[
-										14236,
-										14246
-									],
-									[
-										14567,
-										14577
-									],
-									[
-										14612,
-										14622
-									],
-									[
-										14704,
-										14714
-									],
-									[
-										14988,
-										14998
-									],
-									[
-										15145,
-										15155
-									],
-									[
-										15248,
-										15258
-									],
-									[
-										15468,
-										15478
-									],
-									[
-										15609,
-										15619
-									],
-									[
-										15831,
-										15841
-									],
-									[
-										15971,
-										15981
-									],
-									[
-										16268,
-										16278
-									],
-									[
-										16312,
-										16322
-									],
-									[
-										16637,
-										16647
-									],
-									[
-										16935,
-										16945
-									],
-									[
-										17221,
-										17231
-									],
-									[
-										17288,
-										17298
-									],
-									[
-										17352,
-										17362
-									],
-									[
-										17415,
-										17425
-									],
-									[
-										17477,
-										17487
-									],
-									[
-										17739,
-										17749
-									],
-									[
-										17780,
-										17790
-									],
-									[
-										17954,
-										17964
-									],
-									[
-										18022,
-										18032
-									],
-									[
-										18047,
-										18057
-									],
-									[
-										18080,
-										18090
-									],
-									[
-										18113,
-										18123
-									],
-									[
-										18149,
-										18159
-									],
-									[
-										18184,
-										18194
-									],
-									[
-										18223,
-										18233
-									],
-									[
-										18385,
-										18395
-									],
-									[
-										18472,
-										18482
-									],
-									[
-										18700,
-										18710
-									],
-									[
-										18867,
-										18877
-									],
-									[
-										19183,
-										19193
-									],
-									[
-										19406,
-										19416
-									],
-									[
-										19477,
-										19487
-									],
-									[
-										19955,
-										19965
-									],
-									[
-										20583,
-										20593
-									],
-									[
-										20687,
-										20697
-									],
-									[
-										20825,
-										20835
-									],
-									[
-										20953,
-										20963
-									],
-									[
-										20989,
-										20999
-									],
-									[
-										21024,
-										21034
-									],
-									[
-										21063,
-										21073
-									],
-									[
-										21163,
-										21173
-									],
-									[
-										21251,
-										21261
-									],
-									[
-										25327,
-										25337
-									],
-									[
-										29229,
-										29246
-									],
-									[
-										29520,
-										29537
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								28692,
-								28692
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 2,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 14454.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "0-plugins/bourbon/css3/_background-image.scss",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1332,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								440,
-								440
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "config.rb",
 					"semi_transient": false,
 					"settings":
@@ -1514,106 +900,114 @@
 						"settings":
 						{
 							"auto_name": "config.rb",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "css/app.css",
+					"buffer": 3,
+					"file": "0-plugins/base/_variables.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7806,
+						"buffer_size": 919,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								149,
-								149
+								627,
+								627
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "css/app.sass",
+					"buffer": 4,
+					"file": "2-modules/_hero-2.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 133,
+						"buffer_size": 1207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								8,
+								8
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "0-plugins/plugins-dir.sass",
+					"buffer": 5,
+					"file": "js/tabs.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 70,
+						"buffer_size": 704,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								49,
-								49
+								699,
+								699
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "0-plugins/bitters/_grid-settings.scss",
+					"buffer": 6,
+					"file": "js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 370,
+						"buffer_size": 1227,
 						"regions":
 						{
 						},
@@ -1626,45 +1020,50 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"auto_name": "",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "0-plugins/bitters/_base.scss",
+					"buffer": 7,
+					"file": "0-plugins/plugins-dir.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 319,
+						"buffer_size": 67,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								319,
-								319
+								39,
+								39
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 8,
 					"file": "css/.sassbuilder-config.json",
 					"semi_transient": false,
 					"settings":
@@ -1682,17 +1081,18 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 9,
 					"file": "1-base/base-dir.sass",
 					"semi_transient": false,
 					"settings":
@@ -1710,45 +1110,78 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 10,
 					"file": "2-modules/modules-dir.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14,
+						"buffer_size": 172,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7,
-								7
+								84,
+								84
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 11,
+					"file": "2-modules/_simple-tables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 3828.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
 					"file": "3-layouts/layouts-dir.sass",
 					"semi_transient": false,
 					"settings":
@@ -1766,13 +1199,560 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "2-modules/_tabs.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1714,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".accordion-tabs-minimal {",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "2-modules/_footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1127,
+								1127
+							]
+						],
+						"settings":
+						{
+							"auto_name": "// Uncomment this for a sticky footer.",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "2-modules/_cards.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								585,
+								585
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".cards {",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "2-modules/_topnav.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								992,
+								992
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".centered-navigation {",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "tulip-product-list-by-model-and-memory-3.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2220,
+								8
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/C/Users/Mike/Desktop/TULIP/tulip-product-list-by-model-and-memory-2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								327
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "3-layouts/home.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								845,
+								794
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 811.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "2-modules/_hero.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								689
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 264.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/chessboard.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								427,
+								427
+							]
+						],
+						"settings":
+						{
+							"auto_name": "// Your code here.",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/countChar.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3275,
+								3275
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1152.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/recursion.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/basics_arrays.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								743,
+								743
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/C/Users/Mike/Desktop/webdev-projects/fizzbuzz.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"auto_name": "body {",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/C/Users/Mike/Desktop/webdev-projects/fizzbuzz.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								318,
+								318
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "2-modules/_tables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "2-modules/_tablesaw.stackonly.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6045,
+								6115
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2340.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1452,
+								1452
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 356.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "css/app.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1821,9 +1801,9 @@
 	"project": "bourbon-tulip.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 80.0
 	},
-	"save_all_on_build": true,
+	"save_all_on_build": false,
 	"select_file":
 	{
 		"height": 0.0,

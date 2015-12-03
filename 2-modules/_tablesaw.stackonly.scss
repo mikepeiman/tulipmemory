@@ -143,8 +143,8 @@ table.tablesaw {
    tbody { 
 
     tr:hover {
-      background-color:  none;
-      border: 1px solid $border-color;
+      background-color:  change-color(#fff, $alpha: .2);
+
     }
     tr > td:hover {
       background-color:  none;
