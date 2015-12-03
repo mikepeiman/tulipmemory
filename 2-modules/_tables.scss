@@ -9,7 +9,7 @@
   $light-gray: #DDD !default;
   $medium-screen: em(640) !default;
   $large-screen: em(860) !default;
-  $base-font-color: $dark-gray !default;
+  $base-font-color: white !default;
   $table-border-color: $base-border-color;
   $table-border: 2px solid $table-border-color;
   $table-header-background: #77cf22;
@@ -35,11 +35,13 @@
 
 
   tbody {
-    background-color: $table-background;
+    background-color: none;
     th {
       background-color: $table-header-background;
+      font-weight: 400;
       // border-top: 2px solid $table-border-color;
     }
+
 
     td {
       line-height: $base-line-height;

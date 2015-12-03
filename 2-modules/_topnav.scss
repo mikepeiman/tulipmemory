@@ -5,7 +5,7 @@
   $base-font-color: $dark-gray !default;
   $centered-navigation-padding: 1em;
   $centered-navigation-logo-height: 2em;
-  $centered-navigation-background: #000; // #276D80; // scale-color(#477DCA, $saturation: 0%, $lightness: -35%);
+  $centered-navigation-background: #2249CF; // adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%); //#152025; // #333333; // #276D80; // scale-color(#477DCA, $saturation: 0%, $lightness: -35%);
   $centered-navigation-color: transparentize($base-font-color, 0.3);
   $centered-navigation-color-hover: $base-font-color;
   $centered-navigation-height: 60px;
@@ -16,7 +16,7 @@
   $horizontal-bar-mode: $large-screen;
 
   background-color: $centered-navigation-background;
-  border-bottom: 1px solid darken($centered-navigation-background, 20%);
+  border-bottom: 5px solid #77c2ff;
   min-height: $centered-navigation-height;
   width: 100%;
   z-index: 9999;

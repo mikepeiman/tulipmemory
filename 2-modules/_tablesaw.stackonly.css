@@ -11,8 +11,12 @@ table.tablesaw {
 
 .tablesaw {
   border-collapse: collapse;
-  width: 100%;
-  color: white; }
+  table-layout: fixed;
+  width: 100%; }
+  .tablesaw th {
+    color: white; }
+  .tablesaw td {
+    color: #77cf22; }
 
 /* Structure */
 .tablesaw {
@@ -34,9 +38,6 @@ table.tablesaw {
       padding-bottom: 1.2em; } }
 
 /* Table rows have a gray bottom stroke by default */
-.tablesaw-stack tbody tr {
-  border-bottom: none; }
-
 .tablesaw-stack td .tablesaw-cell-label,
 .tablesaw-stack th .tablesaw-cell-label {
   display: none; }

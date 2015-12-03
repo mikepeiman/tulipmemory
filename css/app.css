@@ -201,7 +201,8 @@ background-size: cover; */
   padding-bottom: 1em; }
   .hero .hero-logo img {
     height: 10em;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    margin-top: 1em; }
     @media screen and (min-width: 900px) {
       .hero .hero-logo img {
         font-size: 1.5em; } }
@@ -358,8 +359,8 @@ background-size: cover; */
         opacity: 1; }
 
 .centered-navigation {
-  background-color: #000;
-  border-bottom: 1px solid black;
+  background-color: #2249CF;
+  border-bottom: 5px solid #77c2ff;
   min-height: 60px;
   width: 100%;
   z-index: 9999; }
@@ -422,7 +423,7 @@ background-size: cover; */
     .centered-navigation .nav-link:first-child {
       margin-left: 2.2em; } }
   .centered-navigation ul li.nav-link {
-    background: #000;
+    background: #2249CF;
     display: block;
     line-height: 60px;
     overflow: hidden;
@@ -521,14 +522,14 @@ background-size: cover; */
             border-bottom-right-radius: 3px;
             padding-bottom: .7em; } }
       .centered-navigation ul.submenu li a {
-        background-color: black;
+        background-color: #2044c2;
         display: inline-block;
         text-align: right;
         text-decoration: none;
         width: 100%; }
         @media screen and (min-width: 900px) {
           .centered-navigation ul.submenu li a {
-            background-color: #000;
+            background-color: #2249CF;
             padding-left: 1em;
             text-align: left;
             width: 12em; } }
@@ -543,9 +544,10 @@ background-size: cover; */
     padding: 0.75em 1em;
     text-align: left; }
   .table-minimal tbody {
-    background-color: #457714; }
+    background-color: none; }
     .table-minimal tbody th {
-      background-color: #77cf22; }
+      background-color: #77cf22;
+      font-weight: 400; }
     .table-minimal tbody td {
       line-height: 1.5;
       padding: 0.75em 1em;
@@ -577,8 +579,12 @@ table.tablesaw {
 
 .tablesaw {
   border-collapse: collapse;
-  width: 100%;
-  color: white; }
+  table-layout: fixed;
+  width: 100%; }
+  .tablesaw th {
+    color: white; }
+  .tablesaw td {
+    color: #77cf22; }
 
 /* Structure */
 .tablesaw {
@@ -600,9 +606,6 @@ table.tablesaw {
       padding-bottom: 1.2em; } }
 
 /* Table rows have a gray bottom stroke by default */
-.tablesaw-stack tbody tr {
-  border-bottom: none; }
-
 .tablesaw-stack td .tablesaw-cell-label,
 .tablesaw-stack th .tablesaw-cell-label {
   display: none; }
@@ -672,24 +675,10 @@ section {
     clear: both;
     content: "";
     display: table; }
-  section aside {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%; }
-    section aside:last-child {
-      margin-right: 0; }
-  section article {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 74.41059%; }
-    section article:last-child {
-      margin-right: 0; }
 
 .center {
   margin: 0;
-  border: 0px solid #77cf22;
+  padding: 0;
   display: block; }
 
 .right {
@@ -781,6 +770,8 @@ section {
         background-color: none; }
       .tulip-table tbody tr:hover > th {
         background-color: none; }
+      .tulip-table tbody tr:before {
+        color: white; }
       .tulip-table .tablesaw-stack thead tr,
       .tulip-table .tablesaw-stack thead th {
         display: none; }
@@ -819,30 +810,38 @@ float: left; */ }
           border-top: 2px solid $border-color-color;
         } */
       /* Hide the labels in each cell */ }
+      .tulip-table .tablesaw-stack {
+        border-left: 5px solid #77cf22;
+        border-right: 5px solid #77cf22; }
       .tulip-table .tablesaw-stack tr {
         display: table-row; }
+      .tulip-table .tablesaw-stack tr:first-of-type {
+        border-top: 5px solid #77cf22; }
+      .tulip-table .tablesaw-stack tr:last-of-type {
+        border-bottom: 5px solid #77cf22; }
       .tulip-table .tablesaw-stack td,
       .tulip-table .tablesaw-stack th,
       .tulip-table .tablesaw-stack thead td,
       .tulip-table .tablesaw-stack thead th {
-        display: table-cell;
-        border-top: 1px solid #ffcf22; }
-      .tulip-table th:first-of-type {
-        width: 16%; }
-      .tulip-table tbody tr:hover {
-        border: 1px solid #ffcf22;
-                                 /*
-border-top: 2px solid $border-color-color;
-border-right: 5px solid $border-color-color;
-border-bottom: 2px solid $border-color-color;
-border-left: 5px solid $border-color-color; */ }
+        display: table-cell; }
+      .tulip-table .tablesaw-stack thead th {
+        color: #123126;
+        display: none; }
+      .tulip-table .tablesaw-stack tbody th {
+        width: 20%; }
+      .tulip-table tbody tr:nth-child(odd) {
+        background-color: rgba(63, 110, 18, 0.25); }
+      .tulip-table tbody tr:nth-child(even) {
+        background-color: rgba(190, 237, 145, 0.25); }
+      .tulip-table tbody th:nth-child(odd) {
+        background-color: rgba(119, 207, 34, 0.35); }
+      .tulip-table tbody th:nth-child(even) {
+        background-color: rgba(119, 207, 34, 0.35); }
       .tulip-table tbody tr > td:hover {
-        background-color: #0B2C36;
-        border: 1px solid #ffcf22; }
+        background-color: #77cf22;
+        color: white; }
       .tulip-table tbody tr:hover > th {
-        background-color: #0B2C36; }
-      .tulip-table tbody td {
-        border-top: 1px solid #ffcf22; }
+        background-color: #77cf22; }
       .tulip-table .tablesaw-stack td .tablesaw-cell-label,
       .tulip-table .tablesaw-stack th .tablesaw-cell-label {
         display: none !important; } }
@@ -851,22 +850,35 @@ border-left: 5px solid $border-color-color; */ }
     content: "";
     display: table; }
 
+.first-column {
+  width: 20%; }
+
 .table-title {
-  background: #0B2C36;
+  background: rgba(0, 70, 128, 0.5);
   height: auto;
   width: 100%;
-  margin: 0; }
-  .table-title h3 {
-    color: white;
+  margin-bottom: 1.25em;
+  color: white;
+  text-align: center;
+  border-top: 5px solid #77c2ff;
+  border-bottom: 5px solid #77c2ff; }
+  .table-title h2, .table-title h3 {
     font-size: 1.5em;
-    text-align: center;
     font-weight: 400;
     padding-top: .5em;
-    padding-bottom: 0.6em;
-    border-top: 1px solid #ffcf22;
-    border-bottom: 1px solid #ffcf22; }
+    padding-bottom: 0.6em; }
+  .table-title h4, .table-title h5 {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-top: .25em;
+    padding-bottom: 0.3em; }
+  .table-title p {
+    color: #ccc;
+    font-size: 1em; }
   @media (min-width: 30em) {
-    .table-title h3 {
-      font-size: 2.5em; } }
+    .table-title {
+      margin-bottom: 5em; }
+      .table-title h3 {
+        font-size: 2.5em; } }
 
 /*# sourceMappingURL=app.css.map */

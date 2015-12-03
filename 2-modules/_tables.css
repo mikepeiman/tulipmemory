@@ -8,9 +8,10 @@
     padding: 0.75em 1em;
     text-align: left; }
   .table-minimal tbody {
-    background-color: #457714; }
+    background-color: none; }
     .table-minimal tbody th {
-      background-color: #77cf22; }
+      background-color: #77cf22;
+      font-weight: 400; }
     .table-minimal tbody td {
       line-height: 1.5em;
       padding: 0.75em 1em;

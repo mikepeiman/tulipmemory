@@ -6,7 +6,7 @@
 * Copyright (c) 2015 Filament Group; Licensed  */
 
 $breakpoint: 30em;
-$table-background: darken(#77cf22, 20);
+$table-background: adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 $border-color: #ffcf22;
 $nav-color: #276D80;
 table.tablesaw { 
@@ -17,8 +17,10 @@ table.tablesaw {
 
 .tablesaw {
   border-collapse: collapse;
+  table-layout: fixed;
   width: 100%;
-  color: white;
+  th { color: white; }
+  td { color: #77cf22; }
 }
 
 /* Structure */
@@ -47,7 +49,7 @@ table.tablesaw {
 /* Table rows have a gray bottom stroke by default */
 
 .tablesaw-stack tbody tr {
-  border-bottom: none; // 5px solid black;
+//  border-bottom: none; // 5px solid black;
 }
 
 .tablesaw-stack td .tablesaw-cell-label,
@@ -138,7 +140,8 @@ table.tablesaw {
     tr:nth-of-type(25):before { content: "YASNAC MX3"; }
     tr:nth-of-type(26):before { content: "YASNAC I-80"; }
     tr:nth-of-type(27):before { content: "MISTUBISHI MITS 500 / MAZAK PLUS"; }
-   tbody {  
+   tbody { 
+
     tr:hover {
       background-color:  none;
       border: 1px solid $border-color;
@@ -149,7 +152,9 @@ table.tablesaw {
     tr:hover > th {
       background-color:  none;
     }
-   
+    tr:before {
+      color: white;
+    }
   }
   .tablesaw-stack thead tr,
   .tablesaw-stack thead th {
@@ -210,8 +215,18 @@ table.tablesaw {
 }
 
 @mixin tablesaw-stack-min {
+  .tablesaw-stack {
+    border-left: 5px solid #77cf22; // #5AF7BF;
+    border-right: 5px solid #77cf22; // #5AF7BF;
+  }
   .tablesaw-stack tr {
     display: table-row;
+  }
+  .tablesaw-stack tr:first-of-type {
+    border-top: 5px solid #77cf22;
+  }
+   .tablesaw-stack tr:last-of-type {
+    border-bottom: 5px solid #77cf22;
   }
   /* Show the table header rows */
   .tablesaw-stack td,
@@ -219,27 +234,32 @@ table.tablesaw {
   .tablesaw-stack thead td,
   .tablesaw-stack thead th {
     display: table-cell;
-    border-top: 1px solid #ffcf22;
+    // border-top: 0px solid #ffcf22;
   }
-  th:first-of-type { width: 16%; }
+  .tablesaw-stack thead th {
+    color: #123126;
+    display: none;
+  }
+  
+  .tablesaw-stack tbody th { width: 20%; } 
 
-  tbody {  
-    tr:hover {
-      border: 1px solid $border-color; /*
-      border-top: 2px solid $border-color-color;
-      border-right: 5px solid $border-color-color;
-      border-bottom: 2px solid $border-color-color;
-      border-left: 5px solid $border-color-color; */
-    }
+  tbody { 
+    tr:nth-child(odd)   { background-color: change-color(#77cf22, $lightness: 25%, $alpha: .25); }
+    tr:nth-child(even)    { background-color: change-color(#77cf22, $lightness: 75%, $alpha: .25); } 
+    th:nth-child(odd)   { background-color: change-color(#77cf22, $alpha: .35); }
+    th:nth-child(even)    { background-color: change-color(#77cf22, $alpha: .35); } 
+
     tr > td:hover {
-      background-color:  #0B2C36; // adjust-color($table-background, $hue: 60deg, $lightness: 15%);
-      border:  1px solid $border-color;
+     background-color: #77cf22; // change-color($table-background, $lightness: 5%, $alpha: .75); //#0B2C36; // adjust-color($table-background, $hue: 60deg, $lightness: 15%);
+     // border:  1px solid $border-color;
+     color: white;
     }
     tr:hover > th {
-      background-color: #0B2C36; // adjust-color($table-background, $hue: 60deg, $lightness: 15%);
+     background-color: #77cf22; //// background-color: change-color($table-background, $lightness: 5%, $alpha: .75); // adjust-color($table-background, $hue: 60deg, $lightness: 15%);
+     // border:  1px solid $border-color;
     }
     td {
-      border-top: 1px solid $border-color;
+   //   border: 25px solid #000;
     }
   }
   /*
