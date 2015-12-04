@@ -623,6 +623,8 @@ background-size: cover; */
     padding: 0.75em 0.75em; }
     .card .card-copy p {
       margin: 0 0 0.75em; }
+    .card .card-copy table {
+      text-align: left; }
   .card:focus, .card:hover {
     cursor: pointer;
     border: 5px solid #77c2ff; }
