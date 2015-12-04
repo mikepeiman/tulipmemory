@@ -2,7 +2,7 @@
     @include span-columns(8);
     @include shift(2);
     text-align: center;
-  $base-border-color: scale-color(#477DCA, $lightness: 15%);
+  $base-border-color: scale-color(#77c2ff, $lightness: 15%);
   $base-background-color: #77cf22;
   $base-spacing: 1.5em !default;
   $action-color: #477DCA !default;
@@ -47,11 +47,11 @@
     }
 
     &:focus {
-      outline: none;
+      outline: 1px solid #ffcf22;
     }
 
     &.is-active {
-      border-bottom: 0;
+      border-bottom: 0px;
       background-color: $base-background-color;
 
       @include media($tab-mode) {
@@ -73,3 +73,4 @@
     }
   }
 }
+.flip {}
