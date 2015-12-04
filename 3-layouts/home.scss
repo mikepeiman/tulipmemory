@@ -59,7 +59,7 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 	h1 {
 		margin-top: 2em;
 		font-size: 1.5em;
-		font-weight: 600;
+		font-weight: 400;
 		font-family: 'Exo 2';
 		color: #77cf22;
 	}
@@ -86,4 +86,11 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 		font-size: 2.5em;
 		}
 	}
+}
+.hidden { 
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
 }
