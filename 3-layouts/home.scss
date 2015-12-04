@@ -56,6 +56,13 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 	padding-left: 1.5em;
 	padding-right: 1.5em;
 
+	h1 {
+		margin-top: 2em;
+		font-size: 1.5em;
+		font-weight: 600;
+		font-family: 'Exo 2';
+		color: #77cf22;
+	}
 	h2, h3 {
 		font-size: 1.5em;
 		font-weight: 400;

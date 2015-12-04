@@ -589,7 +589,7 @@ background-size: cover; */
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   border-radius: 3px;
-  border: 5px solid rgba(119, 207, 34, 0.1);
+  border: 5px solid rgba(119, 194, 255, 0.1);
   cursor: pointer;
   margin: 2em 2em 1.5em 2em;
   position: relative; }
@@ -610,8 +610,8 @@ background-size: cover; */
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    background-color: rgba(119, 207, 34, 0.1);
-    border-bottom: 5px solid #77cf22;
+    background-color: rgba(119, 194, 255, 0.1);
+    border-bottom: 5px solid #77c2ff;
     border-radius: 3px 3px 0 0;
     font-weight: bold;
     line-height: 1.5em;
@@ -625,13 +625,13 @@ background-size: cover; */
       margin: 0 0 0.75em; }
   .card:focus, .card:hover {
     cursor: pointer;
-    border: 5px solid #77cf22; }
+    border: 5px solid #77c2ff; }
     .card:focus p, .card:hover p {
       color: #ffcf22; }
     .card:focus img, .card:hover img {
       opacity: 0.7; }
   .card:active {
-    border: 5px solid #77cf22; }
+    border: 5px solid #77c2ff; }
 
 .table-minimal {
   border-collapse: separate;
@@ -962,6 +962,12 @@ float: left; */ }
   text-align: center;
   padding-left: 1.5em;
   padding-right: 1.5em; }
+  .table-title h1 {
+    margin-top: 2em;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Exo 2';
+    color: #77cf22; }
   .table-title h2, .table-title h3 {
     font-size: 1.5em;
     font-weight: 400;
