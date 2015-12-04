@@ -285,7 +285,7 @@ background-size: cover; */
     .accordion-tabs-minimal a.tab-link:hover {
       color: white; }
     .accordion-tabs-minimal a.tab-link:focus {
-      outline: 1px solid #ffcf22; }
+      outline: 0; }
     .accordion-tabs-minimal a.tab-link.is-active {
       border-bottom: 0px;
       background-color: #77cf22; }
@@ -681,12 +681,12 @@ table.tablesaw {
 
 .tablesaw {
   border-collapse: collapse;
-  table-layout: fixed;
-  width: 100%; }
+  table-layout: fixed; }
   .tablesaw th {
     color: white; }
   .tablesaw td {
-    color: #77cf22; }
+    color: #77cf22;
+    width: auto; }
 
 /* Structure */
 .tablesaw {
@@ -708,6 +708,9 @@ table.tablesaw {
       padding-bottom: 1.2em; } }
 
 /* Table rows have a gray bottom stroke by default */
+.tablesaw-stack tbody tr th {
+  width: 20%; }
+
 .tablesaw-stack td .tablesaw-cell-label,
 .tablesaw-stack th .tablesaw-cell-label {
   display: none; }
@@ -875,7 +878,14 @@ section {
         color: white; }
       .tulip-table .tablesaw-stack thead tr,
       .tulip-table .tablesaw-stack thead th {
-        display: none; }
+        position: absolute;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0; }
       .tulip-table .tablesaw-stack tbody tr {
         display: inline-block;
         width: auto;
@@ -984,6 +994,16 @@ float: left; */ }
   .table-title p {
     color: #ccc;
     font-size: 1em; }
+  .table-title a {
+    background-color: #77cf22;
+    border-top: none;
+    color: white;
+    display: block;
+    padding: .75em;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    margin: 2.5em auto; }
   @media (min-width: 30em) {
     .table-title {
       margin-bottom: 5em; }

@@ -79,6 +79,18 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 		color: #ccc;
 		font-size: 1em;
 	}
+	a {
+	background-color: #77cf22;
+    border-top: none;
+    color: white;
+    display: block;
+    padding: .75em;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    margin: 2.5em auto;
+	}
+
 
 	@media (min-width: 30em) {
 		margin-bottom: 5em;

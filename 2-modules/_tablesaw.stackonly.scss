@@ -18,9 +18,9 @@ table.tablesaw {
 .tablesaw {
   border-collapse: collapse;
   table-layout: fixed;
-  width: 100%;
+  //white-space: nowrap;
   th { color: white; }
-  td { color: #77cf22; }
+  td { color: #77cf22; width: auto; }
 }
 
 /* Structure */
@@ -35,6 +35,7 @@ table.tablesaw {
   box-sizing: border-box;
   border: none; 
   padding: .5em .7em;
+
 }
 
 .tablesaw thead tr th {
@@ -48,8 +49,9 @@ table.tablesaw {
 
 /* Table rows have a gray bottom stroke by default */
 
-.tablesaw-stack tbody tr {
+.tablesaw-stack tbody tr th {
 //  border-bottom: none; // 5px solid black;
+  width: 20%;
 }
 
 .tablesaw-stack td .tablesaw-cell-label,
@@ -158,7 +160,12 @@ table.tablesaw {
   }
   .tablesaw-stack thead tr,
   .tablesaw-stack thead th {
-    display: none;
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height: 1px; width: 1px; 
+    margin: -1px; padding: 0; border: 0; 
+  //display: none;
   }
     .tablesaw-stack tbody tr {
     display: inline-block;
