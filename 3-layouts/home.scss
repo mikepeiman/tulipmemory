@@ -80,17 +80,25 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 		font-size: 1em;
 	}
 	a {
-	background-color: #77cf22;
-    border-top: none;
-    color: white;
-    display: block;
-    padding: .75em;
-    text-decoration: none;
-    width: 25%;
-    text-align: center;
-    margin: 2.5em auto;
+		background-color: change-color(#77c2ff, $lightness: 25%, $alpha: .25); 
+	    border: 1px solid #77c2ff;
+	    color: white;
+	    display: block;
+	    padding: .75em;
+	    text-decoration: none;
+	    width: 25%;
+	    text-align: center;
+	    margin: 2.5em auto;
 	}
-
+	a:hover {
+    		background-color: change-color(#77c2ff, $lightness: 35%, $alpha: .75); 
+   			}
+	a:active {
+    		background-color: change-color(#77c2ff, $lightness: 35%, $alpha: .75); 
+   			}
+   	a:focus {
+    		background-color: change-color(#77c2ff, $lightness: 35%, $alpha: .75); 
+   			}
 
 	@media (min-width: 30em) {
 		margin-bottom: 5em;
@@ -105,4 +113,16 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
   clip: rect(0 0 0 0); 
   height: 1px; width: 1px; 
   margin: -1px; padding: 0; border: 0; 
+}
+
+.contact-form {
+	background: change-color(#77c2ff, $lightness: 25%, $alpha: .5); // #123126; // #152025; // #252015; // #0B2C36;
+	border: 5px solid #77c2ff;
+	height: auto;
+	width: 100%;
+	margin-bottom: 1.25em;
+	margin-top: 2.5em;
+	color: white;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
 }

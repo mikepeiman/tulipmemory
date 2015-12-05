@@ -1,6 +1,6 @@
 fieldset {
-  background-color: $secondary-background-color;
-  border: $base-border;
+  background-color: none;
+  border: 0;
   margin: 0 0 $small-spacing;
   padding: $base-spacing;
 }
@@ -29,7 +29,7 @@ label {
 #{$all-text-inputs},
 select[multiple=multiple] {
   background-color: $base-background-color;
-  border: $base-border;
+ // border: $base-border;
   border-radius: $base-border-radius;
   box-shadow: $form-box-shadow;
   box-sizing: border-box;
