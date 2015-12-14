@@ -41,9 +41,6 @@ section {
 }
 $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 
-.first-column {
-	width: 20%;
-}
 .table-title {
 	background: change-color(#77c2ff, $lightness: 25%, $alpha: .5); // #123126; // #152025; // #252015; // #0B2C36;
 	border-top: 5px solid #77c2ff;
@@ -125,4 +122,29 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 	color: white;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
+	p.lead {
+		font-size: 1.25em;
+		text-align: center;
+		color: #77cf22;
+		width: 80%;
+	}
+	p.no-spam {
+		font-size: 1em;
+		text-align: center;
+		color: #ffcf22;
+		font-weight: 600;
+		width: 60%;
+	}
+}
+
+fieldset {
+	h1 {
+	font-size: 2.25em;
+	text-align: center;
+	}
+	h2 {
+	font-size: 1.5em;
+	text-align: center;
+	}
+
 }

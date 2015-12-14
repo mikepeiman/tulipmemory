@@ -1,7 +1,7 @@
 .accordion-tabs-minimal {
-    @include span-columns(8);
+   /* @include span-columns(8);
     @include shift(2);
-    text-align: center;
+    text-align: center; */
   $base-border-color: scale-color(#77c2ff, $lightness: 15%);
   $base-background-color: #77cf22;
   $base-spacing: 1.5em !default;
@@ -64,7 +64,7 @@
 
   .tab-content {
     display: none;
-    padding: $base-spacing $gutter;
+    padding: none; //$base-spacing $gutter;
     width: 100%;
 
     @include media($tab-mode) {

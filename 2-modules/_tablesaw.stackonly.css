@@ -39,7 +39,11 @@ table.tablesaw {
 
 /* Table rows have a gray bottom stroke by default */
 .tablesaw-stack tbody tr th {
-  width: 20%; }
+  -webkit-column-width: 15%;
+  /* Chrome, Safari, Opera */
+  -moz-column-width: 15%;
+  /* Firefox */
+  column-width: 15%; }
 
 .tablesaw-stack td .tablesaw-cell-label,
 .tablesaw-stack th .tablesaw-cell-label {

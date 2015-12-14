@@ -51,7 +51,9 @@ table.tablesaw {
 
 .tablesaw-stack tbody tr th {
 //  border-bottom: none; // 5px solid black;
-  width: 20%;
+  -webkit-column-width: 15%; /* Chrome, Safari, Opera */
+  -moz-column-width: 15%; /* Firefox */
+  column-width: 15%;
 }
 
 .tablesaw-stack td .tablesaw-cell-label,

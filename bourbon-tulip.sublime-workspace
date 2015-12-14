@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align"
+			],
+			[
 				"pad",
-				"padding-right"
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-family"
 			],
 			[
 				"padding-",
@@ -24,10 +32,6 @@
 				"charCounter"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"mar",
 				"margin-top"
 			],
@@ -41,10 +45,6 @@
 			],
 			[
 				"text-",
-				"text-align"
-			],
-			[
-				"text",
 				"text-align"
 			],
 			[
@@ -121,22 +121,6 @@
 			}
 		},
 		{
-			"file": "js/tabs.js",
-			"settings":
-			{
-				"buffer_size": 704,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/app.js",
-			"settings":
-			{
-				"buffer_size": 1227,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "0-plugins/plugins-dir.sass",
 			"settings":
 			{
@@ -162,63 +146,11 @@
 			}
 		},
 		{
-			"file": "2-modules/modules-dir.sass",
-			"settings":
-			{
-				"buffer_size": 172,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2-modules/_simple-tables.scss",
-			"settings":
-			{
-				"buffer_size": 5898,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "3-layouts/layouts-dir.sass",
 			"settings":
 			{
 				"buffer_size": 14,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "2-modules/_tabs.scss",
-			"settings":
-			{
-				"buffer_size": 1714,
-				"line_ending": "Windows",
-				"name": ".accordion-tabs-minimal {"
-			}
-		},
-		{
-			"file": "2-modules/_footer.scss",
-			"settings":
-			{
-				"buffer_size": 2497,
-				"line_ending": "Windows",
-				"name": "// Uncomment this for a sticky footer."
-			}
-		},
-		{
-			"file": "2-modules/_cards.scss",
-			"settings":
-			{
-				"buffer_size": 2202,
-				"line_ending": "Windows",
-				"name": ".cards {"
-			}
-		},
-		{
-			"file": "2-modules/_topnav.scss",
-			"settings":
-			{
-				"buffer_size": 6070,
-				"line_ending": "Windows",
-				"name": ".centered-navigation {"
 			}
 		},
 		{
@@ -238,10 +170,36 @@
 			}
 		},
 		{
+			"file": "2-modules/modules-dir.sass",
+			"settings":
+			{
+				"buffer_size": 172,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2-modules/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 2497,
+				"line_ending": "Windows",
+				"name": "// Uncomment this for a sticky footer."
+			}
+		},
+		{
+			"file": "2-modules/_topnav.scss",
+			"settings":
+			{
+				"buffer_size": 6070,
+				"line_ending": "Windows",
+				"name": ".centered-navigation {"
+			}
+		},
+		{
 			"file": "3-layouts/home.scss",
 			"settings":
 			{
-				"buffer_size": 1422,
+				"buffer_size": 2819,
 				"line_ending": "Windows"
 			}
 		},
@@ -249,57 +207,15 @@
 			"file": "2-modules/_hero.scss",
 			"settings":
 			{
-				"buffer_size": 1518,
+				"buffer_size": 1581,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/chessboard.js",
+			"file": "2-modules/_cards.scss",
 			"settings":
 			{
-				"buffer_size": 427,
-				"line_ending": "Windows",
-				"name": "// Your code here."
-			}
-		},
-		{
-			"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/countChar.js",
-			"settings":
-			{
-				"buffer_size": 3278,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/recursion.js",
-			"settings":
-			{
-				"buffer_size": 1216,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/basics_arrays.js",
-			"settings":
-			{
-				"buffer_size": 744,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Mike/Desktop/webdev-projects/fizzbuzz.css",
-			"settings":
-			{
-				"buffer_size": 181,
-				"line_ending": "Windows",
-				"name": "body {"
-			}
-		},
-		{
-			"file": "/C/Users/Mike/Desktop/webdev-projects/fizzbuzz.html",
-			"settings":
-			{
-				"buffer_size": 370,
+				"buffer_size": 2493,
 				"line_ending": "Windows"
 			}
 		},
@@ -315,16 +231,57 @@
 			"file": "2-modules/_tablesaw.stackonly.scss",
 			"settings":
 			{
-				"buffer_size": 7660,
-				"line_ending": "Unix"
+				"buffer_size": 7939,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 1290,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2-modules/_tabs.scss",
+			"settings":
+			{
+				"buffer_size": 1756,
+				"line_ending": "Windows",
+				"name": ".accordion-tabs-minimal {"
 			}
 		},
 		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9689,
+				"buffer_size": 16219,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "0-plugins/base/_forms.scss",
+			"settings":
+			{
+				"buffer_size": 1483,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "0-plugins/base/_base.scss",
+			"settings":
+			{
+				"buffer_size": 319,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_form.html",
+			"settings":
+			{
+				"buffer_size": 4641,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -380,7 +337,6 @@
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins/base",
-		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/0-plugins/neat/grid",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/1-base",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/2-modules",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/css",
@@ -388,11 +344,19 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/js/tabs.js",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/2-modules/_cards.scss",
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/2-modules/_simple-tables.scss",
+		"/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/chessboard.js",
+		"/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/countChar.js",
+		"/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/recursion.js",
+		"/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/basics_arrays.js",
+		"/C/Users/Mike/Desktop/webdev-projects/fizzbuzz.css",
+		"/C/Users/Mike/Desktop/webdev-projects/fizzbuzz.html",
 		"/C/Users/Mike/AppData/Roaming/Sublime Text 3/Packages/User/node.sublime-build",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/js/_topnav.js",
 		"/C/Users/Mike/Desktop/TULIP/tulip-product-list-by-model-and-memory.csv",
 		"/C/Users/Mike/Desktop/TULIP/tulip-product-list-by-model-and-memory-2.csv",
-		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/2-modules/_simple-tables.scss",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/css/app.css",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/js/tablesaw.stackonly.js",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/css/tablesaw.stackonly.css",
@@ -507,15 +471,7 @@
 		"/C/Users/Mike/Desktop/Websites/Udema webdev learning Exercise DB/index.html",
 		"/C/Users/Mike/Documents/CODING/EXCEL/WORKOUT SERIES",
 		"/C/Users/Mike/Desktop/Web dev projects/3-7-2015 drag and drop/index2 droppable.html",
-		"/C/Users/Mike/Desktop/Web dev projects/3-7-2015 drag and drop/index2.html",
-		"/C/Users/Mike/Desktop/Web dev projects/3-7-2015 drag and drop/index.html",
-		"/C/Users/Mike/Desktop/Web dev projects/assets/css/foundation.css",
-		"/C/Users/Mike/Documents/birthday card for Melissa 2015.html",
-		"/C/Users/Mike/Desktop/Websites/Tulip 5-10-2015 sassparilla/assets/demo/demo.css",
-		"/C/Users/Mike/Desktop/Websites/Tulip 5-10-2015 sassparilla/assets/demo/demo.min.css",
-		"/C/Users/Mike/Desktop/Websites/Tulip 5-10-2015 sassparilla/templates/includes/demo/header.liquid",
-		"/C/Users/Mike/Desktop/Web dev projects/templates/index.liquid",
-		"/C/Users/Mike/Desktop/Web dev projects/templates/layouts/layout.liquid"
+		"/C/Users/Mike/Desktop/Web dev projects/3-7-2015 drag and drop/index2.html"
 	],
 	"find":
 	{
@@ -544,6 +500,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<row>",
+			".row",
+			">\n",
+			"100px",
+			".flip",
+			"flip",
+			"border",
+			"table",
+			"white",
+			"first-",
+			"hidden",
+			"this",
+			"});",
+			"is-active",
+			"is-open",
+			"row",
+			"477DCA",
+			"base-border-color",
 			"color",
 			" color:",
 			"333",
@@ -653,25 +627,7 @@
 			"close-reveal-modal",
 			"0,0,0,",
 			"email-id",
-			"message",
-			"form",
-			"bg-hover",
-			"$topbar-link-bg-hover",
-			"primary-color",
-			"padding",
-			"border",
-			".name",
-			"font-family",
-			"lato",
-			"icon-large",
-			"icon",
-			"triangle",
-			">\n",
-			"lato",
-			"logo",
-			"mc-embedded",
-			"submitForm",
-			"text-center"
+			"message"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -679,6 +635,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<div class=\"row\">",
+			"15%",
+			"hidden",
+			"tr",
 			"#77cf22",
 			" MB",
 			" KB",
@@ -802,11 +762,7 @@
 			"color36",
 			"color35",
 			"color34",
-			"color33",
-			"color32",
-			"color31",
-			"color30",
-			"color29"
+			"color33"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -817,7 +773,7 @@
 	"groups":
 	[
 		{
-			"selected": 29,
+			"selected": 21,
 			"sheets":
 			[
 				{
@@ -847,7 +803,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
@@ -877,7 +833,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
@@ -907,7 +863,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
@@ -923,8 +879,8 @@
 						"selection":
 						[
 							[
-								627,
-								627
+								389,
+								389
 							]
 						],
 						"settings":
@@ -932,11 +888,11 @@
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
-						"translation.x": -0.0,
-						"translation.y": 462.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -967,74 +923,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "js/tabs.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 704,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								699,
-								699
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 22,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1227,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17,
-								17
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "0-plugins/plugins-dir.sass",
 					"semi_transient": false,
 					"settings":
@@ -1059,11 +952,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 6,
 					"file": "css/.sassbuilder-config.json",
 					"semi_transient": false,
 					"settings":
@@ -1088,11 +981,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 7,
 					"file": "1-base/base-dir.sass",
 					"semi_transient": false,
 					"settings":
@@ -1117,71 +1010,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "2-modules/modules-dir.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 172,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								84,
-								84
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "2-modules/_simple-tables.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5898,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 3828.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
+					"buffer": 8,
 					"file": "3-layouts/layouts-dir.sass",
 					"semi_transient": false,
 					"settings":
@@ -1206,43 +1039,100 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "2-modules/_tabs.scss",
+					"buffer": 9,
+					"file": "tulip-product-list-by-model-and-memory-3.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1714,
+						"buffer_size": 2231,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								423,
-								423
+								2220,
+								8
 							]
 						],
 						"settings":
 						{
-							"auto_name": ".accordion-tabs-minimal {",
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 10,
+					"file": "/C/Users/Mike/Desktop/TULIP/tulip-product-list-by-model-and-memory-2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								327
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "2-modules/modules-dir.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
 					"file": "2-modules/_footer.scss",
 					"semi_transient": false,
 					"settings":
@@ -1270,43 +1160,11 @@
 						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
-					"file": "2-modules/_cards.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2202,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								585,
-								585
-							]
-						],
-						"settings":
-						{
-							"auto_name": ".cards {",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
+					"buffer": 13,
 					"file": "2-modules/_topnav.scss",
 					"semi_transient": false,
 					"settings":
@@ -1334,112 +1192,55 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
-					"file": "tulip-product-list-by-model-and-memory-3.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2231,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2220,
-								8
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "/C/Users/Mike/Desktop/TULIP/tulip-product-list-by-model-and-memory-2.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3643,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								327,
-								327
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
+					"buffer": 14,
 					"file": "3-layouts/home.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1422,
+						"buffer_size": 2819,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								845,
-								794
+								2819,
+								2819
 							]
 						],
 						"settings":
 						{
 							"auto_name": "",
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 811.0,
+						"translation.y": 2930.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 15,
 					"file": "2-modules/_hero.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1518,
+						"buffer_size": 1581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								689,
-								689
+								1414,
+								1414
 							]
 						],
 						"settings":
@@ -1450,191 +1251,45 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 264.0,
+						"translation.y": 660.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
-					"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/chessboard.js",
+					"buffer": 16,
+					"file": "2-modules/_cards.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 427,
+						"buffer_size": 2493,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								427,
-								427
-							]
-						],
-						"settings":
-						{
-							"auto_name": "// Your code here.",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/countChar.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3278,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3275,
-								3275
+								2126,
+								2126
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1152.0,
+						"translation.y": 990.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
-					"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/recursion.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1216,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								559,
-								559
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "/C/Users/Mike/Desktop/webdev-projects/eloquentJavascript/basics_arrays.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 744,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								743,
-								743
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "/C/Users/Mike/Desktop/webdev-projects/fizzbuzz.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 181,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								181,
-								181
-							]
-						],
-						"settings":
-						{
-							"auto_name": "body {",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 26,
-					"file": "/C/Users/Mike/Desktop/webdev-projects/fizzbuzz.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 370,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								318,
-								318
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 27,
+					"buffer": 17,
 					"file": "2-modules/_tables.scss",
 					"semi_transient": false,
 					"settings":
@@ -1661,24 +1316,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 18,
 					"file": "2-modules/_tablesaw.stackonly.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7660,
+						"buffer_size": 7939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6045,
-								6115
+								1197,
+								1197
 							]
 						],
 						"settings":
@@ -1689,27 +1344,91 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2340.0,
+						"translation.y": 779.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
-					"file": "index.html",
+					"buffer": 19,
+					"file": "js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9689,
+						"buffer_size": 1290,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1452,
-								1452
+								805,
+								805
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "2-modules/_tabs.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1590,
+								1590
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".accordion-tabs-minimal {",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 924.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11384,
+								11384
 							]
 						],
 						"settings":
@@ -1720,14 +1439,105 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 356.0,
+						"translation.y": 4646.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 22,
+					"file": "0-plugins/base/_forms.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "0-plugins/base/_base.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "_form.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2610,
+								2259
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 712.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
 					"file": "css/app.sass",
 					"semi_transient": false,
 					"settings":
