@@ -100,7 +100,7 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 	    display: block;
 	    padding: .75em;
 	    text-decoration: none;
-	    width: 25%;
+	    max-width: 20em;
 	    text-align: center;
 	    margin: 2.5em auto;
 	}
@@ -176,6 +176,7 @@ form fieldset p label {
 form fieldset input {
 	color: white;
 	font-weight: 400;
+	width: 100%;
 	border-top: none;
 	border-right: none;
 	border-left: 1px solid change-color(#77cf22, $alpha: 0.5);

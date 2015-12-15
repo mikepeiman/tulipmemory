@@ -272,7 +272,8 @@ background-size: cover; */
     color: black;
     display: block;
     padding: 0.75em 1.618em;
-    text-decoration: none; }
+    text-decoration: none;
+    min-width: 10em; }
     @media screen and (min-width: 600px) {
       .accordion-tabs-minimal a.tab-link {
         display: inline-block;
@@ -635,38 +636,6 @@ background-size: cover; */
   .card:active {
     border: 5px solid #77c2ff; }
 
-.table-minimal {
-  border-collapse: separate;
-  border-spacing: 0;
-  width: 100%; }
-  .table-minimal thead th {
-    background-color: #77cf22;
-    border-bottom: 0px;
-    padding: 0.75em 1em;
-    text-align: left; }
-  .table-minimal tbody {
-    background-color: none; }
-    .table-minimal tbody th {
-      background-color: #77cf22;
-      font-weight: 400; }
-    .table-minimal tbody td {
-      line-height: 1.5;
-      padding: 0.75em 1em;
-      border-bottom: 0px; }
-      .table-minimal tbody td button {
-        display: inline-block;
-        font-size: .7em;
-        line-height: 1.5;
-        margin-bottom: .3em;
-        margin-right: 0.5em;
-        outline: none;
-        padding: .3em 1em;
-        width: 100%;
-        /*  @include media($medium-screen) {
-            margin-bottom: 0;
-            width: auto;
-          } */ }
-
 /*! Tablesaw - v2.0.2 - 2015-10-28
 * https://github.com/filamentgroup/tablesaw
 * Copyright (c) 2015 Filament Group; Licensed  */
@@ -1015,7 +984,7 @@ float: left; */ }
     display: block;
     padding: .75em;
     text-decoration: none;
-    width: 25%;
+    max-width: 20em;
     text-align: center;
     margin: 2.5em auto; }
   .table-title a:hover {
@@ -1087,6 +1056,7 @@ form fieldset p label {
 form fieldset input {
   color: white;
   font-weight: 400;
+  width: 100%;
   border-top: none;
   border-right: none;
   border-left: 1px solid rgba(119, 207, 34, 0.5);

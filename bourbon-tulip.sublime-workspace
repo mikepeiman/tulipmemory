@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"min",
+				"min-width"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
 				"text",
-				"text-align"
+				"textarea	Tag"
+			],
+			[
+				"opt",
+				"option	Tag"
 			],
 			[
 				"pad",
 				"padding-bottom"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"padding-",
@@ -50,10 +62,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"border",
-				"border-radius"
 			],
 			[
 				"background",
@@ -108,7 +116,7 @@
 			"file": "0-plugins/base/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 919,
+				"buffer_size": 931,
 				"line_ending": "Unix"
 			}
 		},
@@ -173,7 +181,7 @@
 			"file": "2-modules/modules-dir.sass",
 			"settings":
 			{
-				"buffer_size": 172,
+				"buffer_size": 174,
 				"line_ending": "Windows"
 			}
 		},
@@ -193,14 +201,6 @@
 				"buffer_size": 6070,
 				"line_ending": "Windows",
 				"name": ".centered-navigation {"
-			}
-		},
-		{
-			"file": "3-layouts/home.scss",
-			"settings":
-			{
-				"buffer_size": 2819,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -247,7 +247,7 @@
 			"file": "2-modules/_tabs.scss",
 			"settings":
 			{
-				"buffer_size": 1756,
+				"buffer_size": 1777,
 				"line_ending": "Windows",
 				"name": ".accordion-tabs-minimal {"
 			}
@@ -256,24 +256,27 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 16219,
+				"buffer_size": 15142,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "0-plugins/base/_forms.scss",
+			"file": "form-variations.html",
 			"settings":
 			{
-				"buffer_size": 1483,
-				"line_ending": "Unix"
+				"buffer_size": 2108,
+				"line_ending": "Windows",
+				"name": "<!-- new form to Tulip website, form structure var"
 			}
 		},
 		{
-			"file": "0-plugins/base/_base.scss",
+			"contents": "Searching 523 files for \"input {\"\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\form-variations.html:\n   56  form fieldset label {}\n   57  form fieldset span {}\n   58: form fieldset input {}\n   59  form fieldset input[type=radio] {}\n   60  form fieldset input[type=checkbox] {}\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\3-layouts\\home.scss:\n  159  form fieldset label {}\n  160  form fieldset span {}\n  161: form fieldset input {}\n  162  form fieldset input[type=radio] {}\n  163  form fieldset input[type=checkbox] {}\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\app.css:\n 1069  form fieldset label {}\n 1070  form fieldset span {}\n 1071: form fieldset input {}\n 1072  form fieldset input[type=radio] {}\n 1073  form fieldset input[type=checkbox] {}\n\n3 matches across 3 files\n\n\nSearching 523 files for \"77CFFF\"\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\0-plugins\\base\\_variables.scss:\n   31  \n   32  // Background Colors\n   33: $base-background-color:	#77cfff !default;\n   34  $secondary-background-color: tint($base-border-color, 75%);\n   35  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\app.css:\n   53  input[type=\"color\"], input[type=\"date\"], input[type=\"datetime\"], input[type=\"datetime-local\"], input[type=\"email\"], input[type=\"month\"], input[type=\"number\"], input[type=\"password\"], input[type=\"search\"], input[type=\"tel\"], input[type=\"text\"], input[type=\"time\"], input[type=\"url\"], input[type=\"week\"], input:not([type]), textarea,\n   54  select[multiple=multiple] {\n   55:   background-color: #77cfff;\n   56    border-radius: 3px;\n   57    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\_pgbackup\\app_1448384387.css:\n   51  input[type=\"color\"], input[type=\"date\"], input[type=\"datetime\"], input[type=\"datetime-local\"], input[type=\"email\"], input[type=\"month\"], input[type=\"number\"], input[type=\"password\"], input[type=\"search\"], input[type=\"tel\"], input[type=\"text\"], input[type=\"time\"], input[type=\"url\"], input[type=\"week\"], input:not([type]), textarea,\n   52  select[multiple=multiple] {\n   53:   background-color: #77cfff;\n   54    border: 1px solid #ddd;\n   55    border-radius: 3px;\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\_pgbackup\\app_1448468078.css:\n   51  input[type=\"color\"], input[type=\"date\"], input[type=\"datetime\"], input[type=\"datetime-local\"], input[type=\"email\"], input[type=\"month\"], input[type=\"number\"], input[type=\"password\"], input[type=\"search\"], input[type=\"tel\"], input[type=\"text\"], input[type=\"time\"], input[type=\"url\"], input[type=\"week\"], input:not([type]), textarea,\n   52  select[multiple=multiple] {\n   53:   background-color: #77cfff;\n   54    border: 1px solid #ddd;\n   55    border-radius: 3px;\n\n4 matches across 4 files\n\n\nSearching 523 files for \"section\"\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\index-backup-11-24-2015.html:\n  514          </div>         \n  515          <!--<div class=\"wrapper-for-content-outside-of-footer\">\n  516:    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer\n  517  </div>-->         \n  518          <footer class=\"footer-2\" role=\"contentinfo\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\index-backup-11-26-2015 list 2.html:\n  128          </div>         \n  129          <!--<div class=\"wrapper-for-content-outside-of-footer\">\n  130:    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer\n  131  </div>-->         \n  132          <footer class=\"footer-2\" role=\"contentinfo\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\index-backup-cards-11-25-2015.html:\n  304          </div>         \n  305          <!--<div class=\"wrapper-for-content-outside-of-footer\">\n  306:    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer\n  307  </div>-->         \n  308          <footer class=\"footer-2\" role=\"contentinfo\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\index-backup-newlist-10-25-2015.html:\n  128          </div>         \n  129          <!--<div class=\"wrapper-for-content-outside-of-footer\">\n  130:    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer\n  131  </div>-->         \n  132          <footer class=\"footer-2\" role=\"contentinfo\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\index-backup-oldlist-10-25-2015.html:\n  461          </div>         \n  462          <!--<div class=\"wrapper-for-content-outside-of-footer\">\n  463:    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer\n  464  </div>-->         \n  465          <footer class=\"footer-2\" role=\"contentinfo\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\index-product-tables.html:\n  327          </div>         \n  328          <!--<div class=\"wrapper-for-content-outside-of-footer\">\n  329:    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer\n  330  </div>-->         \n  331          <footer class=\"footer-2\" role=\"contentinfo\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\index.html:\n  185              </li>\n  186          </ul>\n  187: <section></section>\n  188: <section>\n  189        <h2>Contact Us</h2>\n  190   \n  ...\n  242  </fieldset>\n  243  </form>\n  244: </section>\n  245       \n  246          <footer class=\"footer-2\" role=\"contentinfo\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\2-modules\\_simple-tables.scss:\n  131  }\n  132  \n  133: /*  Adds border-top between two table-body sections. */\n  134  .table tbody + tbody,\n  135  %table tbody + tbody {\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\3-layouts\\home.scss:\n   19  }\n   20  \n   21: section {\n   22    @include outer-container;\n   23  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\_pgbackup\\index_1448384387.html:\n  488  \n  489  <!--<div class=\"wrapper-for-content-outside-of-footer\">\n  490:    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer\n  491  </div>-->\n  492  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\_pgbackup\\index_1448384524.html:\n  514          </div>         \n  515          <!--<div class=\"wrapper-for-content-outside-of-footer\">\n  516:    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer\n  517  </div>-->         \n  518          <footer class=\"footer-2\" role=\"contentinfo\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\_pgbackup\\index_1448468078.html:\n  304          </div>         \n  305          <!--<div class=\"wrapper-for-content-outside-of-footer\">\n  306:    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer\n  307  </div>-->         \n  308          <footer class=\"footer-2\" role=\"contentinfo\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\_pgbackup\\index_1448468370.html:\n  456          </div>         \n  457          <!--<div class=\"wrapper-for-content-outside-of-footer\">\n  458:    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer\n  459  </div>-->         \n  460          <footer class=\"footer-2\" role=\"contentinfo\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\_pgbackup\\index_1448468462.html:\n  456          </div>         \n  457          <!--<div class=\"wrapper-for-content-outside-of-footer\">\n  458:    Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer\n  459  </div>-->         \n  460          <footer class=\"footer-2\" role=\"contentinfo\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\app.css:\n  776    font-family: 'Neuton'; }\n  777  \n  778: section {\n  779    max-width: 68em;\n  780    margin-left: auto;\n  781    margin-right: auto; }\n  782:   section::after {\n  783      clear: both;\n  784      content: \"\";\n  785      display: table; }\n  786:   section h2 {\n  787      color: white;\n  788      line-height: 1.4em;\n  ...\n  791      font-size: 1.75em;\n  792      text-align: center; }\n  793:   section p {\n  794      color: #efefef;\n  795      line-height: 1.4em;\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\_pgbackup\\app_1448384387.css:\n  718    font-family: 'Neuton'; }\n  719  \n  720: section {\n  721    max-width: 68em;\n  722    margin-left: auto;\n  723    margin-right: auto; }\n  724:   section::after {\n  725      clear: both;\n  726      content: \"\";\n  727      display: table; }\n  728:   section aside {\n  729      float: left;\n  730      display: block;\n  731      margin-right: 2.35765%;\n  732      width: 23.23176%; }\n  733:     section aside:last-child {\n  734        margin-right: 0; }\n  735:   section article {\n  736      float: left;\n  737      display: block;\n  738      margin-right: 2.35765%;\n  739      width: 74.41059%; }\n  740:     section article:last-child {\n  741        margin-right: 0; }\n  742  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\_pgbackup\\app_1448468078.css:\n  788    border-top: 0; }\n  789  \n  790: /*  Adds border-top between two table-body sections. */\n  791  .table tbody + tbody {\n  792    border-top: 0.14286em solid #b8b8b8; }\n  ...\n  925    font-family: 'Neuton'; }\n  926  \n  927: section {\n  928    max-width: 68em;\n  929    margin-left: auto;\n  930    margin-right: auto; }\n  931:   section::after {\n  932      clear: both;\n  933      content: \"\";\n  934      display: table; }\n  935:   section aside {\n  936      float: left;\n  937      display: block;\n  938      margin-right: 2.35765%;\n  939      width: 23.23176%; }\n  940:     section aside:last-child {\n  941        margin-right: 0; }\n  942:   section article {\n  943      float: left;\n  944      display: block;\n  945      margin-right: 2.35765%;\n  946      width: 74.41059%; }\n  947:     section article:last-child {\n  948        margin-right: 0; }\n  949  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\js\\jquery-1.11.3.js:\n 1223  			// Nothing should be selected when empty strings follow ^= or $= or *=\n 1224  			// The test attribute must be unknown in Opera but \"safe\" for WinRT\n 1225: 			// http://msdn.microsoft.com/en-us/library/ie/hh465388.aspx#attribute_section\n 1226  			if ( div.querySelectorAll(\"[msallowcapture^='']\").length ) {\n 1227  				rbuggyQSA.push( \"[*^$]=\" + whitespace + \"*(?:''|\\\"\\\")\" );\n ....\n 5314  \n 5315  var nodeNames = \"abbr|article|aside|audio|bdi|canvas|data|datalist|details|figcaption|figure|footer|\" +\n 5316: 		\"header|hgroup|mark|meter|nav|output|progress|section|summary|time|video\",\n 5317  	rinlinejQuery = / jQuery\\d+=\"(?:null|\\d+)\"/g,\n 5318  	rnoshimcache = new RegExp(\"<(?:\" + nodeNames + \")[\\\\s/>]\", \"i\"),\n\nC:\\Users\\Mike\\Downloads\\jquery-2.1.4.js:\n 1185  			// Nothing should be selected when empty strings follow ^= or $= or *=\n 1186  			// The test attribute must be unknown in Opera but \"safe\" for WinRT\n 1187: 			// http://msdn.microsoft.com/en-us/library/ie/hh465388.aspx#attribute_section\n 1188  			if ( div.querySelectorAll(\"[msallowcapture^='']\").length ) {\n 1189  				rbuggyQSA.push( \"[*^$]=\" + whitespace + \"*(?:''|\\\"\\\")\" );\n\n37 matches across 19 files\n\n\nSearching 523 files for \".flip\"\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\2-modules\\_tabs.scss:\n   74    }\n   75  }\n   76: .flip {\n   77    margin-bottom: 3em;\n   78  }\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\app.css:\n  300          float: left; } }\n  301  \n  302: .flip {\n  303    margin-bottom: 3em; }\n  304  \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\js\\app.js:\n   21  \n   22    $(document).ready(function() {\n   23:     $(\".flip\").click(function() {\n   24        $(\".tab-content\").slideToggle(\"slow\");\n   25      });\n\n3 matches across 3 files\n\n\nSearching 523 files for \"tab-link\"\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\index-backup-11-24-2015.html:\n   88              <ul class=\"accordion-tabs-minimal\"> \n   89                  <li class=\"tab-header-and-content\"> \n   90:                     <a href=\"#\" class=\"tab-link is-active\">Fanuc</a> \n   91                      <div class=\"tab-content\"> \n   92                          <table class=\"table-minimal\"> \n   ..\n  340                  </li>                 \n  341                  <li class=\"tab-header-and-content\"> \n  342:                     <a href=\"#\" class=\"tab-link\">Mitsubishi</a> \n  343                      <div class=\"tab-content\"> \n  344                          <table class=\"table-minimal\"> \n  ...\n  393                  </li>                 \n  394                  <li class=\"tab-header-and-content\"> \n  395:                     <a href=\"#\" class=\"tab-link\">Yasnac</a> \n  396                      <div class=\"tab-content\"> \n  397                          <table class=\"table-minimal\"> \n  ...\n  500                  </li>                 \n  501                  <li class=\"tab-header-and-content\"> \n  502:                     <a href=\"#\" class=\"tab-link\">Other Controls</a> \n  503                      <div class=\"tab-content\"> \n  504                          <div class=\"hero-2\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\index-backup-cards-11-25-2015.html:\n   88              <ul class=\"accordion-tabs-minimal\"> \n   89                  <li class=\"tab-header-and-content\"> \n   90:                     <a href=\"#\" class=\"tab-link is-active\">Fanuc</a> \n   91                      <div class=\"tab-content\"> \n   92                          <div class=\"cards\"> \n   ..\n  208                  </li>                 \n  209                  <li class=\"tab-header-and-content\"> \n  210:                     <a href=\"#\" class=\"tab-link\">Mitsubishi</a> \n  211                      <div class=\"tab-content\"> \n  212                          <div class=\"cards\"> \n  ...\n  243                  </li>                 \n  244                  <li class=\"tab-header-and-content\"> \n  245:                     <a href=\"#\" class=\"tab-link\">Yasnac</a> \n  246                      <div class=\"tab-content\"> \n  247                          <div class=\"cards\"> \n  ...\n  290                  </li>                 \n  291                  <li class=\"tab-header-and-content\"> \n  292:                     <a href=\"#\" class=\"tab-link\">Other Controls</a> \n  293                      <div class=\"tab-content\"> \n  294                          <div class=\"hero-2\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\index-product-tables.html:\n   88              <ul class=\"accordion-tabs-minimal\"> \n   89                  <li class=\"tab-header-and-content\"> \n   90:                     <a href=\"#\" class=\"tab-link is-active\">Fanuc</a> \n   91                      <div class=\"tab-content\"> \n   92                          <table class=\"table-minimal\"> \n   ..\n  225                  </li>                 \n  226                  <li class=\"tab-header-and-content\"> \n  227:                     <a href=\"#\" class=\"tab-link\">Mitsubishi</a> \n  228                      <div class=\"tab-content\"> \n  229                          <table class=\"table-minimal\"> \n  ...\n  248                  </li>                 \n  249                  <li class=\"tab-header-and-content\"> \n  250:                     <a href=\"#\" class=\"tab-link\">Yasnac</a> \n  251                      <div class=\"tab-content\"> \n  252                          <table class=\"table-minimal\"> \n  ...\n  313                  </li>                 \n  314                  <li class=\"tab-header-and-content\"> \n  315:                     <a href=\"#\" class=\"tab-link\">Other Controls</a> \n  316                      <div class=\"tab-content\"> \n  317                          <div class=\"hero-2\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\index.html:\n  137                </div>\n  138              </div>\n  139:              <p><a href=\"#tulip-table\" class=\"tab-link is-active flip\">See full list of upgrades by model</a></p>\n  140          </div>      \n  141          <ul class=\"accordion-tabs-minimal\">\n  ...\n  180                              </tbody>\n  181                          </table>\n  182:                         <a href=\"#tulip-table\" class=\"tab-link is-active flip\">Close list</a>\n  183                      </div>\n  184                  </div>\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\2-modules\\_tabs.scss:\n    9    $dark-gray: #333 !default;\n   10    $medium-screen: em(640) !default;\n   11:   $tab-link-color: scale-color($base-background-color, $lightness: -100%);\n   12    $tab-border: 0px solid $base-border-color;\n   13    $tab-active-background: scale-color($base-background-color, $lightness: 50%);\n   ..\n   29    }\n   30  \n   31:   a.tab-link {\n   32      background-color: $tab-inactive-color;\n   33      border-top: $tab-border;\n   34:     color: $tab-link-color;\n   35      display: block;\n   36      padding: ($base-spacing / 2) $gutter;\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\_pgbackup\\index_1448384387.html:\n  254  		  <li class=\"tab-header-and-content\">\n  255  		  	\n  256: 		    <a href=\"#\" class=\"tab-link is-active\">Fanuc</a>\n  257  \n  258  		    <div class=\"tab-content\">\n  ...\n  392  		  </li>\n  393  		  <li class=\"tab-header-and-content\">\n  394: 		    <a href=\"#\" class=\"tab-link\">Mitsubishi</a>\n  395  		    <div class=\"tab-content\">\n  396  				<table class=\"table-minimal\">\n  ...\n  414  		  </li>\n  415  		  <li class=\"tab-header-and-content\">\n  416: 		    <a href=\"#\" class=\"tab-link\">Yasnac</a>\n  417  		    <div class=\"tab-content\">\n  418  				<table class=\"table-minimal\">\n  ...\n  472  		  </li>\n  473  		  <li class=\"tab-header-and-content\">\n  474: 		    <a href=\"#\" class=\"tab-link\">Other Controls</a>\n  475  		    <div class=\"tab-content\">\n  476  		      <div class=\"hero-2\">\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\_pgbackup\\index_1448384524.html:\n   88              <ul class=\"accordion-tabs-minimal\"> \n   89                  <li class=\"tab-header-and-content\"> \n   90:                     <a href=\"#\" class=\"tab-link is-active\">Fanuc</a> \n   91                      <div class=\"tab-content\"> \n   92                          <table class=\"table-minimal\"> \n   ..\n  340                  </li>                 \n  341                  <li class=\"tab-header-and-content\"> \n  342:                     <a href=\"#\" class=\"tab-link\">Mitsubishi</a> \n  343                      <div class=\"tab-content\"> \n  344                          <table class=\"table-minimal\"> \n  ...\n  393                  </li>                 \n  394                  <li class=\"tab-header-and-content\"> \n  395:                     <a href=\"#\" class=\"tab-link\">Yasnac</a> \n  396                      <div class=\"tab-content\"> \n  397                          <table class=\"table-minimal\"> \n  ...\n  500                  </li>                 \n  501                  <li class=\"tab-header-and-content\"> \n  502:                     <a href=\"#\" class=\"tab-link\">Other Controls</a> \n  503                      <div class=\"tab-content\"> \n  504                          <div class=\"hero-2\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\_pgbackup\\index_1448468078.html:\n   88              <ul class=\"accordion-tabs-minimal\"> \n   89                  <li class=\"tab-header-and-content\"> \n   90:                     <a href=\"#\" class=\"tab-link is-active\">Fanuc</a> \n   91                      <div class=\"tab-content\"> \n   92                          <div class=\"cards\"> \n   ..\n  208                  </li>                 \n  209                  <li class=\"tab-header-and-content\"> \n  210:                     <a href=\"#\" class=\"tab-link\">Mitsubishi</a> \n  211                      <div class=\"tab-content\"> \n  212                          <div class=\"cards\"> \n  ...\n  243                  </li>                 \n  244                  <li class=\"tab-header-and-content\"> \n  245:                     <a href=\"#\" class=\"tab-link\">Yasnac</a> \n  246                      <div class=\"tab-content\"> \n  247                          <div class=\"cards\"> \n  ...\n  290                  </li>                 \n  291                  <li class=\"tab-header-and-content\"> \n  292:                     <a href=\"#\" class=\"tab-link\">Other Controls</a> \n  293                      <div class=\"tab-content\"> \n  294                          <div class=\"hero-2\"> \n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\app.css:\n  267        .accordion-tabs-minimal li.tab-header-and-content {\n  268          display: inline; } }\n  269:   .accordion-tabs-minimal a.tab-link {\n  270      background-color: #2277cf;\n  271      border-top: 0px solid #8bcbff;\n  ...\n  275      text-decoration: none; }\n  276      @media screen and (min-width: 600px) {\n  277:       .accordion-tabs-minimal a.tab-link {\n  278          display: inline-block;\n  279          text-align: center;\n  280          border-top: 0; } }\n  281:     .accordion-tabs-minimal a.tab-link:hover {\n  282        color: white; }\n  283:     .accordion-tabs-minimal a.tab-link:focus {\n  284        outline: 0; }\n  285:     .accordion-tabs-minimal a.tab-link.is-active {\n  286        border-bottom: 0px;\n  287        background-color: #77cf22; }\n  288        @media screen and (min-width: 600px) {\n  289:         .accordion-tabs-minimal a.tab-link.is-active {\n  290            border: 0px solid #8bcbff;\n  291            border-bottom-color: #bbec8b;\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\_pgbackup\\app_1448384387.css:\n  295        .accordion-tabs-minimal li.tab-header-and-content {\n  296          display: inline; } }\n  297:   .accordion-tabs-minimal a.tab-link {\n  298      background-color: #2277cf;\n  299      border-top: 0px solid #85d4ff;\n  ...\n  303      text-decoration: none; }\n  304      @media screen and (min-width: 600px) {\n  305:       .accordion-tabs-minimal a.tab-link {\n  306          display: inline-block;\n  307          text-align: center;\n  308          border-top: 0; } }\n  309:     .accordion-tabs-minimal a.tab-link:hover {\n  310        color: white; }\n  311:     .accordion-tabs-minimal a.tab-link:focus {\n  312        outline: none; }\n  313:     .accordion-tabs-minimal a.tab-link.is-active {\n  314        border-bottom: 0;\n  315        background-color: #77cf22; }\n  316        @media screen and (min-width: 600px) {\n  317:         .accordion-tabs-minimal a.tab-link.is-active {\n  318            border: 0px solid #85d4ff;\n  319            border-bottom-color: #bbec8b;\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\_pgbackup\\app_1448468078.css:\n  295        .accordion-tabs-minimal li.tab-header-and-content {\n  296          display: inline; } }\n  297:   .accordion-tabs-minimal a.tab-link {\n  298      background-color: #2277cf;\n  299      border-top: 0px solid #6391d2;\n  ...\n  303      text-decoration: none; }\n  304      @media screen and (min-width: 600px) {\n  305:       .accordion-tabs-minimal a.tab-link {\n  306          display: inline-block;\n  307          text-align: center;\n  308          border-top: 0; } }\n  309:     .accordion-tabs-minimal a.tab-link:hover {\n  310        color: white; }\n  311:     .accordion-tabs-minimal a.tab-link:focus {\n  312        outline: none; }\n  313:     .accordion-tabs-minimal a.tab-link.is-active {\n  314        border-bottom: 0;\n  315        background-color: #77cf22; }\n  316        @media screen and (min-width: 600px) {\n  317:         .accordion-tabs-minimal a.tab-link.is-active {\n  318            border: 0px solid #6391d2;\n  319            border-bottom-color: #bbec8b;\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\js\\app.js:\n    5      $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();\n    6    });\n    7:   $('.accordion-tabs-minimal').on('click', 'li > a.tab-link', function(event) {\n    8      if (!$(this).hasClass('hidden')) {\n    9        event.preventDefault();\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\js\\tabs.js:\n    3      $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();\n    4    });\n    5:   $('.accordion-tabs-minimal').on('click', 'li > a.tab-link', function(event) {\n    6      if (!$(this).hasClass('is-active')) {\n    7        event.preventDefault();\n\n49 matches across 13 files\n\n\nSearching 523 files for \"table-title a\"\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\app.css:\n  978      color: #ccc;\n  979      font-size: 1em; }\n  980:   .table-title a {\n  981      background-color: rgba(0, 70, 128, 0.25);\n  982      border: 1px solid #77c2ff;\n  ...\n  988      text-align: center;\n  989      margin: 2.5em auto; }\n  990:   .table-title a:hover {\n  991      background-color: rgba(0, 98, 179, 0.75); }\n  992:   .table-title a:active {\n  993      background-color: rgba(0, 98, 179, 0.75); }\n  994:   .table-title a:focus {\n  995      background-color: rgba(0, 98, 179, 0.75); }\n  996    @media (min-width: 30em) {\n\n4 matches in 1 file\n\n\nSearching 523 files for \"table-title\"\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\index.html:\n   44          </div>\n   45  \n   46:         <div class=\"table-title\">\n   47              <h1>We currently offer memory upgrades for the following machine models:</h1>\n   48              <div class=\"cards\">\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\3-layouts\\home.scss:\n   59  $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);\n   60  \n   61: .table-title {\n   62  	background: change-color(#77c2ff, $lightness: 25%, $alpha: .5); // #123126; // #152025; // #252015; // #0B2C36;\n   63  	border-top: 5px solid #77c2ff;\n\nC:\\Users\\Mike\\Desktop\\webdev-projects\\bourbon-project-1\\css\\app.css:\n  948      display: table; }\n  949  \n  950: .table-title {\n  951    background: rgba(0, 70, 128, 0.5);\n  952    border-top: 5px solid #77c2ff;\n  ...\n  959    padding-left: 1.5em;\n  960    padding-right: 1.5em; }\n  961:   .table-title h1 {\n  962      margin-top: 2em;\n  963      font-size: 1.5em;\n  ...\n  965      font-family: 'Exo 2';\n  966      color: #77cf22; }\n  967:   .table-title h2, .table-title h3 {\n  968      font-size: 1.5em;\n  969      font-weight: 400;\n  970      padding-top: .5em;\n  971      padding-bottom: 0.6em; }\n  972:   .table-title h4, .table-title h5 {\n  973      font-size: 1.5em;\n  974      font-weight: 400;\n  975      padding-top: .25em;\n  976      padding-bottom: 0.3em; }\n  977:   .table-title p {\n  978      color: #ccc;\n  979      font-size: 1em; }\n  980:   .table-title a {\n  981      background-color: rgba(0, 70, 128, 0.25);\n  982      border: 1px solid #77c2ff;\n  ...\n  988      text-align: center;\n  989      margin: 2.5em auto; }\n  990:   .table-title a:hover {\n  991      background-color: rgba(0, 98, 179, 0.75); }\n  992:   .table-title a:active {\n  993      background-color: rgba(0, 98, 179, 0.75); }\n  994:   .table-title a:focus {\n  995      background-color: rgba(0, 98, 179, 0.75); }\n  996    @media (min-width: 30em) {\n  997:     .table-title {\n  998        margin-bottom: 5em; }\n  999:       .table-title h3 {\n 1000          font-size: 2.5em; } }\n 1001  \n\n15 matches across 3 files\n",
 			"settings":
 			{
-				"buffer_size": 319,
-				"line_ending": "Unix"
+				"buffer_size": 27591,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
 			}
 		},
 		{
@@ -281,6 +284,22 @@
 			"settings":
 			{
 				"buffer_size": 4641,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "0-plugins/base/_forms.scss",
+			"settings":
+			{
+				"buffer_size": 1502,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "3-layouts/home.scss",
+			"settings":
+			{
+				"buffer_size": 3899,
 				"line_ending": "Windows"
 			}
 		},
@@ -344,6 +363,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/css/app.sass",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/js/tabs.js",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/2-modules/_cards.scss",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/2-modules/_simple-tables.scss",
@@ -370,7 +390,6 @@
 		"/C/Users/Mike/Desktop/tulip product list.csv",
 		"/C/Users/Mike/Desktop/tulip-product-list.txt",
 		"/C/Users/Mike/Desktop/webdev-projects/f5-tulip/css/custom.css",
-		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/css/app.sass",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/css/.sassbuilder-config.json",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/main.sass",
 		"/C/Users/Mike/Desktop/webdev-projects/bourbon-project-1/3-layouts/layouts-dir.scss",
@@ -500,6 +519,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"table-title",
+			"table-title a",
+			"tab-link",
+			".flip",
+			"section",
+			"77CFFF",
+			"input {",
+			"   55    background-color: #77cfff;\n#77cfff",
+			"input",
+			"caution",
+			"email",
+			"businessName",
+			"lastName",
+			"businessURL",
+			"firstName",
 			"<row>",
 			".row",
 			">\n",
@@ -612,22 +646,7 @@
 			"meter)",
 			" or ",
 			" (",
-			" = (",
-			"Yas",
-			"Fan",
-			"primary-color",
-			"$topbar-dropdown-bg",
-			"topbar-media-query",
-			"toggle-topbar",
-			"topbar",
-			"border-bottom",
-			"coming soon",
-			"close-reveal-modal",
-			"reveal-close",
-			"close-reveal-modal",
-			"0,0,0,",
-			"email-id",
-			"message"
+			" = ("
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -635,6 +654,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"businessWebsite",
+			"phone",
+			"email",
+			"businessName",
+			"lastName",
 			"<div class=\"row\">",
 			"15%",
 			"hidden",
@@ -757,12 +781,7 @@
 			"warning",
 			"success",
 			"alert",
-			"<p><a href=\"http://tulipmemory.com/\" class=",
-			"",
-			"color36",
-			"color35",
-			"color34",
-			"color33"
+			"<p><a href=\"http://tulipmemory.com/\" class="
 		],
 		"reverse": false,
 		"show_context": true,
@@ -773,7 +792,7 @@
 	"groups":
 	[
 		{
-			"selected": 21,
+			"selected": 25,
 			"sheets":
 			[
 				{
@@ -803,7 +822,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
@@ -833,7 +852,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
@@ -863,7 +882,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
@@ -872,15 +891,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 919,
+						"buffer_size": 931,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								389,
-								389
+								622,
+								622
 							]
 						],
 						"settings":
@@ -889,10 +908,10 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 198.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -923,7 +942,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
@@ -952,7 +971,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
@@ -981,7 +1000,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
@@ -1010,7 +1029,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
@@ -1039,7 +1058,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
@@ -1069,7 +1088,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
@@ -1099,7 +1118,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
@@ -1108,15 +1127,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 172,
+						"buffer_size": 174,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								84,
-								84
+								102,
+								102
 							]
 						],
 						"settings":
@@ -1160,7 +1179,7 @@
 						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
@@ -1192,42 +1211,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
 					"buffer": 14,
-					"file": "3-layouts/home.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2819,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2819,
-								2819
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2930.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
 					"file": "2-modules/_hero.scss",
 					"semi_transient": false,
 					"settings":
@@ -1239,8 +1227,8 @@
 						"selection":
 						[
 							[
-								1414,
-								1414
+								1418,
+								1201
 							]
 						],
 						"settings":
@@ -1251,14 +1239,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 660.0,
+						"translation.y": 656.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 15,
 					"file": "2-modules/_cards.scss",
 					"semi_transient": false,
 					"settings":
@@ -1285,11 +1273,11 @@
 						"translation.y": 990.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 16,
 					"file": "2-modules/_tables.scss",
 					"semi_transient": false,
 					"settings":
@@ -1316,11 +1304,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 17,
 					"file": "2-modules/_tablesaw.stackonly.scss",
 					"semi_transient": false,
 					"settings":
@@ -1347,11 +1335,11 @@
 						"translation.y": 779.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 18,
 					"file": "js/app.js",
 					"semi_transient": false,
 					"settings":
@@ -1379,24 +1367,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 19,
 					"file": "2-modules/_tabs.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1756,
+						"buffer_size": 1777,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1590,
-								1590
+								1098,
+								1098
 							]
 						],
 						"settings":
@@ -1408,27 +1396,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 924.0,
+						"translation.y": 264.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 20,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16219,
+						"buffer_size": 15142,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11384,
-								11384
+								10579,
+								10579
 							]
 						],
 						"settings":
@@ -1439,38 +1427,540 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4646.0,
+						"translation.y": 2556.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
-					"file": "0-plugins/base/_forms.scss",
+					"buffer": 21,
+					"file": "form-variations.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1483,
+						"buffer_size": 2108,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1740,
+								1574
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<!-- new form to Tulip website, form structure var",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 924.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27591,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										193,
+										200
+									],
+									[
+										447,
+										454
+									],
+									[
+										693,
+										700
+									],
+									[
+										1007,
+										1013
+									],
+									[
+										1571,
+										1577
+									],
+									[
+										2159,
+										2165
+									],
+									[
+										2722,
+										2728
+									],
+									[
+										3074,
+										3081
+									],
+									[
+										3505,
+										3512
+									],
+									[
+										3935,
+										3942
+									],
+									[
+										4367,
+										4374
+									],
+									[
+										4799,
+										4806
+									],
+									[
+										5220,
+										5227
+									],
+									[
+										5547,
+										5554
+									],
+									[
+										5557,
+										5564
+									],
+									[
+										5574,
+										5581
+									],
+									[
+										5674,
+										5681
+									],
+									[
+										5912,
+										5919
+									],
+									[
+										6086,
+										6093
+									],
+									[
+										6331,
+										6338
+									],
+									[
+										6696,
+										6703
+									],
+									[
+										7123,
+										7130
+									],
+									[
+										7550,
+										7557
+									],
+									[
+										7977,
+										7984
+									],
+									[
+										8300,
+										8307
+									],
+									[
+										8404,
+										8411
+									],
+									[
+										8507,
+										8514
+									],
+									[
+										8654,
+										8661
+									],
+									[
+										8864,
+										8871
+									],
+									[
+										8968,
+										8975
+									],
+									[
+										9071,
+										9078
+									],
+									[
+										9215,
+										9222
+									],
+									[
+										9283,
+										9290
+									],
+									[
+										9429,
+										9436
+									],
+									[
+										9673,
+										9680
+									],
+									[
+										9819,
+										9826
+									],
+									[
+										9923,
+										9930
+									],
+									[
+										10026,
+										10033
+									],
+									[
+										10170,
+										10177
+									],
+									[
+										10238,
+										10245
+									],
+									[
+										10384,
+										10391
+									],
+									[
+										10770,
+										10777
+									],
+									[
+										11098,
+										11105
+									],
+									[
+										11535,
+										11542
+									],
+									[
+										11851,
+										11856
+									],
+									[
+										12014,
+										12019
+									],
+									[
+										12191,
+										12196
+									],
+									[
+										12597,
+										12605
+									],
+									[
+										12902,
+										12910
+									],
+									[
+										13202,
+										13210
+									],
+									[
+										13498,
+										13506
+									],
+									[
+										13890,
+										13898
+									],
+									[
+										14185,
+										14193
+									],
+									[
+										14475,
+										14483
+									],
+									[
+										14761,
+										14769
+									],
+									[
+										15144,
+										15152
+									],
+									[
+										15449,
+										15457
+									],
+									[
+										15749,
+										15757
+									],
+									[
+										16045,
+										16053
+									],
+									[
+										16358,
+										16366
+									],
+									[
+										16656,
+										16664
+									],
+									[
+										16928,
+										16936
+									],
+									[
+										17175,
+										17183
+									],
+									[
+										17291,
+										17299
+									],
+									[
+										17565,
+										17573
+									],
+									[
+										17744,
+										17752
+									],
+									[
+										17951,
+										17959
+									],
+									[
+										18154,
+										18162
+									],
+									[
+										18510,
+										18518
+									],
+									[
+										18815,
+										18823
+									],
+									[
+										19115,
+										19123
+									],
+									[
+										19411,
+										19419
+									],
+									[
+										19800,
+										19808
+									],
+									[
+										20095,
+										20103
+									],
+									[
+										20385,
+										20393
+									],
+									[
+										20671,
+										20679
+									],
+									[
+										21014,
+										21022
+									],
+									[
+										21236,
+										21244
+									],
+									[
+										21391,
+										21399
+									],
+									[
+										21474,
+										21482
+									],
+									[
+										21555,
+										21563
+									],
+									[
+										21744,
+										21752
+									],
+									[
+										22083,
+										22091
+									],
+									[
+										22305,
+										22313
+									],
+									[
+										22460,
+										22468
+									],
+									[
+										22543,
+										22551
+									],
+									[
+										22627,
+										22635
+									],
+									[
+										22814,
+										22822
+									],
+									[
+										23153,
+										23161
+									],
+									[
+										23375,
+										23383
+									],
+									[
+										23530,
+										23538
+									],
+									[
+										23613,
+										23621
+									],
+									[
+										23697,
+										23705
+									],
+									[
+										23884,
+										23892
+									],
+									[
+										24248,
+										24256
+									],
+									[
+										24613,
+										24621
+									],
+									[
+										24931,
+										24944
+									],
+									[
+										25118,
+										25131
+									],
+									[
+										25205,
+										25218
+									],
+									[
+										25293,
+										25306
+									],
+									[
+										25593,
+										25604
+									],
+									[
+										25919,
+										25930
+									],
+									[
+										26207,
+										26218
+									],
+									[
+										26384,
+										26395
+									],
+									[
+										26536,
+										26547
+									],
+									[
+										26553,
+										26564
+									],
+									[
+										26704,
+										26715
+									],
+									[
+										26721,
+										26732
+									],
+									[
+										26873,
+										26884
+									],
+									[
+										26952,
+										26963
+									],
+									[
+										27139,
+										27150
+									],
+									[
+										27226,
+										27237
+									],
+									[
+										27314,
+										27325
+									],
+									[
+										27439,
+										27450
+									],
+									[
+										27502,
+										27513
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								25429,
+								25429
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 7,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
-						"translation.x": -0.0,
-						"translation.y": 330.0,
+						"translation.x": 0.0,
+						"translation.y": 13354.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1478,35 +1968,6 @@
 				},
 				{
 					"buffer": 23,
-					"file": "0-plugins/base/_base.scss",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 319,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 24,
 					"file": "_form.html",
 					"semi_transient": false,
 					"settings":
@@ -1518,8 +1979,8 @@
 						"selection":
 						[
 							[
-								2610,
-								2259
+								2258,
+								2258
 							]
 						],
 						"settings":
@@ -1533,11 +1994,73 @@
 						"translation.y": 712.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "0-plugins/base/_forms.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								356,
+								356
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 25,
+					"file": "3-layouts/home.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2148,
+								2148
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1782.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
 					"file": "css/app.sass",
 					"semi_transient": false,
 					"settings":
