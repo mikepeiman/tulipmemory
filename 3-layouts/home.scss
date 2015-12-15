@@ -20,6 +20,23 @@ h3, h5 {
 
 section {
   @include outer-container;
+
+        h2 {
+        color: white; // scale-color($hero-color, $red: 40%, $green: 100%, $blue: 100%);
+        line-height: 1.4em;
+        margin: 0 auto 1.25em auto; 
+        font-weight: 400;
+        font-size: 1.75em;
+        text-align: center;
+    }
+          p {
+        color: #efefef; // scale-color($hero-color, $red: 40%, $green: 100%, $blue: 100%);
+        line-height: 1.4em;
+        margin: 0 auto 1.25em auto; 
+        font-weight: 300;
+        font-size: 1.25em;
+        text-align: center;
+    }
 }
 
 .center {
@@ -111,10 +128,18 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
   height: 1px; width: 1px; 
   margin: -1px; padding: 0; border: 0; 
 }
+/*
 
-.contact-form {
-	background: change-color(#77c2ff, $lightness: 25%, $alpha: .5); // #123126; // #152025; // #252015; // #0B2C36;
-	border: 5px solid #77c2ff;
+form fieldset {}
+form fieldset label {}
+form fieldset span {}
+form fieldset input {}
+form fieldset input[type=radio] {}
+form fieldset input[type=checkbox] {}
+*/
+form {
+	background: change-color(#77c2ff, $lightness: 25%, $alpha: .25); // #123126; // #152025; // #252015; // #0B2C36;
+	border: 5px solid #77cf22;
 	height: auto;
 	width: 100%;
 	margin-bottom: 1.25em;
@@ -122,29 +147,42 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 	color: white;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
+}
+
 	p.lead {
 		font-size: 1.25em;
 		text-align: center;
 		color: #77cf22;
 		width: 80%;
 	}
-	p.no-spam {
+	p.caution {
 		font-size: 1em;
 		text-align: center;
 		color: #ffcf22;
-		font-weight: 600;
-		width: 60%;
+		font-weight: 400;
 	}
+form fieldset h1, h2, h3, h4, h5, h6 {
+	text-align: left;
 }
-
-fieldset {
-	h1 {
-	font-size: 2.25em;
-	text-align: center;
-	}
-	h2 {
-	font-size: 1.5em;
-	text-align: center;
-	}
+form fieldset p {
+	display: block;
+	margin: auto;
+}
+form fieldset p label {
+	display: inline-block;
+	margin: auto;
+	color: change-color(#77cf22, $alpha: 0.75);
+}
+form fieldset input {
+	color: white;
+	font-weight: 400;
+	border-top: none;
+	border-right: none;
+	border-left: 1px solid change-color(#77cf22, $alpha: 0.5);
+	border-bottom: 1px solid change-color(#77cf22, $alpha: 0.5);
 
 }
+p input:nth-of-type(2n) {
+		margin-left: 2em;
+		border-top: 3px solid red;
+	}

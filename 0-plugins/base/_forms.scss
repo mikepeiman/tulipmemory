@@ -11,20 +11,21 @@ select {
   display: block;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  text-align: left;
 }
 
-label {
-  font-weight: 600;
-  margin-bottom: $small-spacing / 2;
+  span {
+  font-weight: 400;
+  margin-bottom: .85em;
 
   &.required::after {
     content: "*";
   }
-
-  abbr {
+  }
+  fieldset abbr {
     display: none;
   }
-}
+
 
 #{$all-text-inputs},
 select[multiple=multiple] {
