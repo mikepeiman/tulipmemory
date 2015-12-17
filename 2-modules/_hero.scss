@@ -35,13 +35,14 @@
     text-align: center;
 
     .hero-copy {
-      text-align: center;
-      
+
       h1 {
         color: $hero-color;
         font-size: 2.5em;
         margin-bottom: 0.5em;
         font-weight: 400;
+        text-align: center;
+      
 
         @include media($large-screen) {
           font-size: 5em;
@@ -55,6 +56,7 @@
         margin: 0 auto 1.25em auto; 
         font-weight: 400;
         font-size: 1.25em;
+        text-align: center;
 
         @include media($large-screen) {
           font-size: 2em;

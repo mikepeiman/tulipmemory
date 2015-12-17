@@ -45,7 +45,8 @@ span {
   font-weight: 400;
   margin-bottom: .85em; }
   span.required::after {
-    content: "*"; }
+    content: "*";
+    color: #ffcf22; }
 
 fieldset abbr {
   display: none; }
@@ -222,34 +223,34 @@ background-size: cover; */
       clear: both;
       content: "";
       display: table; }
-    .hero .hero-inner .hero-copy {
+    .hero .hero-inner .hero-copy h1 {
+      color: #ffCF22;
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+      font-weight: 400;
       text-align: center; }
-      .hero .hero-inner .hero-copy h1 {
-        color: #ffCF22;
-        font-size: 2.5em;
-        margin-bottom: 0.5em;
-        font-weight: 400; }
-        @media screen and (min-width: 900px) {
-          .hero .hero-inner .hero-copy h1 {
-            font-size: 5em;
-            max-width: 80;
-            margin-left: auto;
-            margin-right: auto; }
-            .hero .hero-inner .hero-copy h1::after {
-              clear: both;
-              content: "";
-              display: table; } }
-      .hero .hero-inner .hero-copy h2 {
-        color: white;
-        line-height: 1.4em;
-        margin: 0 auto 1.25em auto;
-        font-weight: 400;
-        font-size: 1.25em; }
-        @media screen and (min-width: 900px) {
-          .hero .hero-inner .hero-copy h2 {
-            font-size: 2em;
-            max-width: 60%;
-            margin: 0 auto 1.75em auto; } }
+      @media screen and (min-width: 900px) {
+        .hero .hero-inner .hero-copy h1 {
+          font-size: 5em;
+          max-width: 80;
+          margin-left: auto;
+          margin-right: auto; }
+          .hero .hero-inner .hero-copy h1::after {
+            clear: both;
+            content: "";
+            display: table; } }
+    .hero .hero-inner .hero-copy h2 {
+      color: white;
+      line-height: 1.4em;
+      margin: 0 auto 1.25em auto;
+      font-weight: 400;
+      font-size: 1.25em;
+      text-align: center; }
+      @media screen and (min-width: 900px) {
+        .hero .hero-inner .hero-copy h2 {
+          font-size: 2em;
+          max-width: 60%;
+          margin: 0 auto 1.75em auto; } }
 
 .accordion-tabs-minimal {
   /* @include span-columns(8);
@@ -1019,6 +1020,7 @@ form fieldset input[type=radio] {}
 form fieldset input[type=checkbox] {}
 */
 form {
+  font-family: 'Exo 2', sans-serif;
   background: rgba(0, 70, 128, 0.25);
   border: 5px solid #77cf22;
   height: auto;
@@ -1029,17 +1031,28 @@ form {
   padding-left: 1.5em;
   padding-right: 1.5em; }
 
+form h2 {
+  margin-top: 1.5em; }
+
 p.lead {
   font-size: 1.25em;
   text-align: center;
   color: #77cf22;
-  width: 80%; }
+  width: 90%; }
+  @media screen and (min-width: 40em) {
+    p.lead {
+      width: 80%; } }
+  @media screen and (min-width: 60em) {
+    p.lead {
+      width: 60%; } }
 
 p.caution {
   font-size: 1em;
   text-align: center;
-  color: #ffcf22;
-  font-weight: 400; }
+  color: rgba(128, 198, 255, 0.75);
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0; }
 
 form fieldset h1, h2, h3, h4, h5, h6 {
   text-align: left; }
@@ -1053,17 +1066,21 @@ form fieldset p label {
   margin: auto;
   color: rgba(119, 207, 34, 0.75); }
 
-form fieldset input {
+form fieldset p label span {
+  color: rgba(128, 198, 255, 0.75); }
+
+form fieldset p input {
   color: white;
   font-weight: 400;
-  width: 100%;
   border-top: none;
   border-right: none;
   border-left: 1px solid rgba(119, 207, 34, 0.5);
   border-bottom: 1px solid rgba(119, 207, 34, 0.5); }
 
-p input:nth-of-type(2n) {
-  margin-left: 2em;
-  border-top: 3px solid red; }
+form fieldset textarea {
+  color: white;
+  font-weight: 400;
+  width: 100%;
+  border: 1px solid rgba(119, 207, 34, 0.5); }
 
 /*# sourceMappingURL=app.css.map */

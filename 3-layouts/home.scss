@@ -138,6 +138,7 @@ form fieldset input[type=radio] {}
 form fieldset input[type=checkbox] {}
 */
 form {
+	font-family: 'Exo 2', sans-serif;
 	background: change-color(#77c2ff, $lightness: 25%, $alpha: .25); // #123126; // #152025; // #252015; // #0B2C36;
 	border: 5px solid #77cf22;
 	height: auto;
@@ -148,19 +149,26 @@ form {
 	padding-left: 1.5em;
 	padding-right: 1.5em;
 }
+form h2 {
+	margin-top: 1.5em;
+}
 
-	p.lead {
-		font-size: 1.25em;
-		text-align: center;
-		color: #77cf22;
-		width: 80%;
-	}
-	p.caution {
-		font-size: 1em;
-		text-align: center;
-		color: #ffcf22;
-		font-weight: 400;
-	}
+p.lead {
+	font-size: 1.25em;
+	text-align: center;
+	color: #77cf22;
+	width: 90%;
+	@media screen and (min-width: 40em) { width: 80%; }
+	@media screen and (min-width: 60em) { width: 60%; }
+}
+p.caution {
+	font-size: 1em;
+	text-align: center;
+	color: change-color(#77c2ff, $lightness: 75%, $alpha: 0.75);
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 0;
+}
 form fieldset h1, h2, h3, h4, h5, h6 {
 	text-align: left;
 }
@@ -173,17 +181,23 @@ form fieldset p label {
 	margin: auto;
 	color: change-color(#77cf22, $alpha: 0.75);
 }
-form fieldset input {
+form fieldset p label span {
+	color: change-color(#77c2ff, $lightness: 75%, $alpha: 0.75);
+}
+form fieldset p input {
 	color: white;
 	font-weight: 400;
-	width: 100%;
+	//width: 100%;
 	border-top: none;
 	border-right: none;
 	border-left: 1px solid change-color(#77cf22, $alpha: 0.5);
 	border-bottom: 1px solid change-color(#77cf22, $alpha: 0.5);
 
 }
-p input:nth-of-type(2n) {
-		margin-left: 2em;
-		border-top: 3px solid red;
-	}
+form fieldset textarea {
+	color: white;
+	font-weight: 400;
+	width: 100%;
+	border: 1px solid change-color(#77cf22, $alpha: 0.5);
+
+}
