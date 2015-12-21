@@ -43,13 +43,13 @@ select[multiple=multiple] {
   width: 100%;
 
   &:hover {
-    border-left: 1px solid change-color(#77cf22, $alpha: 0.5);
-    border-bottom: 1px solid change-color(#77cf22, $alpha: 0.5);
+    border-left: 1px solid change-color(#77c2ff, $alpha: 0.75);
+    border-bottom: 1px solid change-color(#77c2ff, $alpha: 0.75);
   }
 
   &:focus {
-    border-left: 1px solid change-color(#77cf22, $alpha: 1);
-    border-bottom: 1px solid change-color(#77cf22, $alpha: 1);
+    border-left: 1px solid change-color(#77c2ff, $alpha: 1);
+    border-bottom: 1px solid change-color(#77c2ff, $alpha: 1);
     box-shadow: $form-box-shadow-focus;
     outline: none;
   }
@@ -66,6 +66,17 @@ select[multiple=multiple] {
 
 textarea {
   resize: vertical;
+  font-size: 1em;
+
+    &:hover {
+    border: 1px solid change-color(#77c2ff, $alpha: 0.75);
+  }
+
+  &:focus {
+    border: 1px solid change-color(#77c2ff, $alpha: 1);
+    box-shadow: $form-box-shadow-focus;
+    outline: none;
+  }
 }
 
 input[type="search"] {

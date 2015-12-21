@@ -95,8 +95,9 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 		font-size: 1em;
 	}
 	a {
-		background-color: change-color(#77c2ff, $lightness: 25%, $alpha: .25); 
-	    border: 1px solid #77c2ff;
+		background-color: rgba(0, 70, 128, 0.25);
+    	border: 1px solid #77c2ff;
+    	border-radius: 3px;
 	    color: white;
 	    display: block;
 	    padding: .75em;
@@ -227,7 +228,7 @@ p.lead {
 	@media screen and (min-width: 60em) { width: 60%; }
 }
 p.required {
-	font-size: 1em;
+	font-size: .8em;
 	text-align: center;
 	color: change-color(#ffcf22, $alpha: 0.75);
 	font-weight: 400;
@@ -244,7 +245,10 @@ form fieldset p {
 form fieldset p label {
 	display: inline-block;
 	margin: auto;
-	color: change-color(white, $alpha: 0.75);
+	color: #77c2ff;
+	font-size: 0.8em;
+  	font-weight: 600;
+  	text-transform: uppercase;
 }
 
 form fieldset p input {
@@ -257,15 +261,16 @@ form fieldset p input {
 	border-bottom: 1px solid change-color(white, $alpha: 0.5);
 
 }
-form fieldset p input::hover {
-	border-left: 1px solid change-color(#77cf22, $alpha: 0.5);
-	border-bottom: 1px solid change-color(#77cf22, $alpha: 0.5);
-}
+
 form fieldset textarea {
 	color: white;
 	font-weight: 400;
 	width: 100%;
-	border: 1px solid change-color(#77cf22, $alpha: 0.5);
+	border: 1px solid change-color(white, $alpha: 0.5);
+   &:hover {
+    border: 1px solid change-color(#77c2ff, $alpha: 0.5);
+  }
+
 
 }
 

@@ -1,16 +1,16 @@
 @charset "UTF-8";
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
-  background-color: #477dca;
-  border: 0;
+  background-color: rgba(0, 70, 128, 0.25);
+  border: 1px solid #77c2ff;
   border-radius: 3px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: 'Exo 2';
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1;
   padding: 0.75em 1.5em;
   text-decoration: none;
@@ -65,12 +65,12 @@ select[multiple=multiple] {
   width: 100%; }
   input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover,
   select[multiple=multiple]:hover {
-    border-left: 1px solid rgba(119, 207, 34, 0.5);
-    border-bottom: 1px solid rgba(119, 207, 34, 0.5); }
+    border-left: 1px solid rgba(119, 194, 255, 0.75);
+    border-bottom: 1px solid rgba(119, 194, 255, 0.75); }
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
   select[multiple=multiple]:focus {
-    border-left: 1px solid #77cf22;
-    border-bottom: 1px solid #77cf22;
+    border-left: 1px solid #77c2ff;
+    border-bottom: 1px solid #77c2ff;
     box-shadow: none, 0 0 5px rgba(55, 112, 192, 0.7);
     outline: none; }
   input[type="color"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="email"]:disabled, input[type="month"]:disabled, input[type="number"]:disabled, input[type="password"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="text"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="week"]:disabled, input:not([type]):disabled, textarea:disabled,
@@ -82,7 +82,14 @@ select[multiple=multiple] {
       border: 1px solid #ddd; }
 
 textarea {
-  resize: vertical; }
+  resize: vertical;
+  font-size: 1em; }
+  textarea:hover {
+    border: 1px solid rgba(119, 194, 255, 0.75); }
+  textarea:focus {
+    border: 1px solid #77c2ff;
+    box-shadow: none, 0 0 5px rgba(55, 112, 192, 0.7);
+    outline: none; }
 
 input[type="search"] {
   appearance: none; }
@@ -977,6 +984,7 @@ float: left; */ }
   .table-title a {
     background-color: rgba(0, 70, 128, 0.25);
     border: 1px solid #77c2ff;
+    border-radius: 3px;
     color: white;
     display: block;
     padding: .75em;
@@ -1093,7 +1101,7 @@ p.lead {
       width: 60%; } }
 
 p.required {
-  font-size: 1em;
+  font-size: .8em;
   text-align: center;
   color: rgba(255, 207, 34, 0.75);
   font-weight: 400;
@@ -1110,7 +1118,10 @@ form fieldset p {
 form fieldset p label {
   display: inline-block;
   margin: auto;
-  color: rgba(255, 255, 255, 0.75); }
+  color: #77c2ff;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-transform: uppercase; }
 
 form fieldset p input {
   color: white;
@@ -1120,15 +1131,13 @@ form fieldset p input {
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
-form fieldset p input::hover {
-  border-left: 1px solid rgba(119, 207, 34, 0.5);
-  border-bottom: 1px solid rgba(119, 207, 34, 0.5); }
-
 form fieldset textarea {
   color: white;
   font-weight: 400;
   width: 100%;
-  border: 1px solid rgba(119, 207, 34, 0.5); }
+  border: 1px solid rgba(255, 255, 255, 0.5); }
+  form fieldset textarea:hover {
+    border: 1px solid rgba(119, 194, 255, 0.5); }
 
 @media screen and (min-width: 30em) {
   th#first-column {
