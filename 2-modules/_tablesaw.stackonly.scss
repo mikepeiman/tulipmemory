@@ -5,7 +5,7 @@
 * https://github.com/filamentgroup/tablesaw
 * Copyright (c) 2015 Filament Group; Licensed  */
 
-$breakpoint: 30em;
+$breakpoint: 50em;
 $table-background: adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 $border-color: #ffcf22;
 $nav-color: #276D80;
@@ -35,7 +35,6 @@ table.tablesaw {
   box-sizing: border-box;
   border: none; 
   padding: .5em .7em;
-
 }
 
 .tablesaw thead tr th {
@@ -47,14 +46,6 @@ table.tablesaw {
     }
 }
 
-/* Table rows have a gray bottom stroke by default */
-
-.tablesaw-stack tbody tr th {
-//  border-bottom: none; // 5px solid black;
-  -webkit-column-width: 15%; /* Chrome, Safari, Opera */
-  -moz-column-width: 15%; /* Firefox */
-  column-width: 15%;
-}
 
 .tablesaw-stack td .tablesaw-cell-label,
 .tablesaw-stack th .tablesaw-cell-label {
@@ -84,7 +75,6 @@ table.tablesaw {
     display: inline-block;
     padding: 0 .6em 0 0;
     margin: 0;
-    width: 30%;
   }
 
   /* For grouped headers, have a different style to visually separate the levels by classing the first label in each col group */
@@ -145,7 +135,6 @@ table.tablesaw {
     tr:nth-of-type(26):before { content: "YASNAC I-80"; }
     tr:nth-of-type(27):before { content: "MISTUBISHI MITS 500 / MAZAK PLUS"; }
    tbody { 
-
     tr:hover {
       background-color:  change-color(#fff, $alpha: .2);
 
@@ -184,7 +173,7 @@ table.tablesaw {
     float: left; */
   }
   .tablesaw-stack tbody tr  {
-    height: 4em;
+    height: 4.5em;
 
   }
   .tablesaw-stack tbody td  {
@@ -250,7 +239,11 @@ table.tablesaw {
     display: none;
   }
   
-  .tablesaw-stack tbody th { width: 20%; } 
+  .tablesaw-stack tbody th { 
+    -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    -moz-column-width: 200px; /* Firefox */
+    column-width: 200px;
+     } 
 
   tbody { 
     tr:nth-child(odd)   { background-color: change-color(#77cf22, $lightness: 25%, $alpha: .25); }

@@ -29,13 +29,18 @@
   }
 
   a.tab-link {
-    background-color: $tab-inactive-color;
+    background-color: change-color($tab-inactive-color, $alpha: 0.5);
     border-top: $tab-border;
     color: $tab-link-color;
     display: block;
-    padding: ($base-spacing / 2) $gutter;
+    padding: 5px;
     text-decoration: none;
     min-width: 10em;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 0 10px 10px;
+
 
     @include media($tab-mode) {
       display: inline-block;
@@ -53,7 +58,7 @@
 
     &.is-active {
       border-bottom: 0px;
-      background-color: $base-background-color;
+      background-color: change-color($base-background-color, $alpha: .5);
 
       @include media($tab-mode) {
         border: $tab-border;
@@ -73,7 +78,4 @@
       float: left;
     }
   }
-}
-.flip {
-  margin-bottom: 3em;
 }

@@ -137,62 +137,81 @@
               </div>
             </div>
              <p><a href="#tulip-table" class="tab-link is-active flip">See full list of upgrades by model</a></p>
-        </div>      
+        </div>
+        <div class="table-title-2">
         <ul class="accordion-tabs-minimal">
             <li class="tab-header-and-content">
                 <div class="tab-content">
                     <div id="tulip-table" class="center tulip-table"> 
                         <table class="tablesaw tablesaw-stack table-minimal" data-tablesaw-mode="stack">
-                       <!--this works on desktop but not mobile <col width="15%"> -->
+                       <!--this works on desktop but not mobile <col width="15%"> 
+                            <colgroup>
+                                <col id="first-column">
+                                <col id="memory-32k">
+                                <col id="memory-48k">
+                                <col id="memory-64k">
+                                <col id="memory-128k">
+                                <col id="memory-256k">
+                                <col id="memory-512k">
+                                <col id="memory-1024k">
+                                <col id="memory-1536k">
+                                <col id="memory-2048k">
+                            </colgroup> -->
                             <thead>
                                 <tr>
-                                    <th>MODEL</th><th COLSPAN="8">UPGRADES AVAILABLE</th>
+                                    <th id="first-column">MODEL</th><th COLSPAN="8">UPGRADES AVAILABLE</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr><th>FANUC 6-ALL</th><td>32 KB</td><td></td><td>128 KB</td><td></td><td>512 KB</td><td></td><td></td><td></td></tr>
-                                <tr><th>FANUC 9-ALL</th><td></td><td></td><td></td><td></td><td>512 KB</td><td>1 MB</td><td>1.5 MB</td><td></td></tr>
-                                <tr><th>FANUC 11-ALL</th><td>32 KB</td><td></td><td>128 KB</td><td></td><td>512 KB</td><td>1 MB</td><td></td><td>2 MB</td></tr>
-                                <tr><th>FANUC 12-ALL</th><td>32 KB</td><td></td><td>128 KB</td><td></td><td>512 KB</td><td>1 MB</td><td></td><td>2 MB</td></tr>
-                                <tr><th>FANUC 15A</th><td></td><td></td><td></td><td></td><td></td><td>1 MB</td><td></td><td>2 MB</td></tr>
-                                <tr><th>FANUC 15B</th><td></td><td></td><td></td><td></td><td></td><td>1 MB</td><td></td><td>2 MB</td></tr>
-                                <tr><th>FANUC 15iB</th><td></td><td></td><td></td><td></td><td>512 KB</td><td>1 MB</td><td></td><td>2 MB</td></tr>
-                                <tr><th>FANUC 16iA</th><td></td><td></td><td></td><td></td><td>512 KB</td><td>1 MB</td><td></td><td>2 MB</td></tr>
-                                <tr><th>FANUC 16A</th><td></td><td></td><td></td><td></td><td>512 KB</td><td></td><td></td><td></td></tr>
-                                <tr><th>FANUC 16B</th><td></td><td></td><td></td><td></td><td>512 KB</td><td></td><td></td><td>2 MB</td></tr>
-                                <tr><th>FANUC 16C</th><td></td><td></td><td></td><td></td><td>512 KB</td><td></td><td></td><td>2 MB</td></tr>
-                                <tr><th>FANUC 18iA</th><td></td><td></td><td></td><td></td><td>512 KB</td><td>1 MB</td><td></td><td>2 MB</td></tr>
-                                <tr><th>FANUC 18A</th><td></td><td></td><td></td><td></td><td>512 KB</td><td></td><td></td><td></td></tr>
-                                <tr><th>FANUC 18B</th><td></td><td></td><td></td><td></td><td>512 KB</td><td></td><td></td><td></td></tr>
-                                <tr><th>FANUC 18C</th><td></td><td></td><td></td><td></td><td>512 KB</td><td></td><td></td><td>2 MB</td></tr>
-                                <tr><th>FANUC 0-ANALOG</th><td></td><td>48 KB</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                                <tr><th>FANUC 0-DIGITAL</th><td></td><td></td><td>128 KB</td><td></td><td></td><td></td><td></td><td></td></tr>
-                                <tr><th>FANUC 10-ANALOG</th><td>32 KB</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                                <tr><th>FANUC 10-DIGITAL</th><td></td><td></td><td></td><td>256 KB</td><td></td><td></td><td></td><td></td></tr>
-                                <tr><th>YASNAC LX1</th><td></td><td></td><td>128 KB</td><td></td><td></td><td></td><td></td><td></td></tr>
-                                <tr><th>YASNAC LX2</th><td></td><td></td><td>128 KB</td><td></td><td></td><td></td><td></td><td></td></tr>
-                                <tr><th>YASNAC LX3</th><td></td><td></td><td></td><td></td><td>512 KB</td><td>1 MB</td><td></td><td></td></tr>
-                                <tr><th>YASNAC MX1</th><td></td><td></td><td>128 KB</td><td></td><td></td><td></td><td></td><td></td></tr>
-                                <tr><th>YASNAC MX2</th><td></td><td></td><td>128 KB</td><td></td><td></td><td></td><td></td><td></td></tr>
-                                <tr><th>YASNAC MX3</th><td></td><td></td><td></td><td></td><td>512 KB</td><td>1 MB</td><td></td><td></td></tr>
-                                <tr><th>YASNAC I-80</th><td></td><td></td><td>128 KB</td><td>256 KB</td><td>512 KB</td><td>1 MB</td><td></td><td>2 MB</td></tr>
-                                <tr><th>MITSUBISHI MITS 500 / MAZAK PLUS</th><td></td><td></td><td></td><td></td><td></td><td></td><td>1.5 MB</td><td>2 MB</td></tr>
+                                <tr><th class="headerCol">FANUC 6-ALL</th><td>32 KB</td><td></td><td>128 KB</td><td></td><td>512 KB</td><td></td><td></td><td></td></tr>
+                                <tr><th class="headerCol">FANUC 9-ALL</th><td></td><td></td><td></td><td></td><td>512 KB</td><td>1 MB</td><td>1.5 MB</td><td></td></tr>
+                                <tr><th class="headerCol">FANUC 11-ALL</th><td>32 KB</td><td></td><td>128 KB</td><td></td><td>512 KB</td><td>1 MB</td><td></td><td>2 MB</td></tr>
+                                <tr><th class="headerCol">FANUC 12-ALL</th><td>32 KB</td><td></td><td>128 KB</td><td></td><td>512 KB</td><td>1 MB</td><td></td><td>2 MB</td></tr>
+                                <tr><th class="headerCol">FANUC 15A</th><td></td><td></td><td></td><td></td><td></td><td>1 MB</td><td></td><td>2 MB</td></tr>
+                                <tr><th class="headerCol">FANUC 15B</th><td></td><td></td><td></td><td></td><td></td><td>1 MB</td><td></td><td>2 MB</td></tr>
+                                <tr><th class="headerCol">FANUC 15iB</th><td></td><td></td><td></td><td></td><td>512 KB</td><td>1 MB</td><td></td><td>2 MB</td></tr>
+                                <tr><th class="headerCol">FANUC 16iA</th><td></td><td></td><td></td><td></td><td>512 KB</td><td>1 MB</td><td></td><td>2 MB</td></tr>
+                                <tr><th class="headerCol">FANUC 16A</th><td></td><td></td><td></td><td></td><td>512 KB</td><td></td><td></td><td></td></tr>
+                                <tr><th class="headerCol">FANUC 16B</th><td></td><td></td><td></td><td></td><td>512 KB</td><td></td><td></td><td>2 MB</td></tr>
+                                <tr><th class="headerCol">FANUC 16C</th><td></td><td></td><td></td><td></td><td>512 KB</td><td></td><td></td><td>2 MB</td></tr>
+                                <tr><th class="headerCol">FANUC 18iA</th><td></td><td></td><td></td><td></td><td>512 KB</td><td>1 MB</td><td></td><td>2 MB</td></tr>
+                                <tr><th class="headerCol">FANUC 18A</th><td></td><td></td><td></td><td></td><td>512 KB</td><td></td><td></td><td></td></tr>
+                                <tr><th class="headerCol">FANUC 18B</th><td></td><td></td><td></td><td></td><td>512 KB</td><td></td><td></td><td></td></tr>
+                                <tr><th class="headerCol">FANUC 18C</th><td></td><td></td><td></td><td></td><td>512 KB</td><td></td><td></td><td>2 MB</td></tr>
+                                <tr><th class="headerCol">FANUC 0-ANALOG</th><td></td><td>48 KB</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                                <tr><th class="headerCol">FANUC 0-DIGITAL</th><td></td><td></td><td>128 KB</td><td></td><td></td><td></td><td></td><td></td></tr>
+                                <tr><th class="headerCol">FANUC 10-ANALOG</th><td>32 KB</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                                <tr><th class="headerCol">FANUC 10-DIGITAL</th><td></td><td></td><td></td><td>256 KB</td><td></td><td></td><td></td><td></td></tr>
+                                <tr><th class="headerCol">YASNAC LX1</th><td></td><td></td><td>128 KB</td><td></td><td></td><td></td><td></td><td></td></tr>
+                                <tr><th class="headerCol">YASNAC LX2</th><td></td><td></td><td>128 KB</td><td></td><td></td><td></td><td></td><td></td></tr>
+                                <tr><th class="headerCol">YASNAC LX3</th><td></td><td></td><td></td><td></td><td>512 KB</td><td>1 MB</td><td></td><td></td></tr>
+                                <tr><th class="headerCol">YASNAC MX1</th><td></td><td></td><td>128 KB</td><td></td><td></td><td></td><td></td><td></td></tr>
+                                <tr><th class="headerCol">YASNAC MX2</th><td></td><td></td><td>128 KB</td><td></td><td></td><td></td><td></td><td></td></tr>
+                                <tr><th class="headerCol">YASNAC MX3</th><td></td><td></td><td></td><td></td><td>512 KB</td><td>1 MB</td><td></td><td></td></tr>
+                                <tr><th class="headerCol">YASNAC I-80</th><td></td><td></td><td>128 KB</td><td>256 KB</td><td>512 KB</td><td>1 MB</td><td></td><td>2 MB</td></tr>
+                                <tr><th class="headerCol">MITSUBISHI MITS 500 / MAZAK PLUS</th><td></td><td></td><td></td><td></td><td></td><td></td><td>1.5 MB</td><td>2 MB</td></tr>
                             </tbody>
                         </table>
-                        <a href="#tulip-table" class="tab-link is-active flip">Close list</a>
+                        <p class="center">
+                        <a href="#tulip-table" class="tab-link is-active flip center">Close list</a>
+                        </p>
                     </div>
                 </div>
             </li>
         </ul>
+        </div>
 <section></section>
 <section>
-      <h2>Contact Us</h2>
+      
  
 
 <!-- new form to Tulip website, form structure variations -->
 
 <form>
-    <h2>Upgrade Your Productivity</h2>
+    <h2>Contact Us<br>
+        &amp;<br>
+        Upgrade Your Productivity
+    </h2>
     <p class="lead">Please take a moment to send us your inquiry, whether it's a request for quote, new product development, or to become a dealer. We'll work with you to find the best solution for your needs. </p>
     <p class="caution">Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
     <p class="caution">We hate spam and will never share or disclose your info.</p>
@@ -239,6 +258,7 @@
     </label>
     </p>
 </fieldset>
+
 </form>
 </section>
      

@@ -43,6 +43,7 @@ section {
 	margin: 0;
 	padding: 0;
 	display: block;
+	text-align: center;
 }
 
 .right {
@@ -55,10 +56,75 @@ section {
 .tulip-table {
 	@include tablesaw-stack( 30em );
 	@include outer-container;
+	margin-bottom: 2em;
 }
 $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 
 .table-title {
+	background: change-color(#77c2ff, $lightness: 25%, $alpha: .5); // #123126; // #152025; // #252015; // #0B2C36;
+	border-top: 5px solid #77c2ff;
+	border-bottom: 5px solid #77c2ff;
+	height: auto;
+	width: 100%;
+	margin-bottom: 1.25em;
+	color: white;
+	text-align: center;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+
+	h1 {
+		margin-top: 2em;
+		font-size: 1.5em;
+		font-weight: 400;
+		font-family: 'Exo 2';
+		color: #77cf22;
+	}
+	h2, h3 {
+		font-size: 1.5em;
+		font-weight: 400;
+		padding-top: .5em;
+		padding-bottom: 0.6em;
+	}
+	h4, h5 {
+		font-size: 1.5em;
+		font-weight: 400;
+		padding-top: .25em;
+		padding-bottom: 0.3em;
+	}
+	p {
+		color: #ccc;
+		font-size: 1em;
+	}
+	a {
+		background-color: change-color(#77c2ff, $lightness: 25%, $alpha: .25); 
+	    border: 1px solid #77c2ff;
+	    color: white;
+	    display: block;
+	    padding: .75em;
+	    text-decoration: none;
+	    max-width: 20em;
+	    text-align: center;
+	    margin: 2.5em auto;
+	}
+	a:hover {
+    		background-color: change-color(#77c2ff, $lightness: 35%, $alpha: .75); 
+   			}
+	a:active {
+    		background-color: change-color(#77c2ff, $lightness: 35%, $alpha: .75); 
+   			}
+   	a:focus {
+    		background-color: change-color(#77c2ff, $lightness: 35%, $alpha: .75); 
+   			}
+
+	@media (min-width: 30em) {
+		margin-bottom: 5em;
+		h3 {
+		font-size: 2.5em;
+		}
+	}
+}
+
+.table-title-2 {
 	background: change-color(#77c2ff, $lightness: 25%, $alpha: .5); // #123126; // #152025; // #252015; // #0B2C36;
 	border-top: 5px solid #77c2ff;
 	border-bottom: 5px solid #77c2ff;
@@ -181,9 +247,7 @@ form fieldset p label {
 	margin: auto;
 	color: change-color(#77cf22, $alpha: 0.75);
 }
-form fieldset p label span {
-	color: change-color(#77c2ff, $lightness: 75%, $alpha: 0.75);
-}
+
 form fieldset p input {
 	color: white;
 	font-weight: 400;
@@ -200,4 +264,10 @@ form fieldset textarea {
 	width: 100%;
 	border: 1px solid change-color(#77cf22, $alpha: 0.5);
 
+}
+
+@media screen and (min-width: 30em) {
+th#first-column {
+    width: 20%;
+}
 }

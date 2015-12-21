@@ -32,18 +32,10 @@ table.tablesaw {
 .tablesaw thead tr th {
   padding-top: 0;
   padding-bottom: 0; }
-  @media (min-width: 30em) {
+  @media (min-width: 50em) {
     .tablesaw thead tr th {
       padding-top: 1.2em;
       padding-bottom: 1.2em; } }
-
-/* Table rows have a gray bottom stroke by default */
-.tablesaw-stack tbody tr th {
-  -webkit-column-width: 15%;
-  /* Chrome, Safari, Opera */
-  -moz-column-width: 15%;
-  /* Firefox */
-  column-width: 15%; }
 
 .tablesaw-stack td .tablesaw-cell-label,
 .tablesaw-stack th .tablesaw-cell-label {
@@ -66,8 +58,7 @@ table.tablesaw {
   .tablesaw-stack th .tablesaw-cell-label {
     display: inline-block;
     padding: 0 .6em 0 0;
-    margin: 0;
-    width: 30%; }
+    margin: 0; }
 
   /* For grouped headers, have a different style to visually separate the levels by classing the first label in each col group */
   .tablesaw-stack th .tablesaw-cell-label-top,

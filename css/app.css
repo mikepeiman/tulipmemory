@@ -268,13 +268,17 @@ background-size: cover; */
       .accordion-tabs-minimal li.tab-header-and-content {
         display: inline; } }
   .accordion-tabs-minimal a.tab-link {
-    background-color: #2277cf;
+    background-color: rgba(34, 119, 207, 0.5);
     border-top: 0px solid #8bcbff;
     color: black;
     display: block;
-    padding: 0.75em 1.618em;
+    padding: 5px;
     text-decoration: none;
-    min-width: 10em; }
+    min-width: 10em;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 0 10px 10px; }
     @media screen and (min-width: 600px) {
       .accordion-tabs-minimal a.tab-link {
         display: inline-block;
@@ -286,7 +290,7 @@ background-size: cover; */
       outline: 0; }
     .accordion-tabs-minimal a.tab-link.is-active {
       border-bottom: 0px;
-      background-color: #77cf22; }
+      background-color: rgba(119, 207, 34, 0.5); }
       @media screen and (min-width: 600px) {
         .accordion-tabs-minimal a.tab-link.is-active {
           border: 0px solid #8bcbff;
@@ -300,9 +304,6 @@ background-size: cover; */
       .accordion-tabs-minimal .tab-content {
         border-top: 0px solid #8bcbff;
         float: left; } }
-
-.flip {
-  margin-bottom: 3em; }
 
 .footer-2 {
   border-top: 5px solid #77c2ff;
@@ -671,18 +672,10 @@ table.tablesaw {
 .tablesaw thead tr th {
   padding-top: 0;
   padding-bottom: 0; }
-  @media (min-width: 30em) {
+  @media (min-width: 50em) {
     .tablesaw thead tr th {
       padding-top: 1.2em;
       padding-bottom: 1.2em; } }
-
-/* Table rows have a gray bottom stroke by default */
-.tablesaw-stack tbody tr th {
-  -webkit-column-width: 15%;
-  /* Chrome, Safari, Opera */
-  -moz-column-width: 15%;
-  /* Firefox */
-  column-width: 15%; }
 
 .tablesaw-stack td .tablesaw-cell-label,
 .tablesaw-stack th .tablesaw-cell-label {
@@ -705,8 +698,7 @@ table.tablesaw {
   .tablesaw-stack th .tablesaw-cell-label {
     display: inline-block;
     padding: 0 .6em 0 0;
-    margin: 0;
-    width: 30%; }
+    margin: 0; }
 
   /* For grouped headers, have a different style to visually separate the levels by classing the first label in each col group */
   .tablesaw-stack th .tablesaw-cell-label-top,
@@ -771,7 +763,8 @@ section {
 .center {
   margin: 0;
   padding: 0;
-  display: block; }
+  display: block;
+  text-align: center; }
 
 .right {
   text-align: right; }
@@ -782,7 +775,8 @@ section {
 .tulip-table {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 2em; }
   @media (max-width: 29.9375em) {
     .tulip-table {
       /*
@@ -886,7 +880,7 @@ section {
 clear: left;
 float: left; */ }
       .tulip-table .tablesaw-stack tbody tr {
-        height: 4em; }
+        height: 4.5em; }
       .tulip-table .tablesaw-stack tbody td {
         display: table-cell;
         color: #77cf22;
@@ -926,7 +920,11 @@ float: left; */ }
         color: #123126;
         display: none; }
       .tulip-table .tablesaw-stack tbody th {
-        width: 20%; }
+        -webkit-column-width: 200px;
+        /* Chrome, Safari, Opera */
+        -moz-column-width: 200px;
+        /* Firefox */
+        column-width: 200px; }
       .tulip-table tbody tr:nth-child(odd) {
         background-color: rgba(63, 110, 18, 0.25); }
       .tulip-table tbody tr:nth-child(even) {
@@ -1000,6 +998,58 @@ float: left; */ }
       .table-title h3 {
         font-size: 2.5em; } }
 
+.table-title-2 {
+  background: rgba(0, 70, 128, 0.5);
+  border-top: 5px solid #77c2ff;
+  border-bottom: 5px solid #77c2ff;
+  height: auto;
+  width: 100%;
+  margin-bottom: 1.25em;
+  color: white;
+  text-align: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em; }
+  .table-title-2 h1 {
+    margin-top: 2em;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Exo 2';
+    color: #77cf22; }
+  .table-title-2 h2, .table-title-2 h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-top: .5em;
+    padding-bottom: 0.6em; }
+  .table-title-2 h4, .table-title-2 h5 {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-top: .25em;
+    padding-bottom: 0.3em; }
+  .table-title-2 p {
+    color: #ccc;
+    font-size: 1em; }
+  .table-title-2 a {
+    background-color: rgba(0, 70, 128, 0.25);
+    border: 1px solid #77c2ff;
+    color: white;
+    display: block;
+    padding: .75em;
+    text-decoration: none;
+    max-width: 20em;
+    text-align: center;
+    margin: 2.5em auto; }
+  .table-title-2 a:hover {
+    background-color: rgba(0, 98, 179, 0.75); }
+  .table-title-2 a:active {
+    background-color: rgba(0, 98, 179, 0.75); }
+  .table-title-2 a:focus {
+    background-color: rgba(0, 98, 179, 0.75); }
+  @media (min-width: 30em) {
+    .table-title-2 {
+      margin-bottom: 5em; }
+      .table-title-2 h3 {
+        font-size: 2.5em; } }
+
 .hidden {
   position: absolute;
   overflow: hidden;
@@ -1066,9 +1116,6 @@ form fieldset p label {
   margin: auto;
   color: rgba(119, 207, 34, 0.75); }
 
-form fieldset p label span {
-  color: rgba(128, 198, 255, 0.75); }
-
 form fieldset p input {
   color: white;
   font-weight: 400;
@@ -1082,5 +1129,9 @@ form fieldset textarea {
   font-weight: 400;
   width: 100%;
   border: 1px solid rgba(119, 207, 34, 0.5); }
+
+@media screen and (min-width: 30em) {
+  th#first-column {
+    width: 20%; } }
 
 /*# sourceMappingURL=app.css.map */
