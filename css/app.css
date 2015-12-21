@@ -91,7 +91,7 @@ form fieldset p label.textarea {
 form fieldset p input {
   color: white;
   font-weight: 400;
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   /*
     border-left: 1px solid change-color(white, $alpha: 0.5);
     border-bottom: 1px solid change-color(white, $alpha: 0.5); */ }
@@ -100,7 +100,7 @@ form fieldset textarea {
   color: white;
   font-weight: 400;
   width: 100%;
-  border: 2px solid rgba(255, 255, 255, 0.1); }
+  border: 2px solid rgba(255, 255, 255, 0.2); }
   form fieldset textarea:hover {
     border: 2px solid rgba(119, 194, 255, 0.5); }
 

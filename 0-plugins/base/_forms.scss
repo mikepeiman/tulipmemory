@@ -68,7 +68,7 @@ form fieldset p label.textarea  {
 form fieldset p input {
   color: white;
   font-weight: 400;
-  border: 2px solid change-color(white, $alpha: 0.1);
+  border: 2px solid change-color(white, $alpha: 0.2);
 /*
   border-left: 1px solid change-color(white, $alpha: 0.5);
   border-bottom: 1px solid change-color(white, $alpha: 0.5); */
@@ -78,7 +78,7 @@ form fieldset textarea {
   color: white;
   font-weight: 400;
   width: 100%;
-  border: 2px solid change-color(white, $alpha: 0.1);
+  border: 2px solid change-color(white, $alpha: 0.2);
    &:hover {
     border: 2px solid change-color(#77c2ff, $alpha: 0.5);
   }
