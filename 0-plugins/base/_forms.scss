@@ -1,6 +1,6 @@
 fieldset {
-  background-color: none;
-  border: 0;
+  background-color: change-color(white, $alpha: .05);
+  border: 1px solid change-color(white, $alpha: .5);
   margin: 0 0 $small-spacing;
   padding: $base-spacing;
 }
@@ -32,8 +32,9 @@ select {
 select[multiple=multiple] {
   background-color: $base-background-color;
  // border: $base-border;
-  border-radius: $base-border-radius;
-  box-shadow: $form-box-shadow;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: change-color(black, $alpha: 0.5);
   box-sizing: border-box;
   font-family: $base-font-family;
   font-size: $base-font-size;
@@ -66,7 +67,7 @@ select[multiple=multiple] {
 
 textarea {
   resize: vertical;
-  font-size: 1em;
+  font-size: 1em; 
 
     &:hover {
     border: 1px solid change-color(#77c2ff, $alpha: 0.75);
