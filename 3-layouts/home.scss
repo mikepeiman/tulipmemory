@@ -1,5 +1,4 @@
 body {	
-	@include clearfix;
 	background: url(../img/tulip-bg-1-1000x600.jpg) no-repeat center center fixed; 
 	// #1155bb // #2600a2 // adjust-color(#ffcf22, $hue: 280deg, $lightness: -25%); // #202030; //#131318; //
 	background-size: cover;
@@ -125,11 +124,12 @@ $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 }
 
 .table-title-2 {
-	background: change-color(#77c2ff, $lightness: 25%, $alpha: .5); // #123126; // #152025; // #252015; // #0B2C36;
-	border-top: 5px solid #77c2ff;
-	border-bottom: 5px solid #77c2ff;
+	background: rgba(15, 0, 40, 0.5); //#0C3353; // #123126; // #152025; // #252015; // #0B2C36;
+	border-top: 5px solid #ffcf22;
+	border-bottom: 5px solid #ffcf22;
 	height: auto;
 	width: 100%;
+	margin-top: 4em;
 	margin-bottom: 1.25em;
 	color: white;
 	text-align: center;
@@ -205,12 +205,11 @@ form fieldset input[type=checkbox] {}
 */
 form {
 	font-family: 'Exo 2', sans-serif;
-	background: change-color(#77c2ff, $lightness: 25%, $alpha: .25); // #123126; // #152025; // #252015; // #0B2C36;
-	border: 5px solid #77cf22;
+	//background: change-color(#77c2ff, $lightness: 25%, $alpha: .25); // #123126; // #152025; // #252015; // #0B2C36;
+	//border: 5px solid #77cf22;
 	height: auto;
 	width: 100%;
 	margin-bottom: 1.25em;
-	margin-top: 2.5em;
 	color: white;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
@@ -221,19 +220,19 @@ form h2 {
 
 p.lead {
 	font-size: 1.25em;
-	text-align: center;
-	color: #77cf22;
+	text-align: left;
+	color: white;
 	width: 90%;
 	@media screen and (min-width: 40em) { width: 80%; }
 	@media screen and (min-width: 60em) { width: 60%; }
 }
-p.caution {
+p.required {
 	font-size: 1em;
 	text-align: center;
-	color: change-color(#77c2ff, $lightness: 75%, $alpha: 0.75);
+	color: change-color(#ffcf22, $alpha: 0.75);
 	font-weight: 400;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 1em;
 }
 form fieldset h1, h2, h3, h4, h5, h6 {
 	text-align: left;
@@ -245,7 +244,7 @@ form fieldset p {
 form fieldset p label {
 	display: inline-block;
 	margin: auto;
-	color: change-color(#77cf22, $alpha: 0.75);
+	color: change-color(white, $alpha: 0.75);
 }
 
 form fieldset p input {
@@ -254,9 +253,13 @@ form fieldset p input {
 	//width: 100%;
 	border-top: none;
 	border-right: none;
+	border-left: 1px solid change-color(white, $alpha: 0.5);
+	border-bottom: 1px solid change-color(white, $alpha: 0.5);
+
+}
+form fieldset p input::hover {
 	border-left: 1px solid change-color(#77cf22, $alpha: 0.5);
 	border-bottom: 1px solid change-color(#77cf22, $alpha: 0.5);
-
 }
 form fieldset textarea {
 	color: white;

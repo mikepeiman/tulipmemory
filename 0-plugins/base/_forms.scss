@@ -43,11 +43,13 @@ select[multiple=multiple] {
   width: 100%;
 
   &:hover {
-    border-color: shade($base-border-color, 20%);
+    border-left: 1px solid change-color(#77cf22, $alpha: 0.5);
+    border-bottom: 1px solid change-color(#77cf22, $alpha: 0.5);
   }
 
   &:focus {
-    border-color: $action-color;
+    border-left: 1px solid change-color(#77cf22, $alpha: 1);
+    border-bottom: 1px solid change-color(#77cf22, $alpha: 1);
     box-shadow: $form-box-shadow-focus;
     outline: none;
   }
