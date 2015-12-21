@@ -28,8 +28,8 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
       background-color: #477dca; }
 
 fieldset {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: none;
+  border: none;
   margin: 0 0 0.75em;
   padding: 1.5em; }
 

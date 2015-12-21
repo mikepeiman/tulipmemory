@@ -1,6 +1,6 @@
 fieldset {
-  background-color: change-color(white, $alpha: .05);
-  border: 1px solid change-color(white, $alpha: .5);
+  background-color: none; // change-color(white, $alpha: .05);
+  border: none;
   margin: 0 0 $small-spacing;
   padding: $base-spacing;
 }
