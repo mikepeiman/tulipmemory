@@ -1,3 +1,17 @@
+form {
+  font-family: 'Exo 2', sans-serif;
+  //background: change-color(#77c2ff, $lightness: 25%, $alpha: .25); // #123126; // #152025; // #252015; // #0B2C36;
+  //border: 5px solid #77cf22;
+  height: auto;
+  width: 100%;
+  margin-bottom: 1.25em;
+  color: white;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+form h2 {
+  margin-top: 1.5em;
+}
 fieldset {
   background-color: none; // change-color(white, $alpha: .05);
   border: none;
@@ -26,7 +40,49 @@ select {
   fieldset abbr {
     display: none;
   }
+form fieldset h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+}
+form fieldset p {
+  display: block;
+  margin: auto;
+}
+form fieldset p label  {
+  display: inline-block;
+  margin: auto;
+  font-size: 1em;
+  font-weight: 300;
+  width: 25%;
+}
+form fieldset p label span {
+  margin: 0;
+  color: #77c2ff;
+  font-size: 0.7em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+form fieldset p label.textarea  {
+  width: 0;
+  width: 50%;
+}
+form fieldset p input {
+  color: white;
+  font-weight: 400;
+  border: 2px solid change-color(white, $alpha: 0.1);
+/*
+  border-left: 1px solid change-color(white, $alpha: 0.5);
+  border-bottom: 1px solid change-color(white, $alpha: 0.5); */
+}
 
+form fieldset textarea {
+  color: white;
+  font-weight: 400;
+  width: 100%;
+  border: 2px solid change-color(white, $alpha: 0.1);
+   &:hover {
+    border: 2px solid change-color(#77c2ff, $alpha: 0.5);
+  }
+}
 
 #{$all-text-inputs},
 select[multiple=multiple] {
@@ -44,14 +100,11 @@ select[multiple=multiple] {
   width: 100%;
 
   &:hover {
-    border-left: 1px solid change-color(#77c2ff, $alpha: 0.75);
-    border-bottom: 1px solid change-color(#77c2ff, $alpha: 0.75);
+    border: 2px solid change-color(#77c2ff, $alpha: 0.5);
   }
 
   &:focus {
-    border-left: 1px solid change-color(#77c2ff, $alpha: 1);
-    border-bottom: 1px solid change-color(#77c2ff, $alpha: 1);
-    box-shadow: $form-box-shadow-focus;
+    border: 2px solid change-color(#77c2ff, $alpha: 1);
     outline: none;
   }
 
@@ -69,13 +122,12 @@ textarea {
   resize: vertical;
   font-size: 1em; 
 
-    &:hover {
-    border: 1px solid change-color(#77c2ff, $alpha: 0.75);
+  &:hover {
+    border: 2px solid change-color(#77c2ff, $alpha: 0.5);
   }
 
   &:focus {
-    border: 1px solid change-color(#77c2ff, $alpha: 1);
-    box-shadow: $form-box-shadow-focus;
+    border: 2px solid change-color(#77c2ff, $alpha: 1);
     outline: none;
   }
 }
