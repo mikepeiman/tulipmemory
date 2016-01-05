@@ -1,3 +1,9 @@
+.form-container {
+  width: 100%;
+  @media screen and (min-width: 40em) { width: 70%; }
+  @media screen and (min-width: 65em) { width: 50%; }
+}
+
 form {
   font-family: 'Exo 2', sans-serif;
   //background: change-color(#77c2ff, $lightness: 25%, $alpha: .25); // #123126; // #152025; // #252015; // #0B2C36;
@@ -8,6 +14,7 @@ form {
   color: white;
   padding-left: 1.5em;
   padding-right: 1.5em;
+  text-align: center;
 }
 form h2 {
   margin-top: 1.5em;
@@ -17,6 +24,7 @@ fieldset {
   border: none;
   margin: 0 0 $small-spacing;
   padding: $base-spacing;
+  width: 100%;
 }
 
 input,
@@ -50,20 +58,20 @@ form fieldset p {
 form fieldset p label  {
   display: inline-block;
   margin: auto;
-  font-size: 1em;
+  font-size: 1.15em;
   font-weight: 300;
-  width: 25%;
+  width: 100%;
+  @media screen and (min-width: 30em) { width: 49%; }
+
 }
 form fieldset p label span {
   margin: 0;
   color: #77c2ff;
-  font-size: 0.7em;
-    font-weight: 600;
-    text-transform: uppercase;
+  font-size: 0.9em;
 }
 form fieldset p label.textarea  {
   width: 0;
-  width: 50%;
+  width: 98%;
 }
 form fieldset p input {
   color: white;

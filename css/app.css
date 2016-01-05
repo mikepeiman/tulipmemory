@@ -27,6 +27,15 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
       background-color: #477dca; }
 
+.form-container {
+  width: 100%; }
+  @media screen and (min-width: 40em) {
+    .form-container {
+      width: 70%; } }
+  @media screen and (min-width: 65em) {
+    .form-container {
+      width: 50%; } }
+
 form {
   font-family: 'Exo 2', sans-serif;
   height: auto;
@@ -34,7 +43,8 @@ form {
   margin-bottom: 1.25em;
   color: white;
   padding-left: 1.5em;
-  padding-right: 1.5em; }
+  padding-right: 1.5em;
+  text-align: center; }
 
 form h2 {
   margin-top: 1.5em; }
@@ -43,7 +53,8 @@ fieldset {
   background-color: none;
   border: none;
   margin: 0 0 0.75em;
-  padding: 1.5em; }
+  padding: 1.5em;
+  width: 100%; }
 
 input,
 label,
@@ -73,20 +84,21 @@ form fieldset p {
 form fieldset p label {
   display: inline-block;
   margin: auto;
-  font-size: 1em;
+  font-size: 1.15em;
   font-weight: 300;
-  width: 25%; }
+  width: 100%; }
+  @media screen and (min-width: 30em) {
+    form fieldset p label {
+      width: 49%; } }
 
 form fieldset p label span {
   margin: 0;
   color: #77c2ff;
-  font-size: 0.7em;
-  font-weight: 600;
-  text-transform: uppercase; }
+  font-size: 0.9em; }
 
 form fieldset p label.textarea {
   width: 0;
-  width: 50%; }
+  width: 98%; }
 
 form fieldset p input {
   color: white;
@@ -816,9 +828,9 @@ section {
     text-align: center; }
 
 .center {
-  margin: 0;
-  padding: 0;
-  display: block;
+  /*	margin: 0;
+  	padding: 0;
+  	display: block; */
   text-align: center; }
 
 .right {
@@ -1055,9 +1067,9 @@ float: left; */ }
         font-size: 2.5em; } }
 
 .table-title-2 {
-  background: rgba(15, 0, 40, 0.5);
-  border-top: 5px solid #ffcf22;
-  border-bottom: 5px solid #ffcf22;
+  /*	background: rgba(15, 0, 40, 0.5); //#0C3353; // #123126; // #152025; // #252015; // #0B2C36;
+  	border-top: 5px solid #ffcf22;
+  	border-bottom: 5px solid #ffcf22; */
   height: auto;
   width: 100%;
   margin-top: 4em;
@@ -1128,7 +1140,7 @@ form fieldset input[type=checkbox] {}
 */
 p.lead {
   font-size: 1.25em;
-  text-align: left;
+  text-align: center;
   color: white;
   width: 90%; }
   @media screen and (min-width: 40em) {
@@ -1138,9 +1150,8 @@ p.lead {
     p.lead {
       width: 60%; } }
 
-p.required {
+p.caution {
   font-size: .8em;
-  text-align: center;
   color: rgba(255, 207, 34, 0.75);
   font-weight: 400;
   margin-top: 0;
