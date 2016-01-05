@@ -19,11 +19,12 @@ $(document).ready(function () {
   });
 }); */
 
-  $(document).ready(function() {
-    $(".flip").click(function() {
-      $(".tab-content").slideToggle("slow");
-    });
+// simple JS for jquery show/hide function
+$(document).ready(function() {
+  $(".flip").click(function() {
+    $(".tab-content").slideToggle("slow");
   });
+});
 
 
 // Centered Top Navigation from Bourbon Refills
@@ -38,5 +39,24 @@ $(document).ready(function() {
         $('#js-centered-navigation-menu').removeAttr('style');
       }
     });
+  });
+});
+
+// Modal from Bourbon refills
+$(function() {
+  $("#modal-1").on("change", function() {
+    if ($(this).is(":checked")) {
+      $("body").addClass("modal-open");
+    } else {
+      $("body").removeClass("modal-open");
+    }
+  });
+
+  $(".modal-fade-screen, .modal-close").on("click", function() {
+    $(".modal-state:checked").prop("checked", false).change();
+  });
+
+  $(".modal-inner").on("click", function(e) {
+    e.stopPropagation();
   });
 });
