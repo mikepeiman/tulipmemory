@@ -40,10 +40,10 @@ select {
   font-weight: 400;
   margin-bottom: .85em;
 
-  &.required::after {
+ /* &.required::after {
     content: "*";
     color: #ffcf22;
-  }
+  }*/
   }
   fieldset abbr {
     display: none;

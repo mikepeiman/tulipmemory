@@ -2,11 +2,11 @@
 <html> 
     <head> 
         <title>Tulip CNC Memory</title>         
-        <meta name="viewport" content="width=device-width, initial-scale=1">         
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <!--   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">     -->         
-        <link rel="stylesheet" href="css/app.css">         
+        <link rel="stylesheet" href="css/app.css"> 
         <!-- <link rel="stylesheet" href="css/tablesaw.stackonly.css">   -->         
-        <link href='https://fonts.googleapis.com/css?family=Exo+2:400,700,400italic,700italic|Neuton:400,700' rel='stylesheet' type='text/css'>         
+        <link href='https://fonts.googleapis.com/css?family=Exo+2:400,700,400italic,700italic|Neuton:400,700' rel='stylesheet' type='text/css'> 
         <script type="text/javascript" src="js/jquery-1.11.3.js"></script>         
         <script src="js/tablesaw.stackonly.js"></script>         
         <script src="js/tablesaw-init.js"></script>         
@@ -16,7 +16,7 @@
         <header class="centered-navigation" role="banner"> 
             <div class="centered-navigation-wrapper"> 
                 <a href="javascript:void(0)" class="mobile-logo"> 
-                    <img src="img/Tulip-logo-11-11-v7.9.png" alt="Logo image">                     
+                    <img src="img/Tulip-logo-11-11-v7.9.png" alt="Logo image"> 
                 </a>                 
                 <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
                 <nav role="navigation"> 
@@ -46,92 +46,94 @@
         </section>         
         <div class="table-title-2"> 
             <section class="form-container"> 
-                <form> 
-                    <h2 style="margin-top: 1.5em; margin-bottom: 0;">Contact Us</h2> 
+                <form method="post" action="http://www.new.tulipmemory.com/formmail.php" name="TulipForm">
+                    <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
+                    <!-- STEP 2: Put your email address in the 'recipients' value.
+                                 Note that you also have to allow this email address in the
+                                 $TARGET_EMAIL setting within formmail.php!
+                    -->
+                    <input type="hidden" name="recipients" value="myAddress" />
+                    <!-- STEP 3: Specify required fields in the 'required' value - or leave unchanged.
+                            NOTE: DO NOT put your email address and name here.
+                            "Your email address" and "Your name" are error messages for your users to see,
+                            not placeholders for you to replace.
+                    -->
+                    <input type="hidden" name="required" value="email:Your email address,realname:Your first name,lastName:Your last name,businessName:The purchasing company,message:Your inquiry" />
+                    <!-- STEP 4: Put your subject line in the 'subject' value. -->
+                    <input type="hidden" name="subject" value="Inquiry from TulipMemory.com contact form" />
+                    <!--  <input type="hidden" name="good_url" value="http://testing.com/goodsub.html" />
+                    <input type="hidden" name="bad_url" value="http://testing.com/badsub.html" /> -->
                     <fieldset> 
-                        <p class="caution right">Required fields are followed by <span class="required"><strong><abbr title="required">*</abbr></strong></span>.</p> 
+                        <p class="caution right required">All fields are required</p> 
                     </span>                     
-                    <p> <label for="firstName"> 
-                            <span class="required">First Name: </span> 
-                            <input type="text" id="firstName" name="firstName" tabindex="1">                             
-                            <strong><abbr title="required">*</abbr></strong> 
-                        </label> <label for="lastName"> 
-                            <span class="required">Last Name: </span> 
-                            <input type="text" id="lastName" name="lastName" tabindex="1">                             
-                            <strong><abbr title="required">*</abbr></strong> 
-                        </label> </p> 
-                    <p> <label for="businessName"> 
-                            <span class="required">Business name: </span> 
-                            <input type="text" id="businessName" name="businessName" tabindex="1">                             
-                            <strong><abbr title="required">*</abbr></strong> 
-                        </label> <label for="businessWebsite"> 
-                            <span>Website address: </span> 
-                            <input type="text" id="businessWebsite" name="businessWebsite" tabindex="1">                             
+                    <p> <label for="realname"> 
+                            <span class="required">Your Name</span> 
+                            <input type="text" id="," name="realname" tabindex="1"> 
+                        </label> <label for="businessName"> 
+                            <span class="required">Business name</span> 
+                            <input type="text" id="businessName" name="businessName" tabindex="3"> 
                         </label> </p> 
                     <p> <label for="phone"> 
-                            <span class="required">Phone number: </span> 
-                            <input type="tel" id="phone" name="phone" tabindex="1">                             
-                            <strong><abbr title="required">*</abbr></strong> 
+                            <span class="required">Phone number</span> 
+                            <input type="tel" id="phone" name="phone" tabindex="5"> 
                         </label> <label for="email"> 
-                            <span class="required">Email address: </span> 
-                            <input type="text" id="email" name="email" tabindex="1">                             
-                            <strong><abbr title="required">*</abbr></strong> 
+                            <span class="required">Email address</span> 
+                            <input type="email" id="email" name="email" tabindex="6"> 
                         </label> </p> 
                     <p> <label for="message" class="textarea"> 
-                            <span class="required">Enter your message below: </span> 
-                            <textarea type="textarea" id="message" name"message" tabindex="1" rows="5"></textarea>                             
+                            <span class="required">Enter your message below</span> 
+                            <textarea type="textarea" id="message" name="message" tabindex="7" rows="5"></textarea>                             
                         </label> </p> 
                 </fieldset>                 
-                <button type="submit">Submit Message</button>                 
-                <p class="caution center" style="margin-top: 1em;">We respect and honor your privacy. We will not share your information.</p> 
+                <button type="submit" tabindex="8">Submit Message</button>                 
+                <p class="caution center" style="margin-top: 2em;">We respect and honor your privacy. We will not share your information.</p> 
             </form>             
         </section>
-        </div>
-        <footer class="footer-2" role="contentinfo"> 
+    </div>
+    <footer class="footer-2" role="contentinfo"> 
+        <ul> 
+            <li class="nav-link logo"> 
+                <a href="index.html"><span class="entypo-home"></span></a> 
+            </li>
+            <li class="nav-link"> 
+                <a href="about.html">About Us</a> 
+            </li>
+            <li class="nav-link"> 
+                <a href="products.html">Products</a> 
+            </li>             
+            <li class="nav-link"> 
+                <a href="resources.html">Resources</a> 
+            </li>             
+            <li class="nav-link"> 
+                <a href="contact.html">Contact</a> 
+            </li>             
+        </ul>         
+        <div class="footer-secondary-links"> 
             <ul> 
-                <li class="nav-link logo"> 
-                    <a href="index.html"><span class="entypo-home"></span></a> 
-                </li>
-                <li class="nav-link"> 
-                    <a href="about.html">About Us</a> 
-                </li>
-                <li class="nav-link"> 
-                    <a href="products.html">Products</a> 
+                <li> 
+                    <a href="javascript:void(0)">Terms and Conditions</a> 
                 </li>                 
-                <li class="nav-link"> 
-                    <a href="resources.html">Resources</a> 
-                </li>                 
-                <li class="nav-link"> 
-                    <a href="contact.html">Contact</a> 
+                <li> 
+                    <a href="javascript:void(0)">Privacy Policy</a> 
                 </li>                 
             </ul>             
-            <div class="footer-secondary-links"> 
-                <ul> 
-                    <li> 
-                        <a href="javascript:void(0)">Terms and Conditions</a> 
-                    </li>                     
-                    <li> 
-                        <a href="javascript:void(0)">Privacy Policy</a> 
-                    </li>                     
-                </ul>                 
-                <ul class="footer-social"> 
-                    <li> 
-                        <a href="javascript:void(0)"> 
-                            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">                             
-                        </a>                         
-                    </li>                     
-                    <li> 
-                        <a href="javascript:void(0)"> 
-                            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">                             
-                        </a>                         
-                    </li>                     
-                    <li> 
-                        <a href="javascript:void(0)"> 
-                            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">                             
-                        </a>                         
-                    </li>                     
-                </ul>                 
-            </div>             
-        </footer>         
-    </div>          
-</body>
+            <ul class="footer-social"> 
+                <li> 
+                    <a href="javascript:void(0)"> 
+                        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook"> 
+                    </a>                     
+                </li>                 
+                <li> 
+                    <a href="javascript:void(0)"> 
+                        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter"> 
+                    </a>                     
+                </li>                 
+                <li> 
+                    <a href="javascript:void(0)"> 
+                        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube"> 
+                    </a>                     
+                </li>                 
+            </ul>             
+        </div>         
+    </footer>     
+</div> 

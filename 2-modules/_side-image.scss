@@ -1,0 +1,76 @@
+.side-image {  
+  $base-line-height: 1.5em !default;
+  $action-color: #477DCA !default;
+  $gold: #ffc722;
+  $large-screen: em(860) !default;
+  $base-font-color: #f9f9f9;
+  $side-image-background-top: #77c2ff;
+  $side-image-background-bottom: #002340;
+  $side-image-content-background: transparent;
+  $side-image-border: 0px solid #000;
+
+  @include media($large-screen) {
+    @include row(table);
+  }
+
+  .images-wrapper {
+    @include background(url('../img/Tulip-about-side-image-v1.9.png') no-repeat center center); 
+    display: block;
+    min-height: 12em;
+    padding: 3em;
+
+    @include media($large-screen) {
+      @include span-columns(4);
+      background-size: cover;
+      border-right: $side-image-border;
+    }
+  }
+
+  .side-image-content {
+    @include span-columns(12);
+    background: $side-image-content-background;
+    padding: 1em 1em 4em 1em;
+
+    @include media($large-screen) {
+      @include span-columns(8);
+      padding: 4em 4em 8em 4em;
+    }
+
+    h1 {
+      margin-bottom: 0.9em;
+      background: $gold;
+      color: #000;
+      display: inline-block;
+      font-size: 1.15em;
+      margin-bottom: 1.3em;
+      padding: 3px 8px;
+    }
+
+    h4 {
+      background: #ffc722;
+      color: #000;
+      display: inline-block;
+      font-size: 1.15em;
+      margin-bottom: 1.3em;
+      padding: 3px 8px;
+      text-transform: uppercase;
+    }
+    h4.banner-text-2 {
+      background: #77c2ff;
+      color: #000;  
+    }
+    h4.banner-text-3 {
+      background: #77cf22;
+      color: #000;  
+    }
+
+
+    p {
+      color: $base-font-color;
+      line-height: $base-line-height;
+      margin-bottom: 3em;
+    }
+  }
+
+  @include reset-display();
+}

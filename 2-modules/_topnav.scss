@@ -2,13 +2,13 @@
   $base-border-radius: 3px !default;
   $dark-gray: #333 !default;
   $large-screen: em(860) !default;
-  $base-font-color: $dark-gray !default;
+  $base-font-color: #77c2ff !default;
   $centered-navigation-padding: 1em;
   $centered-navigation-logo-height: 2em;
   $centered-navigation-background: change-color(#77c2ff, $lightness: 25%, $alpha: .5); // #123126; // #152025; // #252015; // #0B2C36;
  // adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%); //#152025; // #333333; // #276D80; // scale-color(#477DCA, $saturation: 0%, $lightness: -35%);
   $centered-navigation-color: transparentize($base-font-color, 0.3);
-  $centered-navigation-color-hover: $base-font-color;
+  $centered-navigation-color-hover: #77c2ff;
   $centered-navigation-height: 60px;
   $centered-navigation-item-padding: 1em;
   $centered-navigation-submenu-padding: 1em;

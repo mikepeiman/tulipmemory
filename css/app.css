@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(http://weloveiconfonts.com/api/?family=entypo);
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
   background-color: rgba(0, 70, 128, 0.25);
@@ -66,10 +67,11 @@ select {
 
 span {
   font-weight: 400;
-  margin-bottom: .85em; }
-  span.required::after {
-    content: "*";
-    color: #ffcf22; }
+  margin-bottom: .85em;
+  /* &.required::after {
+     content: "*";
+     color: #ffcf22;
+   }*/ }
 
 fieldset abbr {
   display: none; }
@@ -472,7 +474,7 @@ background-size: cover; */
       .centered-navigation .centered-navigation-mobile-menu {
         display: none; } }
     .centered-navigation .centered-navigation-mobile-menu:focus, .centered-navigation .centered-navigation-mobile-menu:hover {
-      color: #333; }
+      color: #77c2ff; }
   .centered-navigation .centered-navigation-wrapper {
     max-width: 68em;
     margin-left: auto;
@@ -520,7 +522,7 @@ background-size: cover; */
       outline: none;
       text-decoration: none; }
       .centered-navigation ul li.nav-link a:focus, .centered-navigation ul li.nav-link a:hover {
-        color: #333; }
+        color: #77c2ff; }
     @media screen and (min-width: 900px) {
       .centered-navigation ul li.nav-link {
         background: transparent;
@@ -910,12 +912,139 @@ table.tablesaw {
 .modal-open {
   overflow: hidden; }
 
+.grid-items-lines {
+  position: relative; }
+  .grid-items-lines::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .grid-items-lines .grid-item {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    float: left;
+    height: 14em;
+    overflow: hidden;
+    outline: none;
+    padding: 1em;
+    text-decoration: none;
+    width: 100%; }
+    @media screen and (min-width: 900px) {
+      .grid-items-lines .grid-item {
+        width: 33.33333%; } }
+    .grid-items-lines .grid-item:focus, .grid-items-lines .grid-item:hover {
+      background: rgba(255, 255, 255, 0.05); }
+  .grid-items-lines .grid-item img {
+    display: block;
+    height: 5em;
+    margin-bottom: 1.2em; }
+  .grid-items-lines .grid-item h1 {
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 0.4em;
+    text-align: center; }
+  .grid-items-lines .grid-item p {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.5em;
+    text-align: left; }
+    @media screen and (min-width: 600px) {
+      .grid-items-lines .grid-item p {
+        max-width: 70%; } }
+  @media screen and (min-width: 900px) {
+    .grid-items-lines .grid-item-big {
+      width: 66.66667%; } }
+  @media screen and (min-width: 600px) {
+    .grid-items-lines .grid-item-big p {
+      max-width: 60%; } }
+  .grid-items-lines .bottom-cover {
+    background: transparent;
+    bottom: 0px;
+    height: 3px;
+    position: absolute;
+    width: 100%; }
+  .grid-items-lines .right-cover {
+    background: transparent;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    width: 4px; }
+
+@media screen and (min-width: 900px) {
+  .side-image {
+    display: table;
+    width: 100%;
+    table-layout: fixed; } }
+.side-image .images-wrapper {
+  background: url("../img/Tulip-about-side-image-v1.9.png") no-repeat center center;
+  background: url("../img/Tulip-about-side-image-v1.9.png") no-repeat center center;
+  display: block;
+  min-height: 12em;
+  padding: 3em; }
+  @media screen and (min-width: 900px) {
+    .side-image .images-wrapper {
+      display: table-cell;
+      width: 33.33333%;
+      background-size: cover;
+      border-right: 0px solid #000; } }
+.side-image .side-image-content {
+  display: table-cell;
+  width: 100%;
+  background: transparent;
+  padding: 1em 1em 4em 1em; }
+  @media screen and (min-width: 900px) {
+    .side-image .side-image-content {
+      display: table-cell;
+      width: 66.66667%;
+      padding: 4em 4em 8em 4em; } }
+  .side-image .side-image-content h1 {
+    margin-bottom: 0.9em;
+    background: #ffc722;
+    color: #000;
+    display: inline-block;
+    font-size: 1.15em;
+    margin-bottom: 1.3em;
+    padding: 3px 8px; }
+  .side-image .side-image-content h4 {
+    background: #ffc722;
+    color: #000;
+    display: inline-block;
+    font-size: 1.15em;
+    margin-bottom: 1.3em;
+    padding: 3px 8px;
+    text-transform: uppercase; }
+  .side-image .side-image-content h4.banner-text-2 {
+    background: #77c2ff;
+    color: #000; }
+  .side-image .side-image-content h4.banner-text-3 {
+    background: #77cf22;
+    color: #000; }
+  .side-image .side-image-content p {
+    color: #f9f9f9;
+    line-height: 1.5;
+    margin-bottom: 3em; }
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size: 1.5em; }
+
 body {
   background: url(../img/tulip-bg-1-1000x600.jpg) no-repeat center center fixed;
   background-size: cover;
   padding: 0px 0px;
   margin: 0px 0px;
   font-family: 'Exo 2', sans-serif; }
+
+body.black {
+  background: #000; }
+
+body.about {
+  background: url(../img/Tulip-about-bg-v1.png) no-repeat fixed;
+  background-size: cover; }
 
 h1 {
   font-family: 'Neuton'; }
@@ -948,6 +1077,9 @@ section {
     font-weight: 300;
     font-size: 1.25em;
     text-align: center; }
+
+section.goldBox {
+  border: 5px solid #ffc722; }
 
 .center {
   /*	margin: 0;

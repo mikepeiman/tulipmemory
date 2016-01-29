@@ -1,3 +1,10 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size: 1.5em;
+}
 body {	
 	background: url(../img/tulip-bg-1-1000x600.jpg) no-repeat center center fixed; 
 	// #1155bb // #2600a2 // adjust-color(#ffcf22, $hue: 280deg, $lightness: -25%); // #202030; //#131318; //
@@ -6,7 +13,13 @@ body {
 	margin: 0px 0px;
 	font-family: 'Exo 2', sans-serif;
 }
-
+body.black {
+	background: #000;
+}
+body.about {
+	background: url(../img/Tulip-about-bg-v1.png) no-repeat fixed;
+	background-size: cover;
+}
 h1 {
 	font-family: 'Neuton';
 }
@@ -36,8 +49,11 @@ section {
         font-size: 1.25em;
         text-align: center;
     }
-}
 
+}
+section.goldBox {
+    	border: 5px solid #ffc722;
+    }
 .center {
 /*	margin: 0;
 	padding: 0;
