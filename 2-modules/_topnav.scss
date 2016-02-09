@@ -28,12 +28,13 @@
     display: inline;
     float: left;
     max-height: $centered-navigation-height;
-    padding-left: $centered-navigation-padding;
+    padding: 0.8em 0;
 
     img {
       max-height: $centered-navigation-height;
       opacity: .6;
       padding: .8em 0;
+
     }
 
     @include media($horizontal-bar-mode) {

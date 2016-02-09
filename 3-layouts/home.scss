@@ -1,10 +1,10 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo);
+/*@import url(http://weloveiconfonts.com/api/?family=entypo);
 
-/* entypo */
+ entypo 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
   font-size: 1.5em;
-}
+} */
 body {	
 	background: url(../img/tulip-bg-1-1000x600.jpg) no-repeat center center fixed; 
 	// #1155bb // #2600a2 // adjust-color(#ffcf22, $hue: 280deg, $lightness: -25%); // #202030; //#131318; //
@@ -17,8 +17,11 @@ body.black {
 	background: #000;
 }
 body.about {
-	background: url(../img/Tulip-about-bg-v1.1.png) no-repeat fixed;
+	background: url(../img/Tulip-about-bg-v1.1.png) no-repeat center center fixed; 
 	background-size: cover;
+	padding: 0px 0px;
+	margin: 0px 0px;
+	font-family: 'Exo 2', sans-serif;
 }
 h1 {
 	font-family: 'Neuton';
@@ -59,6 +62,7 @@ section {
 	padding: 0;
 	display: block; */
 	text-align: center;
+	margin: 0 auto;
 }
 
 .right {
@@ -71,7 +75,11 @@ section {
 .tulip-table {
 	@include tablesaw-stack( 30em );
 	@include outer-container;
-	margin: 5em;
+	margin: none;
+	@media (min-width: 30em) {
+		margin: 0 auto;
+		text-align: center;
+}
 }
 $banner-background:	adjust-color(#ffcf22, $hue: 207deg, $lightness: -25%);
 
@@ -307,9 +315,6 @@ th#first-column {
 }
 }
 
-.wrapper {
-	padding: 4em;
-}
 .about-caption h1, h2, h3, h4, h5, h6 {
     display: block;
 	width: 320px;
@@ -330,11 +335,7 @@ th#first-column {
 	border: 3px solid #ffc722;
 	margin-right: 1.25em;
 }
-.about-content img {
-	float: right;
-	border: 3px solid #ffc722;
-	margin-left: 1.25em;
-} 
+
 .privacy-content img {
 	float: none;
 	border: none;
@@ -353,15 +354,31 @@ th#first-column {
 	color: #fff;
 	background-color: #002340;
 }
+.wrapper {
+	padding: 1em;
+	@media (min-width: 50em) { padding: 4em; }
+}
 .about-content {
 	display: inline-block;
-	float: right;
 }
+.about-content img {
+	float: none;
+	padding: 1em;
+	margin-bottom: 1.25em;
+	border: 3px solid #ffc722;
+	@media (min-width: 50em) { 
+		float: right;
+		margin-left: 1.25em;
+	}
+} 
 .inner-content {
-	padding: 2.5em;
+	padding: 1em;
 	background: rgba(15,15,15,0.75);
 	border: 15px solid rgba(45,45,45, 0.75); // Tulip green rgb 119,207,34
+	@media (min-width: 30em) {
+	padding: 2.5em;
 	border-radius: 15px;
+}
 }
 .welcome {
 	display: block;

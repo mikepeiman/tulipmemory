@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(http://weloveiconfonts.com/api/?family=entypo);
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
   background-color: rgba(0, 70, 128, 0.25);
@@ -440,7 +439,7 @@ html {
     display: inline;
     float: left;
     max-height: 60px;
-    padding-left: 1em; }
+    padding: 0.8em 0; }
     .centered-navigation .mobile-logo img {
       max-height: 60px;
       opacity: .6;
@@ -777,11 +776,13 @@ table.tablesaw {
   /* Avoid double strokes when stacked */
   .tablesaw-stack th.group b.tablesaw-cell-label {
     display: none !important; } }
-/* entypo */
+/*@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+ entypo 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
-  font-size: 1.5em; }
-
+  font-size: 1.5em;
+} */
 body {
   background: url(../img/tulip-bg-1-1000x600.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -793,8 +794,11 @@ body.black {
   background: #000; }
 
 body.about {
-  background: url(../img/Tulip-about-bg-v1.1.png) no-repeat fixed;
-  background-size: cover; }
+  background: url(../img/Tulip-about-bg-v1.1.png) no-repeat center center fixed;
+  background-size: cover;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  font-family: 'Exo 2', sans-serif; }
 
 h1 {
   font-family: 'Neuton'; }
@@ -835,7 +839,8 @@ section {
   /*	margin: 0;
   	padding: 0;
   	display: block; */
-  text-align: center; }
+  text-align: center;
+  margin: 0 auto; }
 
 .right {
   text-align: right; }
@@ -847,7 +852,7 @@ section {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  margin: 5em; }
+  margin: none; }
   @media (max-width: 29.9375em) {
     .tulip-table {
       /*
@@ -1016,6 +1021,10 @@ float: left; */ }
     clear: both;
     content: "";
     display: table; }
+  @media (min-width: 30em) {
+    .tulip-table {
+      margin: 0 auto;
+      text-align: center; } }
 
 .table-title {
   background: rgba(0, 70, 128, 0.5);
@@ -1217,9 +1226,6 @@ p.caution {
 @media screen and (min-width: 30em) {
   th#first-column {
     width: 20%; } }
-.wrapper {
-  padding: 4em; }
-
 .about-caption h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 320px;
@@ -1240,11 +1246,6 @@ p.caution {
   border: 3px solid #ffc722;
   margin-right: 1.25em; }
 
-.about-content img {
-  float: right;
-  border: 3px solid #ffc722;
-  margin-left: 1.25em; }
-
 .privacy-content img {
   float: none;
   border: none; }
@@ -1262,15 +1263,33 @@ p.caution {
   color: #fff;
   background-color: #002340; }
 
+.wrapper {
+  padding: 1em; }
+  @media (min-width: 50em) {
+    .wrapper {
+      padding: 4em; } }
+
 .about-content {
-  display: inline-block;
-  float: right; }
+  display: inline-block; }
+
+.about-content img {
+  float: none;
+  padding: 1em;
+  margin-bottom: 1.25em;
+  border: 3px solid #ffc722; }
+  @media (min-width: 50em) {
+    .about-content img {
+      float: right;
+      margin-left: 1.25em; } }
 
 .inner-content {
-  padding: 2.5em;
+  padding: 1em;
   background: rgba(15, 15, 15, 0.75);
-  border: 15px solid rgba(45, 45, 45, 0.75);
-  border-radius: 15px; }
+  border: 15px solid rgba(45, 45, 45, 0.75); }
+  @media (min-width: 30em) {
+    .inner-content {
+      padding: 2.5em;
+      border-radius: 15px; } }
 
 .welcome {
   display: block;
