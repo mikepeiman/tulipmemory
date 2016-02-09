@@ -1,21 +1,7 @@
 
 .hero {  
- /* $base-border-radius: 3px !default;
-  $action-color: #477DCA !default;
-  $large-screen: em(860) !default;
-  $hero-background-top: #7F99BE; 
-  $hero-background-bottom: #20392B; 
-
-  $gradient-angle: 10deg;
-  $hero-image: '../img/tulip-bg-1-1000x600.jpg';
-
-  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
- */
   $hero-color: #ffCF22;
-  background-color: rgba(0,0,0,0); /*
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover; */
+  background-color: rgba(0,0,0,0); 
   padding-bottom: 1em;
 
   .hero-logo img {
@@ -38,28 +24,29 @@
 
       h1 {
         color: $hero-color;
-        font-size: 2.5em;
+        font-size: 2.15em;
         margin-bottom: 0.5em;
         font-weight: 400;
         text-align: center;
       
 
         @include media($large-screen) {
-          font-size: 5em;
-          @include outer-container(80);
+          font-size: 2.75em;
+          @include outer-container(80em);
         }
       }
 
       h2 {
         color: white; // scale-color($hero-color, $red: 40%, $green: 100%, $blue: 100%);
         line-height: 1.4em;
-        margin: 0 auto 1.25em auto; 
+        margin: 0 auto 1.5em auto; 
         font-weight: 400;
         font-size: 1.25em;
         text-align: center;
+        width: auto;
 
         @include media($large-screen) {
-          font-size: 2em;
+          font-size: 1.75em;
           max-width: 60%;
           margin: 0 auto 1.75em auto; 
         }

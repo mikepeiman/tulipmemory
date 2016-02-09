@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/app.css">         
         <!-- <link rel="stylesheet" href="css/tablesaw.stackonly.css">   -->         
         <link href='https://fonts.googleapis.com/css?family=Exo+2:400,700,400italic,700italic|Neuton:400,700' rel='stylesheet' type='text/css'>         
+        <link rel="stylesheet" type="text/css" href="css/flaticon.css"> 
         <script type="text/javascript" src="js/jquery-1.11.3.js"></script>         
         <script src="js/tablesaw.stackonly.js"></script>         
         <script src="js/tablesaw-init.js"></script>         
@@ -16,13 +17,13 @@
         <header class="centered-navigation" role="banner"> 
             <div class="centered-navigation-wrapper"> 
                 <a href="javascript:void(0)" class="mobile-logo"> 
-                    <img src="img/Tulip-logo-11-11-v7.9.png" alt="Logo image">                     
+                    <img src="img/Tulip-logo-11-11-v7.9.png" alt="Logo image"> 
                 </a>                 
                 <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
                 <nav role="navigation"> 
                     <ul id="js-centered-navigation-menu" class="centered-navigation-menu show"> 
                         <li class="nav-link logo"> 
-                            <a href="index.html"><span class="entypo-home"></span></a> 
+                            <a href="index.html"><i class="flaticon-house158"></i></a> 
                         </li>
                         <li class="nav-link"> 
                             <a href="about.html">About Us</a> 
@@ -39,114 +40,17 @@
                     </ul>                     
                 </nav>                 
             </div>             
-        </header>         
-        <div class="hero"> 
-            <div class="hero-inner"> 
-                <a href="" class="hero-logo"> 
-                    <img src="img/Tulip-logo-11-11-v7.9.png" alt="Logo Image">                     
-                </a>                 
-                <div class="hero-copy"> 
-                    <h1>TULIP ELECTRONICS INC.</h1> 
-                    <h2>Making reliable CNC memory upgrades for over 30 years.</h2> 
-                </div>                 
-            </div>             
-        </div>         
-        <div class="table-title"> 
-            <h1>We currently offer memory upgrades for the following machine models:</h1> 
-            <div class="cards"> 
-                <div class="card"> 
-                    <div class="card-image"> 
-                        <img src="img/DSC03208-forweb.jpg" alt="">                         
-                    </div>                     
-                    <div class="card-header"> 
-                        FANUC
-</div>                     
-                    <div class="card-copy"> 
-                        <table> 
-                            <thead> 
-                                <th>MODEL</th>                                 
-                                <th>VERSION</th>                                 
-                            </thead>                             
-                            <tbody> 
-                                <tr> 
-                                    <td>0, 10</td>                                     
-                                    <td>Analog, Digital</td>                                     
-                                </tr>                                 
-                                <tr> 
-                                    <td>6, 9, 11, 12</td>                                     
-                                    <td>All versions</td>                                     
-                                </tr>                                 
-                                <tr> 
-                                    <td>15, 16, 18</td>                                     
-                                    <td>iA, A, B</td>                                     
-                                </tr>                                 
-                                <tr> 
-                                    <td>16, 18</td>                                     
-                                    <td>B-FROM, C</td>                                     
-                                </tr>                                 
-                            </tbody>                             
-                        </table>                         
-                    </div>                     
-                </div>                 
-                <div class="card"> 
-                    <div class="card-image"> 
-                        <img src="img/DSC03218-forweb.jpg" alt="">                         
-                    </div>                     
-                    <div class="card-header"> 
-                        YASNAC
-</div>                     
-                    <div class="card-copy"> 
-                        <table> 
-                            <thead> 
-                                <th>MODEL</th>                                 
-                                <th>VERSION</th>                                 
-                            </thead>                             
-                            <tbody> 
-                                <tr> 
-                                    <td>LX</td>                                     
-                                    <td>1, 2, 3</td>                                     
-                                </tr>                                 
-                                <tr> 
-                                    <td>MX</td>                                     
-                                    <td>1, 2, 3</td>                                     
-                                </tr>                                 
-                                <tr> 
-                                    <td>i-80</td>                                     
-                                    <td></td>                                     
-                                </tr>                                 
-                            </tbody>                             
-                        </table>                         
-                    </div>                     
-                </div>                 
-                <div class="card"> 
-                    <div class="card-image"> 
-                        <img src="img/DSC03193-forweb.jpg" alt="">                         
-                    </div>                     
-                    <div class="card-header"> 
-                        MITSUBISHI
-</div>                     
-                    <div class="card-copy"> 
-                        <table> 
-                            <thead> 
-                                <th>MODEL</th>                                 
-                                <th>VERSION</th>                                 
-                            </thead>                             
-                            <tbody> 
-                                <tr> 
-                                    <td>MITS 500</td>                                     
-                                    <td>Mazak Plus</td>                                     
-                                </tr>                                 
-                            </tbody>                             
-                        </table>                         
-                    </div>                     
-                </div>                 
-            </div>             
-            <p><a href="#tulip-table" class="tab-link is-active flip">See full list of upgrades by model</a></p> 
-        </div>         
+        </header>              
+        <div class="products-panel"> 
+            <h1>Products</h1>
+            <p>All our products are backed by a 3-year warranty. Installation is easy, and installation support is included should you require it.</p>
+            <p>If your model is not listed, we may still be able to help you find a solution.</p>
+        </div>
+        
+         
         <ul class="accordion-tabs-minimal"> 
-            <li class="tab-header-and-content"> 
-                <div class="tab-content"> 
-                    <div id="tulip-table" class="center tulip-table"> 
+            <li class="tab-header-and-content">  
+                    <div id="tulip-table" class="tulip-table"> 
                         <table class="tablesaw tablesaw-stack table-minimal" data-tablesaw-mode="stack"> 
                             <!--this works on desktop but not mobile <col width="15%"> 
                             <colgroup>
@@ -467,9 +371,7 @@
                                 </tr>                                 
                             </tbody>                             
                         </table>                         
-                        <p class="center"> <a href="#tulip-table" class="tab-link is-active flip center">Close list</a> </p> 
-                    </div>                     
-                </div>                 
+                    </div>                                     
             </li>             
         </ul>         
         <section> 
@@ -478,52 +380,52 @@
             <p class="text-center"><a href="contact.html">
                     <button>Contact Us</button>
                 </a></p>
-        </section>
-        <footer class="footer-2" role="contentinfo"> 
+        </section>         
+    </div>     
+    <footer class="footer-2" role="contentinfo"> 
+        <ul> 
+            <li class="nav-link logo"> 
+                <a href="index.html"><span class="entypo-home"></span></a> 
+            </li>
+            <li class="nav-link"> 
+                <a href="about.html">About Us</a> 
+            </li>
+            <li class="nav-link"> 
+                <a href="products.html">Products</a> 
+            </li>             
+            <li class="nav-link"> 
+                <a href="resources.html">Resources</a> 
+            </li>             
+            <li class="nav-link"> 
+                <a href="contact.html">Contact</a> 
+            </li>             
+        </ul>         
+        <div class="footer-secondary-links"> 
             <ul> 
-                <li class="nav-link logo"> 
-                    <a href="index.html"><span class="entypo-home"></span></a> 
-                </li>
-                <li class="nav-link"> 
-                    <a href="about.html">About Us</a> 
-                </li>
-                <li class="nav-link"> 
-                    <a href="products.html">Products</a> 
+                <li> 
+                    <a href="javascript:void(0)">Terms and Conditions</a> 
                 </li>                 
-                <li class="nav-link"> 
-                    <a href="resources.html">Resources</a> 
-                </li>                 
-                <li class="nav-link"> 
-                    <a href="contact.html">Contact</a> 
+                <li> 
+                    <a href="javascript:void(0)">Privacy Policy</a> 
                 </li>                 
             </ul>             
-            <div class="footer-secondary-links"> 
-                <ul> 
-                    <li> 
-                        <a href="javascript:void(0)">Terms and Conditions</a> 
-                    </li>                     
-                    <li> 
-                        <a href="javascript:void(0)">Privacy Policy</a> 
-                    </li>                     
-                </ul>                 
-                <ul class="footer-social"> 
-                    <li> 
-                        <a href="javascript:void(0)"> 
-                            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">                             
-                        </a>                         
-                    </li>                     
-                    <li> 
-                        <a href="javascript:void(0)"> 
-                            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">                             
-                        </a>                         
-                    </li>                     
-                    <li> 
-                        <a href="javascript:void(0)"> 
-                            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">                             
-                        </a>                         
-                    </li>                     
-                </ul>                 
-            </div>             
-        </footer>         
-    </div>          
+            <ul class="footer-social"> 
+                <li> 
+                    <a href="javascript:void(0)"> 
+                        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">                         
+                    </a>                     
+                </li>                 
+                <li> 
+                    <a href="javascript:void(0)"> 
+                        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">                         
+                    </a>                     
+                </li>                 
+                <li> 
+                    <a href="javascript:void(0)"> 
+                        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">                         
+                    </a>                     
+                </li>                 
+            </ul>             
+        </div>         
+    </footer>     
 </body>
