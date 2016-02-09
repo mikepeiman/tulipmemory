@@ -1284,7 +1284,7 @@ p.caution {
 
 .inner-content {
   padding: 1em;
-  background: rgba(15, 15, 15, 0.75);
+  background: #0f0f0f;
   border: 15px solid rgba(45, 45, 45, 0.75); }
   @media (min-width: 30em) {
     .inner-content {
@@ -1296,6 +1296,15 @@ p.caution {
   text-align: center;
   margin: 1.5em;
   font-size: 2.5em;
+  font-weight: 400;
+  font-family: 'Exo 2', sans-serif;
+  color: #ffc722; }
+
+.page-filler {
+  display: block;
+  text-align: center;
+  margin: 7.5em;
+  font-size: 2em;
   font-weight: 400;
   font-family: 'Exo 2', sans-serif;
   color: #ffc722; }
