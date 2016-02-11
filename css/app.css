@@ -794,20 +794,15 @@ body.black {
   background: #000; }
 
 body.about {
-  background: url(../img/Tulip-about-bg-v1.1.png) no-repeat center center fixed;
+  background: url(../img/Tulip-about-bg-v1.3.png) no-repeat center center fixed;
   background-size: cover;
   padding: 0px 0px;
   margin: 0px 0px;
   font-family: 'Exo 2', sans-serif; }
 
-h1 {
-  font-family: 'Neuton'; }
-
-h2, h4, h6, p {
-  font-family: 'Exo 2'; }
-
-h3, h5 {
-  font-family: 'Neuton'; }
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Exo 2';
+  color: #e9e9e9; }
 
 section {
   max-width: 68em;
@@ -1285,7 +1280,7 @@ p.caution {
 .inner-content {
   padding: 1em;
   background: #0f0f0f;
-  border: 15px solid rgba(45, 45, 45, 0.75); }
+  border: 15px solid rgba(119, 194, 255, 0.25); }
   @media (min-width: 30em) {
     .inner-content {
       padding: 2.5em;
@@ -1303,11 +1298,29 @@ p.caution {
 .page-filler {
   display: block;
   text-align: center;
-  margin: 7.5em;
-  font-size: 2em;
+  margin: 3em 1.5em;
+  font-size: 1.35em;
   font-weight: 400;
   font-family: 'Exo 2', sans-serif;
   color: #ffc722; }
+  @media (min-width: 40em) {
+    .page-filler {
+      margin: 8em 3.5em;
+      font-size: 2em; } }
+
+.big-heading {
+  display: block;
+  text-align: center;
+  margin: none;
+  padding: none;
+  font-size: 1.35em;
+  font-weight: 400;
+  font-family: 'Exo 2', sans-serif;
+  color: #ffc722; }
+  @media (min-width: 40em) {
+    .big-heading {
+      margin: 8em 3.5em;
+      font-size: 2em; } }
 
 .privacy {
   display: block;
@@ -1347,5 +1360,78 @@ strong {
   font-size: 0.55em;
   color: #e9e9e9;
   margin: .15em; }
+
+.resources-content {
+  color: #e9e9e9;
+  margin: 0 auto;
+  border: 5px solid #aa3333; }
+  @media (min-width: 40em) {
+    .resources-content {
+      font-size: 1.25em; } }
+
+.resources-filegroup {
+  display: inline-block;
+  width: 90%;
+  padding: 1em;
+  border: 5px solid #33aa33; }
+  @media (min-width: 50em) {
+    .resources-filegroup {
+      width: 42.5%;
+      padding: 1.5em; } }
+  @media (min-width: 75em) {
+    .resources-filegroup {
+      width: 29%;
+      padding: 2em; } }
+
+.filegroup {
+  display: inline-block;
+  border: 5px solid #3333aa; }
+
+span.filesize {
+  text-align: left;
+  float: left; }
+
+.resources-content h1, h2, h3, h4, h5, h6, p {
+  color: #e9e9e9;
+  text-align: left;
+  padding: 0;
+  margin: 0; }
+
+.resources-content p {
+  font-size: .9em; }
+
+.resources-content h1 {
+  font-size: 1.25em;
+  font-weight: 400; }
+
+.resources-content h2 {
+  font-size: 1.15em; }
+
+.resources-content span {
+  font-size: .9em;
+  color: #77c2ff; }
+
+.block-center {
+  margin: 0 auto; }
+
+span.filesize {
+  margin-bottom: 10px;
+  padding-top: 5px; }
+
+span.filesize:before {
+  content: url("icon_pdfdoc.svg");
+  font-color: #77c2ff;
+  width: 30px;
+  height: auto;
+  padding-right: 1em; }
+
+.svg-1 {
+  fill: #434440; }
+
+.svg-2 {
+  fill: #77c2ff; }
+
+.svg-3 {
+  stroke: #77c2ff; }
 
 /*# sourceMappingURL=app.css.map */
