@@ -310,7 +310,12 @@ th#first-column {
 }
 }
 
-.about-caption h1, h2, h3, h4, h5, h6 {
+.about-caption h1,
+.about-caption h2,
+.about-caption h3,
+.about-caption h4,
+.about-caption h5,
+.about-caption h6 {
     display: block;
 	width: 320px;
 	color: #000;
@@ -485,7 +490,13 @@ span.filesize {
 	text-align: left;
 	float: left;
 }
-.resources-content h1, h2, h3, h4, h5, h6, p {
+.resources-content h1,
+.resources-content h2,
+.resources-content h3,
+.resources-content h4,
+.resources-content h5,
+.resources-content h6,
+.resources-content p {
 	color: #e9e9e9;
 	text-align: left;
 	padding: 0;
