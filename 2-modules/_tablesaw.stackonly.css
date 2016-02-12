@@ -32,7 +32,7 @@ table.tablesaw {
 .tablesaw thead tr th {
   padding-top: 0;
   padding-bottom: 0; }
-  @media (min-width: 50em) {
+  @media (min-width: 70em) {
     .tablesaw thead tr th {
       padding-top: 1.2em;
       padding-bottom: 1.2em; } }
