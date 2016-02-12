@@ -5,6 +5,8 @@
   font-family: 'entypo', sans-serif;
   font-size: 1.5em;
 } */
+$medium-screen: em(640) !default;
+$large-screen: em(860) !default;
 body {	
 	background: url(../img/tulip-bg-1-1000x600.jpg) no-repeat center center fixed; 
 	// #1155bb // #2600a2 // adjust-color(#ffcf22, $hue: 280deg, $lightness: -25%); // #202030; //#131318; //
@@ -526,3 +528,46 @@ span.filesize:before {
 .coming-soon ul li {
 	margin: auto 2.5em;
 }
+.address-box {
+	list-style: inherit;
+	float: none;
+	margin: 0 auto;
+	padding: 1em;
+	font-size: 1em;
+	border-top: 1px solid change-color(#77c2ff, $lightness: 75%);
+	@media (min-width: $medium-screen) {
+		border-top: 1px solid change-color(#77c2ff, $lightness: 75%);
+		float: none;
+	}
+	@media (min-width: $large-screen) {
+		border-top: none;
+		border-left: 1px solid change-color(#77c2ff, $lightness: 75%);
+		float: right;
+	}
+}
+.address-box .lead {
+	font-size: 1.25em;
+	line-height: .7em;
+	color: #77c2ff;
+	text-align: right;
+}
+.address-box p {
+	font-size: .8em;
+	line-height: .7em;
+	padding: 0 1em;
+	color: #77c2ff;
+	text-align: right;
+}
+.contact-section {
+  display: block;
+  margin-top: 3em;
+  text-align: center;
+}
+.subtle {
+    border: 0;
+    height: 1.5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255,255,255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.block { display: block; }
+.inline-block { display: inline-block; }

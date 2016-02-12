@@ -1436,4 +1436,50 @@ span.filesize:before {
 .coming-soon ul li {
   margin: auto 2.5em; }
 
+.address-box {
+  list-style: inherit;
+  float: none;
+  margin: 0 auto;
+  padding: 1em;
+  font-size: 1em;
+  border-top: 1px solid #80c6ff; }
+  @media (min-width: 600px) {
+    .address-box {
+      border-top: 1px solid #80c6ff;
+      float: none; } }
+  @media (min-width: 900px) {
+    .address-box {
+      border-top: none;
+      border-left: 1px solid #80c6ff;
+      float: right; } }
+
+.address-box .lead {
+  font-size: 1.25em;
+  line-height: .7em;
+  color: #77c2ff;
+  text-align: right; }
+
+.address-box p {
+  font-size: .8em;
+  line-height: .7em;
+  padding: 0 1em;
+  color: #77c2ff;
+  text-align: right; }
+
+.contact-section {
+  display: block;
+  margin-top: 3em;
+  text-align: center; }
+
+.subtle {
+  border: 0;
+  height: 1.5px;
+  background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.75), transparent); }
+
+.block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
 /*# sourceMappingURL=app.css.map */
