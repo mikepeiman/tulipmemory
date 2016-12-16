@@ -47,24 +47,16 @@
                         <input name="infusionsoft_version" type="hidden" value="1.60.0.46" />
                     <fieldset>
                     <div class="infusion-field">
-                    <p>
                         <input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="hidden" value="<?=$_GET[‘inf_field_FirstName’]?>" />
-                    </p>
                     </div>
                     <div class="infusion-field">
-                    <p>
                         <input class="infusion-field-input-container" id="inf_field_LastName" name="inf_field_LastName" type="hidden" value="<?=$_GET[‘inf_field_LastName’]?>" />
-                    </p>
                     </div>
                     <div class="infusion-field">
-                    <p>
                         <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="hidden" value="<?=$_GET[‘inf_field_Email’]?>" />
-                    </p>
                     </div>
                     <div class="infusion-field">
-                    <p>
                         <input class="infusion-field-input-container" id="inf_field_Phone1" name="inf_field_Phone1" type="hidden" value="<?=$_GET[‘inf_field_Phone1’]?>" />
-                    </p>
                     </div>
                     <div class="infusion-field">
                     <p>
