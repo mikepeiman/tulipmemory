@@ -40,7 +40,7 @@
   
         <div class="table-title-2">
             <section class="form-container">
-                <h1 class="welcome">Let us know your machine shop challenges. We may be able to help.</h1>            
+                <h1 class="welcome">Thanks for taking the time to tell us a bit more about what your manufacturing challenges are. We're working hard to bring you solutions!</h1>            
                     <form accept-charset="UTF-8" action="https://fp346.infusionsoft.com/app/form/process/ceef9cd132d6a54f41f599c19e61f2dd" class="infusion-form" method="POST">
                         <input name="inf_form_xid" type="hidden" value="ceef9cd132d6a54f41f599c19e61f2dd" />
                         <input name="inf_form_name" type="hidden" value="Survey Step 2" />
@@ -48,26 +48,22 @@
                     <fieldset>
                     <div class="infusion-field">
                     <p>
-                        <label for="inf_field_FirstName"><span class="required">First Name *</span></label>
-                        <input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="text" style="color: white;" value="<?=$_GET[‘inf_field_FirstName’]?>"/>
+                        <input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="hidden" style="color: white;" value="<?=$_GET[‘inf_field_FirstName’]?>" />
                     </p>
                     </div>
                     <div class="infusion-field">
                     <p>
-                        <label for="inf_field_LastName"><span class="required">Last Name *</span></label>
-                        <input class="infusion-field-input-container" id="inf_field_LastName" name="inf_field_LastName" type="text" style="color: white;" value="<?=$_GET[‘inf_field_LastName’]?>"/>
+                        <input class="infusion-field-input-container" id="inf_field_LastName" name="inf_field_LastName" type="hidden" style="color: white;" value="<?=$_GET[‘inf_field_LastName’]?>" />
                     </p>
                     </div>
                     <div class="infusion-field">
                     <p>
-                        <label for="inf_field_Email"><span class="required">Email *</span></label>
-                        <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="text" style="color: white;" value="<?=$_GET[‘inf_field_Email’]?>"/>
+                        <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="hidden" style="color: white;" value="<?=$_GET[‘inf_field_Email’]?>" />
                     </p>
                     </div>
                     <div class="infusion-field">
                     <p>
-                        <label for="inf_field_Phone1"><span class="required">Phone *</span></label>
-                        <input class="infusion-field-input-container" id="inf_field_Phone1" name="inf_field_Phone1" type="text" style="color: white;" value="<?=$_GET[‘inf_field_Phone1’]?>"/>
+                        <input class="infusion-field-input-container" id="inf_field_Phone1" name="inf_field_Phone1" type="hidden" style="color: white;" value="<?=$_GET[‘inf_field_Phone1’]?>" />
                     </p>
                     </div>
                     <div class="infusion-field">
