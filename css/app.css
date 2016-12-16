@@ -87,11 +87,9 @@ form fieldset p label {
   margin: 0 0 0 0;
   font-size: 1.15em;
   font-weight: 300;
-  width: 100%; }
-  @media screen and (min-width: 30em) {
-    form fieldset p label {
-      width: 49%;
-      margin: auto; } }
+  width: 100%;
+  }
+
 
 form fieldset p label span {
   margin: 0;

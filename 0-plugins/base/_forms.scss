@@ -1,3 +1,6 @@
+@import "typography";
+@import "../bourbon/addons/text-inputs";
+
 .form-container {
   width: 100%;
   @media screen and (min-width: 40em) { width: 70%; }
@@ -23,8 +26,8 @@ form h2 {
 fieldset {
   background-color: none; // change-color(white, $alpha: .05);
   border: none;
-  margin: 0 0 $small-spacing;
-  padding: $base-spacing;
+  margin: 0 0; //$small-spacing;
+  padding: 0;//$base-spacing;
   width: 100%;
   color: white;
 }
@@ -65,7 +68,8 @@ form fieldset p label {
   margin: 0 0 0 0;
   font-size: 1.15em;
   font-weight: 300;
-  width: 100%;
+  width: 10%;
+
 }
 
 form fieldset p label span {
@@ -97,8 +101,9 @@ form fieldset textarea {
   }
 }
 
-#{$all-text-inputs},
-select[multiple=multiple] {
+/* #{$all-text-inputs},
+select[multiple=multiple] */
+input {
   background-color: $base-background-color;
  // border: $base-border;
   border-radius: 0;
