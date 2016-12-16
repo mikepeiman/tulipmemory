@@ -48,57 +48,52 @@
                     <fieldset>
                     <div class="infusion-field">
                     <p>
-                        <input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="hidden" style="color: white;" value="<?=$_GET[‘inf_field_FirstName’]?>" />
+                        <input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="hidden" value="<?=$_GET[‘inf_field_FirstName’]?>" />
                     </p>
                     </div>
                     <div class="infusion-field">
                     <p>
-                        <input class="infusion-field-input-container" id="inf_field_LastName" name="inf_field_LastName" type="hidden" style="color: white;" value="<?=$_GET[‘inf_field_LastName’]?>" />
+                        <input class="infusion-field-input-container" id="inf_field_LastName" name="inf_field_LastName" type="hidden" value="<?=$_GET[‘inf_field_LastName’]?>" />
                     </p>
                     </div>
                     <div class="infusion-field">
                     <p>
-                        <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="hidden" style="color: white;" value="<?=$_GET[‘inf_field_Email’]?>" />
+                        <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="hidden" value="<?=$_GET[‘inf_field_Email’]?>" />
                     </p>
                     </div>
                     <div class="infusion-field">
                     <p>
-                        <input class="infusion-field-input-container" id="inf_field_Phone1" name="inf_field_Phone1" type="hidden" style="color: white;" value="<?=$_GET[‘inf_field_Phone1’]?>" />
+                        <input class="infusion-field-input-container" id="inf_field_Phone1" name="inf_field_Phone1" type="hidden" value="<?=$_GET[‘inf_field_Phone1’]?>" />
                     </p>
                     </div>
                     <div class="infusion-field">
                     <p>
                         <label for="inf_custom_MachineControlBackups0"><span class="required">How often do you back up your controls? *</span></label>
-                        <textarea cols="24" id="inf_custom_MachineControlBackups0" name="inf_custom_MachineControlBackups0" rows="5">
-                    </textarea>
+                        <textarea  cols="24" id="inf_custom_MachineControlBackups0" name="inf_custom_MachineControlBackups0" rows="5"></textarea>
                     </p>
                     </div>
                     <div class="infusion-field">
                     <p>
                         <label for="inf_custom_ControlCrashorMemoryLoss"><span class="required">Have you ever experienced a control crash or other memory loss issue? What was the impact? *</span></label>
-                        <textarea cols="24" id="inf_custom_ControlCrashorMemoryLoss" name="inf_custom_ControlCrashorMemoryLoss" rows="5">
-                    </textarea>
+                        <textarea cols="24" id="inf_custom_ControlCrashorMemoryLoss" name="inf_custom_ControlCrashorMemoryLoss" rows="5"></textarea>
                     </p>
                     </div>
                     <div class="infusion-field">
                     <p>
                         <label for="inf_custom_MemoryLimitations"><span class="required">Having you ever exceeded available memory on any of your controls? Which controls? *</span></label>
-                        <textarea cols="24" id="inf_custom_MemoryLimitations" name="inf_custom_MemoryLimitations" rows="5">
-                    </textarea>
+                        <textarea cols="24" id="inf_custom_MemoryLimitations" name="inf_custom_MemoryLimitations" rows="5"></textarea>
                     </p>
                     </div>
                     <div class="infusion-field">
                     <p>
                         <label for="inf_custom_MachineMonitoringorFactoryAutomation"><span class="required">Are you using any machine monitoring or factory automation solutions? If so, what solutions are you using? *</span></label>
-                        <textarea cols="24" id="inf_custom_MachineMonitoringorFactoryAutomation" name="inf_custom_MachineMonitoringorFactoryAutomation" rows="5">
-                    </textarea>
+                        <textarea cols="24" id="inf_custom_MachineMonitoringorFactoryAutomation" name="inf_custom_MachineMonitoringorFactoryAutomation" rows="5"></textarea>
                     </p>
                     </div>
                     <div class="infusion-field">
                     <p>
                         <label for="inf_custom_ManufacturerFeedback"><span class="required">If you could ask machine control manufacturers to improve one thing, what would it be? *</span></label>
-                        <textarea cols="24" id="inf_custom_ManufacturerFeedback" name="inf_custom_ManufacturerFeedback" rows="5">
-                    </textarea>
+                        <textarea cols="24" id="inf_custom_ManufacturerFeedback" name="inf_custom_ManufacturerFeedback" rows="5"></textarea>
                     </p>
                     </div>
                     <div class="infusion-submit">
