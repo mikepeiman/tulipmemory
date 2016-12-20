@@ -45,10 +45,10 @@
                         <input name="inf_form_xid" type="hidden" value="ceef9cd132d6a54f41f599c19e61f2dd" />
                         <input name="inf_form_name" type="hidden" value="Survey Step 2" />
                         <input name="infusionsoft_version" type="hidden" value="1.60.0.46" />
-                        <input name="inf_field_FirstName" type="hidden" value="<?php echo $_GET[‘inf_field_FirstName’]?>" />
-                        <input name="inf_field_LastName" type="hidden" value="<?php echo $_GET[‘inf_field_LastName’]?>" />
-                        <input name="inf_field_Email" type="hidden" value="<?php echo $_GET[‘inf_field_Email’]?>" />
-                        <input name="inf_field_Phone1" type="hidden" value="<?php echo $_GET[‘inf_field_Phone1’]?>" />
+                        <input name="inf_field_FirstName" type="hidden" value="<?php echo $_GET[‘inf_field_FirstName’];?>" />
+                        <input name="inf_field_LastName" type="hidden" value="<?php echo $_GET[‘inf_field_LastName’];?>" />
+                        <input name="inf_field_Email" type="hidden" value="<?php echo $_GET[‘inf_field_Email’];?>" />
+                        <input name="inf_field_Phone1" type="hidden" value="<?php echo $_GET[‘inf_field_Phone1’];?>" />
                     <fieldset>
                     
                     <div class="infusion-field">
@@ -81,6 +81,15 @@
                         <textarea cols="24" id="inf_custom_ManufacturerFeedback" name="inf_custom_ManufacturerFeedback" rows="5"></textarea>
                     </p>
                     </div>
+                    <div class="infusion-field">
+                    <p>
+                        <label for="inf_custom_Overallwhatwouldyouliketoimprove"><span class="required">If you could wave a magic wand to improve one thing in your overall operations, what would it be? *</span></label>
+                        <textarea cols="24" id="inf_custom_Overallwhatwouldyouliketoimprove" name="inf_custom_Overallwhatwouldyouliketoimprove" rows="5"></textarea>
+                    </p>
+                    </div>
+                    <hr>
+                    <p style="text-align: center">Page 2 of 2</p>
+                    <hr>
                     <div class="infusion-submit">
                         <input type="submit" value="Submit" />
                     </div>
