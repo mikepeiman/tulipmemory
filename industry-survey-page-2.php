@@ -44,11 +44,12 @@
                     <form accept-charset="UTF-8" action="https://fp346.infusionsoft.com/app/form/process/ceef9cd132d6a54f41f599c19e61f2dd" class="infusion-form" method="POST">
                         <input name="inf_form_xid" type="hidden" value="ceef9cd132d6a54f41f599c19e61f2dd" />
                         <input name="inf_form_name" type="hidden" value="Survey Step 2" />
+                        <input name="inf_field_Email" type="hidden" value="null" />
                         <input name="infusionsoft_version" type="hidden" value="1.60.0.46" />
-                        <input name="inf_field_FirstName" type="hidden" value="<?php echo $_GET[‘inf_field_FirstName’];?>" />
+                     <!--   <input name="inf_field_FirstName" type="hidden" value="<?php echo $_GET[‘inf_field_FirstName’];?>" />
                         <input name="inf_field_LastName" type="hidden" value="<?php echo $_GET[‘inf_field_LastName’];?>" />
                         <input name="inf_field_Email" type="hidden" value="<?php echo $_GET[‘inf_field_Email’];?>" />
-                        <input name="inf_field_Phone1" type="hidden" value="<?php echo $_GET[‘inf_field_Phone1’];?>" />
+                        <input name="inf_field_Phone1" type="hidden" value="<?php echo $_GET[‘inf_field_Phone1’];?>" /> -->
                     <fieldset>
                     
                     <div class="infusion-field">
