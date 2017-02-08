@@ -446,7 +446,7 @@ $EMAIL_NAME = "^[-a-z0-9._]+"; /* the '^' is an important security feature! */
 /* Help: http://www.tectite.com/fmdoc/target_email.php */
 $TARGET_EMAIL = array(
 	"^cnc@tulipmemory\.com$",
-	"^cnc@tulipmemory\.com$");
+	"^mike@tulipmemory\.com$");
 
 /* Help: http://www.tectite.com/fmdoc/def_alert.php */
 $DEF_ALERT = "admin@tulipmemory.com";
