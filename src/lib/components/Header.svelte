@@ -23,10 +23,6 @@
         <li><a href="/" class="hover:text-gray-300">Home</a></li>
         <li><a href="/about" class="hover:text-gray-300">About Us</a></li>
         <li><a href="/products" class="hover:text-gray-300">Products</a></li>
-        <li>
-          <a href="/new-products" class="hover:text-gray-300 text-yellow-400"
-            >New Products!</a>
-        </li>
         <li><a href="/resources" class="hover:text-gray-300">Resources</a></li>
         <li><a href="/contact" class="hover:text-gray-300">Contact</a></li>
       </ul>

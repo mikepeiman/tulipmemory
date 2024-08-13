@@ -54,3 +54,7 @@
 </main>
 
 <Footer />
+
+<style>
+
+</style>

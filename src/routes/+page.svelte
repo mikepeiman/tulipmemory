@@ -3,6 +3,8 @@
   import fanucImg from "$images/DSC03208-forweb.jpg";
   import yasnacImg from "$images/DSC03218-forweb.jpg";
   import mitsubishiImg from "$images/DSC03193-forweb.jpg";
+  import logo from "$lib/assets/images/TulipLogo.png";
+  $: console.log(`🚀 ~ TulipLogo:`, logo);
 
   const cardData = [
     {
@@ -32,25 +34,20 @@
   ];
 </script>
 
-
-
 <div class="hero bg-transparent pb-4">
   <div class="max-w-5xl mx-auto text-center p-6">
     <a href="/" class="inline-block mb-4">
-      <img
-        src="Tulip-logo-11-11-v7.9.png"
-        alt="Logo Image"
-        class="h-40 mb-4 mt-4" />
+      <img src={logo} alt="Logo Image" class="h-40 mb-4 mt-4" />
+      <div>
+        <h1
+          class="text-yellow-400 text-4xl md:text-5xl mb-2 font-normal font-['Neuton',serif]">
+          TULIP ELECTRONICS INC.
+        </h1>
+        <h2 class="text-white text-xl md:text-2xl font-normal">
+          Delivering reliable CNC memory upgrades since 1988
+        </h2>
+      </div>
     </a>
-    <div>
-      <h1
-        class="text-yellow-400 text-4xl md:text-5xl mb-2 font-normal font-['Neuton',serif]">
-        TULIP ELECTRONICS INC.
-      </h1>
-      <h2 class="text-white text-xl md:text-2xl font-normal">
-        Delivering reliable CNC memory upgrades since 1988
-      </h2>
-    </div>
   </div>
 </div>
 
@@ -59,7 +56,7 @@
   <h1 class="text-2xl md:text-3xl font-normal mb-8">
     We currently offer memory upgrades for the following machine models:
   </h1>
-  <div class="flex flex-wrap justify-center">
+  <div class="cards flex flex-wrap justify-center">
     {#each cardData as card}
       <Card title={card.title} image={card.image} data={card.data} />
     {/each}
@@ -86,46 +83,3 @@
     Contact Us
   </a>
 </section>
-
-<footer
-  class="bg-blue-900 bg-opacity-50 border-t-5 border-blue-300 w-full py-8 mt-20">
-  <div class="max-w-5xl mx-auto px-4">
-    <ul class="flex flex-wrap justify-center mb-6">
-      <li class="mx-3 mb-2">
-        <a href="/" class="text-white opacity-40 hover:opacity-100"
-          ><i class="flaticon-house158"></i></a>
-      </li>
-      <li class="mx-3 mb-2">
-        <a href="/about" class="text-white opacity-40 hover:opacity-100"
-          >About Us</a>
-      </li>
-      <li class="mx-3 mb-2">
-        <a href="/products" class="text-white opacity-40 hover:opacity-100"
-          >Products</a>
-      </li>
-      <li class="mx-3 mb-2">
-        <a href="/new-products" class="text-white opacity-40 hover:opacity-100"
-          >New Products!</a>
-      </li>
-      <li class="mx-3 mb-2">
-        <a href="/resources" class="text-white opacity-40 hover:opacity-100"
-          >Resources</a>
-      </li>
-      <li class="mx-3 mb-2">
-        <a href="/contact" class="text-white opacity-40 hover:opacity-100"
-          >Contact</a>
-      </li>
-    </ul>
-    <div class="text-center">
-      <a href="/terms" class="text-white opacity-40 hover:opacity-100 text-sm"
-        >Terms and Conditions</a>
-      <div class="mt-4 text-blue-300">
-        <p>1-289-389-6117</p>
-        <p>Tulip Electronics Inc.</p>
-        <p>216 Grovehill Crescent</p>
-        <p>Kitchener, Ontario, Canada</p>
-        <p>N2R 0K9</p>
-      </div>
-    </div>
-  </div>
-</footer>
